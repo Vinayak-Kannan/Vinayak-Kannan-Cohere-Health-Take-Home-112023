@@ -1,19 +1,29 @@
-from typing import List, Dict
-import pandas
+import time
+from typing import List
+from thefuzz import fuzz
+from openai import OpenAI
+import pandas as pd
+import nltk
+from nltk.stem import WordNetLemmatizer
 
 
 class DataLoader():
     txt_df = None
     ent_df = None
     rel_df = None
+    lemmatizer = WordNetLemmatizer()
 
-    def __init__(self, txt_df: pandas.DataFrame, ent_df: pandas.DataFrame, rel_df: pandas.DataFrame) -> None:
+    def __init__(self, txt_df: pd.DataFrame, ent_df: pd.DataFrame, rel_df: pd.DataFrame) -> None:
         self.txt_df = txt_df
         self.ent_df = ent_df
         self.rel_df = rel_df
-        pass
 
-    def __summarize_discharge_diagnosis__(self):
+        print("Cleaning Data...")
+        self.rel_df, self.ent_df, self.txt_df = self.__clean_data(self.rel_df, self.ent_df, self.txt_df)
+        print("Feature Engineering...")
+        self.rel_df, self.ent_df, self.txt_df = self.__feature_engineer(self.rel_df, self.ent_df, self.txt_df)
+
+    def __summarize_discharge_diagnosis(self, txt_df: pd.DataFrame) -> pd.DataFrame:
         client = OpenAI(
             api_key='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',
         )
@@ -21,11 +31,11 @@ class DataLoader():
             {"role": "system", "content": "You will ingest a docuement and look for the 'Discharge Diagnosis' section. You will then extract each diagnosis from that section and return them seperated by a newline character. Do not change or alter the original diagnosis text. Remove any leading or trailing punctuation from the diagnosis."},
             {"role": "user", "content": "Who won the world series in 2020?"},
         ]
-        self.txt_df['DD_Formatted'] = ""
+        txt_df['DD_Formatted'] = ""
 
         # Loop through each file in txt_df and get the 'Discharge Diagnosis' section
-        for i, file_idx in enumerate(self.txt_df['file_idx'].unique()):
-            messages_template[1]['content'] = self.txt_df[self.txt_df['file_idx'] == file_idx]['text'].iloc[0]
+        for _, file_idx in enumerate(txt_df['file_idx'].unique()):
+            messages_template[1]['content'] = txt_df[txt_df['file_idx'] == file_idx]['text'].iloc[0]
             while True:
                 try:
                     response = client.chat.completions.create(
@@ -45,40 +55,46 @@ class DataLoader():
             
             messages_template[1]['content'] = ""
             # Set DD_Formatted to the response from OpenAI
-            self.txt_df.loc[self.txt_df['file_idx'] == file_idx, 'DD_Formatted'] = response.choices[0].message.content
+            txt_df.loc[txt_df['file_idx'] == file_idx, 'DD_Formatted'] = response.choices[0].message.content
+
+        return txt_df
+    
 
 
-    def __clean_data__(self, ) -> List[pandas.DataFrame]::
+    def __clean_data(self, rel_df: pd.DataFrame, ent_df: pd.DataFrame, txt_df: pd.DataFrame) -> List[pd.DataFrame]:
         """
         1. Convert 'text' columns to lowercase, in order to facilitate comparison.
         """
-        self.ent_df['text'] = self.ent_df['text'].str.lower()
-        self.ent_df['text'] = self.ent_df['text'].str.strip()
+        ent_df['text'] = ent_df['text'].str.lower()
+        ent_df['text'] = ent_df['text'].str.strip()
 
         """
         2. Remove \n ending from 'text' column in ent_df and in 'entity2' column in rel_df.
         """
-        self.ent_df['text'] = self.ent_df['text'].str.rstrip('\n')
-        self.rel_df['entity2'] = self.rel_df['entity2'].str.rstrip('\n')
+        ent_df['text'] = ent_df['text'].str.rstrip('\n')
+        rel_df['entity2'] = rel_df['entity2'].str.rstrip('\n')
 
         """
         3. Lemmatize entity texts and preserve original values in a new column
         """
-        self.ent_df['orig_txt'] = self.ent_df['text']
+        ent_df['orig_txt'] = ent_df['text']
         def lemmatize_text(text):
             words = nltk.word_tokenize(text)
-            lemmatized_words = [lemmatizer.lemmatize(word) for word in words]
+            lemmatized_words = [self.lemmatizer.lemmatize(word) for word in words]
             return ' '.join(lemmatized_words)
 
-        self.ent_df['text'] = self.ent_df['text'].apply(lemmatize_text)
-        self.ent_df['text'] = self.ent_df['text'].astype(str)
+        ent_df['text'] = ent_df['text'].apply(lemmatize_text)
+        ent_df['text'] = ent_df['text'].astype(str)
 
         """
         4. Extract Dischrage Diagnosis using OpenAI LLM
         """
-        self.__summarize_discharge_diagnosis__()
+        txt_df = self.__summarize_discharge_diagnosis(txt_df)
 
-    def __feature_engineer__(self, rel_df: pandas.DataFrame, ent_df, txt_df) -> List[pandas.DataFrame]:
+        return [rel_df, ent_df, txt_df]
+    
+
+    def __feature_engineer(self, rel_df: pd.DataFrame, ent_df: pd.DataFrame, txt_df: pd.DataFrame) -> List[pd.DataFrame]:
         """
         1. Join the appropriate entity1 and entity2 for each relation in rel_df.
         """
@@ -128,4 +144,22 @@ class DataLoader():
         # Join the 'DD_Range', 'CC_Range', and 'HPI_Range' columns from txt_df to ent_df
         ent_df = ent_df.merge(txt_df[['file_idx', 'DD_Range', 'CC_Range', 'HPI_Range']], how='left', left_on=['file_idx'], right_on=['file_idx'])
 
+        def find_section(row):
+            # If start_idx and end_idx are in one section, return the section name
+            if row['start_idx'] >= row['DD_Range'][0] and row['end_idx'] <= row['DD_Range'][1]:
+                return 'Discharge Diagnosis'
+            elif row['start_idx'] >= row['CC_Range'][0] and row['end_idx'] <= row['CC_Range'][1]:
+                return 'Chief Complaint'
+            elif row['start_idx'] >= row['HPI_Range'][0] and row['end_idx'] <= row['HPI_Range'][1]:
+                return 'History of Present Illness'
+            else:
+                return 'Other'
+
+        ent_df['section'] = ent_df.apply(lambda row: find_section(row), axis=1)
+        # Drop DD_Range, CC_Range, and HPI_Range columns from ent_df
+        ent_df.drop(columns=['DD_Range', 'CC_Range', 'HPI_Range'], inplace=True)
+        # Apply one hot encoding to 'section' column in ent_df
+        ent_df = pd.get_dummies(ent_df, columns=['section'])
+
         return [rel_df, ent_df, txt_df]
+    

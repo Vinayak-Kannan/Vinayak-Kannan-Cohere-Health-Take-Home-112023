@@ -159,20 +159,6 @@ for i, file_idx in enumerate(txt_df['file_idx'].unique()):
 # Loop through each entity in ent_df and check if it is in the 'Discharge Diagnosis', 'Chief Complaint', or 'History of Present Illness' section of the txt_df.
 # If it is, then add the section name to the 'section' column in ent_df.
 def find_section(row):
-    # Throw error if start_idx is greater than end_idx
-    # if row['start_idx'] > row['end_idx']:
-    #     raise ValueError(f"start_idx {row['start_idx']} is greater than end_idx {row['end_idx']}")
-    # # Throw error if start_idx and end_idx are in multiple sections
-    # if row['start_idx'] >= row['DD_Range'][0] and row['end_idx'] <= row['DD_Range'][1] and row['start_idx'] >= row['CC_Range'][0] and row['end_idx'] <= row['CC_Range'][1]:
-    #     print(row['file_idx'])
-    #     # raise ValueError(f"start_idx {row['start_idx']} and end_idx {row['end_idx']} are in both DD and CC")
-    # if row['start_idx'] >= row['DD_Range'][0] and row['end_idx'] <= row['DD_Range'][1] and row['start_idx'] >= row['HPI_Range'][0] and row['end_idx'] <= row['HPI_Range'][1]:
-    #     print(row['file_idx'])
-    #     # raise ValueError(f"start_idx {row['start_idx']} and end_idx {row['end_idx']} are in both DD and HPI")
-    # if row['start_idx'] >= row['CC_Range'][0] and row['end_idx'] <= row['CC_Range'][1] and row['start_idx'] >= row['HPI_Range'][0] and row['end_idx'] <= row['HPI_Range'][1]:
-    #     print(row['file_idx'])
-        # raise ValueError(f"start_idx {row['start_idx']} and end_idx {row['end_idx']} are in both CC and HPI")
-    
     # If start_idx and end_idx are in one section, return the section name
     if row['start_idx'] >= row['DD_Range'][0] and row['end_idx'] <= row['DD_Range'][1]:
         return 'Discharge Diagnosis'
