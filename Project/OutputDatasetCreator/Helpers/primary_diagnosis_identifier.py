@@ -1,6 +1,9 @@
 import spacy
 import pandas as pd
 import nltk
+import scispacy
+from scispacy.abbreviation import AbbreviationDetector
+from scispacy.linking import EntityLinker
 
 
 class PrimaryDiagnosisIdentifier:
@@ -38,6 +41,8 @@ class PrimaryDiagnosisIdentifier:
             for i, line in enumerate(
                 str(txt_df_subset["DD_Formatted"].iloc[0]).split("\n")
             ):
+                if "discharge diagnosis" in line.lower() or "discharge diagnoses" in line.lower():
+                    continue
                 if len(line) > 0:
                     doc = nlp(line)
                     for entity in doc.ents:
@@ -71,6 +76,6 @@ class PrimaryDiagnosisIdentifier:
                             print(e)
 
             for key, value in count_dict.items():
-                local_output_df = local_output_df.append({"file_idx": file_idx, "primary_diagnosis": key, "count": value}, ignore_index=True)  # type: ignore
+                local_output_df = local_output_df.append({"file_idx": file_idx, "primary_diagnosis": str(key).strip().title(), "count": value}, ignore_index=True)  # type: ignore
 
         return local_output_df
