@@ -10,9 +10,9 @@ class PrimaryDiagnosisIdentifier:
     def __init__(self, txt_df: pd.DataFrame) -> None:
         self.txt_df = txt_df
 
-    def process_data(self, txt_df: pd.DataFrame) -> pd.DataFrame:
+    def process_data(self) -> pd.DataFrame:
         print("Processing Data...")
-        self.output_df = self.__create_primary_diagnosis_freq_df(txt_df)
+        self.output_df = self.__create_primary_diagnosis_freq_df(self.txt_df)
         return self.output_df
 
     def __create_primary_diagnosis_freq_df(self, txt_df: pd.DataFrame) -> pd.DataFrame:

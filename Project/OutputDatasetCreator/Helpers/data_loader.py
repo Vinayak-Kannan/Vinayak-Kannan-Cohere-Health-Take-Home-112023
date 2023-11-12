@@ -20,7 +20,7 @@ class DataLoader:
         self.ent_df = ent_df
         self.rel_df = rel_df
 
-    def clean_data(self) -> List[pd.DataFrame]:
+    def clean_data(self) -> None:
         print("Cleaning Data...")
         self.rel_df, self.ent_df, self.txt_df = self.__clean_data(
             self.rel_df, self.ent_df, self.txt_df
@@ -29,10 +29,9 @@ class DataLoader:
         self.rel_df, self.ent_df, self.txt_df = self.__feature_engineer(
             self.rel_df, self.ent_df, self.txt_df
         )
-        return [self.rel_df, self.ent_df, self.txt_df]
 
     def get_data(self) -> List[pd.DataFrame]:
-        return [self.rel_df, self.ent_df, self.txt_df]
+        return [self.txt_df, self.ent_df, self.rel_df]
 
     def __summarize_discharge_diagnosis(self, txt_df: pd.DataFrame) -> pd.DataFrame:
         client = OpenAI(
