@@ -12,6 +12,8 @@ from scispacy.linking import EntityLinker
 nltk.download('punkt')
 nltk.download('wordnet')
 
+print("Running")
+
 lemmatizer = WordNetLemmatizer()
 
 PATH_TO_ZIP = "/workspaces/codespaces-jupyter/Project/RawData"
@@ -106,9 +108,6 @@ def find_section_range(row, section_name):
     # calculate start and end index within the raw text
     start_index = sum(len(line) + 1 for line in lines[:start_line])  # +1 for the newline character
     end_index = sum(len(line) + 1 for line in lines[:end_line])  # +1 for the newline character
-    if row['file_idx'] == '100035':
-        # print(row['text'][start_index: start_index + 20], '\n', row['text'][end_index: end_index + 20])
-        print(row['text'][10559:10563] )
     return (start_index, end_index)
 
 txt_df['DD_Range'] = txt_df.apply(lambda row: find_section_range(row, 'Discharge Diagnosis'), axis=1)
@@ -122,17 +121,17 @@ ent_df = ent_df.merge(txt_df[['file_idx', 'DD_Range', 'CC_Range', 'HPI_Range']],
 # If it is, then add the section name to the 'section' column in ent_df.
 def find_section(row):
     # Throw error if start_idx is greater than end_idx
-    if row['start_idx'] > row['end_idx']:
-        raise ValueError(f"start_idx {row['start_idx']} is greater than end_idx {row['end_idx']}")
-    # Throw error if start_idx and end_idx are in multiple sections
-    if row['start_idx'] >= row['DD_Range'][0] and row['end_idx'] <= row['DD_Range'][1] and row['start_idx'] >= row['CC_Range'][0] and row['end_idx'] <= row['CC_Range'][1]:
-        print(row['file_idx'])
-        # raise ValueError(f"start_idx {row['start_idx']} and end_idx {row['end_idx']} are in both DD and CC")
-    if row['start_idx'] >= row['DD_Range'][0] and row['end_idx'] <= row['DD_Range'][1] and row['start_idx'] >= row['HPI_Range'][0] and row['end_idx'] <= row['HPI_Range'][1]:
-        print(row['file_idx'])
-        # raise ValueError(f"start_idx {row['start_idx']} and end_idx {row['end_idx']} are in both DD and HPI")
-    if row['start_idx'] >= row['CC_Range'][0] and row['end_idx'] <= row['CC_Range'][1] and row['start_idx'] >= row['HPI_Range'][0] and row['end_idx'] <= row['HPI_Range'][1]:
-        print(row['file_idx'])
+    # if row['start_idx'] > row['end_idx']:
+    #     raise ValueError(f"start_idx {row['start_idx']} is greater than end_idx {row['end_idx']}")
+    # # Throw error if start_idx and end_idx are in multiple sections
+    # if row['start_idx'] >= row['DD_Range'][0] and row['end_idx'] <= row['DD_Range'][1] and row['start_idx'] >= row['CC_Range'][0] and row['end_idx'] <= row['CC_Range'][1]:
+    #     print(row['file_idx'])
+    #     # raise ValueError(f"start_idx {row['start_idx']} and end_idx {row['end_idx']} are in both DD and CC")
+    # if row['start_idx'] >= row['DD_Range'][0] and row['end_idx'] <= row['DD_Range'][1] and row['start_idx'] >= row['HPI_Range'][0] and row['end_idx'] <= row['HPI_Range'][1]:
+    #     print(row['file_idx'])
+    #     # raise ValueError(f"start_idx {row['start_idx']} and end_idx {row['end_idx']} are in both DD and HPI")
+    # if row['start_idx'] >= row['CC_Range'][0] and row['end_idx'] <= row['CC_Range'][1] and row['start_idx'] >= row['HPI_Range'][0] and row['end_idx'] <= row['HPI_Range'][1]:
+    #     print(row['file_idx'])
         # raise ValueError(f"start_idx {row['start_idx']} and end_idx {row['end_idx']} are in both CC and HPI")
     
     # If start_idx and end_idx are in one section, return the section name
@@ -151,13 +150,14 @@ ent_df.drop(columns=['DD_Range', 'CC_Range', 'HPI_Range'], inplace=True)
 # Apply one hot encoding to 'section' column in ent_df
 ent_df = pd.get_dummies(ent_df, columns=['section'])
 
+print("Running long part...")
+
+nlp = spacy.load("en_core_sci_sm")
+nlp.add_pipe("scispacy_linker", config={"resolve_abbreviations": True, "linker_name": "umls"})
+linker = nlp.get_pipe("scispacy_linker")
 
 df = pd.DataFrame(columns=['file_idx', 'primary_diagnosis', 'count'])  # initialize df as an empty DataFrame
 def create_freq_dict(df_input):
-    nlp = spacy.load("en_core_sci_lg")
-    nlp.add_pipe("scispacy_linker", config={"resolve_abbreviations": True, "linker_name": "umls"})
-    linker = nlp.get_pipe("scispacy_linker")
-
     for i, file_idx in enumerate(txt_df['file_idx'].unique()):
         print(i, " out of ", len(txt_df['file_idx'].unique()))
         txt_df_subset = txt_df[txt_df['file_idx'] == file_idx]
