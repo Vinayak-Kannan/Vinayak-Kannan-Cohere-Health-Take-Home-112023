@@ -1,3 +1,4 @@
+import time
 import nltk
 from load_data import load_ann, load_txt
 import pandas as pd
@@ -117,6 +118,44 @@ txt_df['HPI_Range'] = txt_df.apply(lambda row: find_section_range(row, 'History 
 # Join the 'DD_Range', 'CC_Range', and 'HPI_Range' columns from txt_df to ent_df
 ent_df = ent_df.merge(txt_df[['file_idx', 'DD_Range', 'CC_Range', 'HPI_Range']], how='left', left_on=['file_idx'], right_on=['file_idx'])
 
+"""
+4. Extract Dischrage Diagnosis using OpenAI LLM
+"""
+client = OpenAI(
+  api_key='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',
+)
+messages_template = [
+    {"role": "system", "content": "You will ingest a docuement and look for the 'Discharge Diagnosis' section. You will then extract each diagnosis from that section and return them seperated by a newline character. Do not change or alter the original diagnosis text. Remove any leading or trailing punctuation from the diagnosis."},
+    {"role": "user", "content": "Who won the world series in 2020?"},
+]
+txt_df['DD_Formatted'] = ""
+
+# Loop through each file in txt_df and get the 'Discharge Diagnosis' section
+for i, file_idx in enumerate(txt_df['file_idx'].unique()):
+    messages_template[1]['content'] = txt_df[txt_df['file_idx'] == file_idx]['text'].iloc[0]
+    while True:
+        try:
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo-1106",
+                messages=messages_template, # type: ignore
+                temperature=0,
+                timeout=30,
+            )
+            if response.choices[0].message.content:
+                break
+            else:
+                print("Trying again")
+                time.sleep(1)
+        except:
+            print("Trying again")
+            time.sleep(1)
+    
+    messages_template[1]['content'] = ""
+    # Set DD_Formatted to the response from OpenAI
+    txt_df.loc[txt_df['file_idx'] == file_idx, 'DD_Formatted'] = response.choices[0].message.content
+    print(file_idx)
+    print(response.choices[0].message.content)
+
 # Loop through each entity in ent_df and check if it is in the 'Discharge Diagnosis', 'Chief Complaint', or 'History of Present Illness' section of the txt_df.
 # If it is, then add the section name to the 'section' column in ent_df.
 def find_section(row):
@@ -153,6 +192,7 @@ ent_df = pd.get_dummies(ent_df, columns=['section'])
 print("Running long part...")
 
 nlp = spacy.load("en_core_sci_sm")
+nlp.add_pipe("abbreviation_detector")
 nlp.add_pipe("scispacy_linker", config={"resolve_abbreviations": True, "linker_name": "umls"})
 linker = nlp.get_pipe("scispacy_linker")
 
@@ -169,18 +209,16 @@ def create_freq_dict(df_input):
 
         # Create a dict that loops through each line in the txt_df_subset 'text' column in the DD_Range and stores each diagnosis as a key and the value as an embedding of the diagnosis using get_embedding from openai.
         diagnosis_dict = {}
-        for i, line in enumerate(str(txt_df_subset['text'].iloc[0][DD_Range[0]:DD_Range[1]]).split('\n')):
-            if i == 0:
-                continue
+        for i, line in enumerate(str(txt_df_subset['DD_Formatted'].iloc[0]).split('\n')):
             if len(line) > 0:
                 doc = nlp(line)
                 for entity in doc.ents:
-                    diagnosis_dict[entity] = []
+                    diagnosis_dict[line] = []
                     for umls_ent in entity._.kb_ents:
                         try:
                             object = linker.kb.cui_to_entity[umls_ent[0]]
                             for alias in object[2]:
-                                diagnosis_dict[entity].append(alias)
+                                diagnosis_dict[line].append(alias)
                         except Exception as e:
                             print(e)
 
