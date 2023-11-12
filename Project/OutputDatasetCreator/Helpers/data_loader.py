@@ -104,11 +104,6 @@ class DataLoader:
         ent_df["text"] = ent_df["text"].apply(lemmatize_text)
         ent_df["text"] = ent_df["text"].astype(str)
 
-        """
-        4. Extract Dischrage Diagnosis using OpenAI LLM
-        """
-        txt_df = self.__summarize_discharge_diagnosis(txt_df)
-
         return [rel_df, ent_df, txt_df]
 
     def __feature_engineer(
@@ -166,80 +161,9 @@ class DataLoader:
         )
 
         """
-        3. Create encoding to represent if entity in ent_df is in the 'Discharge Diagnosis', 'Chief Complaint', or 'History of Present Illness' section of the txt_df.
+        3. Extract Dischrage Diagnosis using OpenAI LLM
         """
+        txt_df = self.__summarize_discharge_diagnosis(txt_df)
 
-        def find_section_range(row, section_name):
-            lines = row["text"].split("\n")
-            matches = [
-                (i, fuzz.ratio(line.lower(), section_name.lower()))
-                for i, line in enumerate(lines)
-            ]
-            matches.sort(
-                key=lambda x: x[1], reverse=True
-            )  # sort by fuzz.ratio in descending order
-            if not matches:
-                # Raise error if no match is found
-                raise ValueError(
-                    f"Could not find section {section_name} in file {row['file_idx']}"
-                )
-            start_line = matches[0][
-                0
-            ]  # start of the range is the line with the highest fuzz.ratio
-            end_line = start_line
-            while end_line < len(lines) and lines[end_line].strip() != "":
-                end_line += 1
-            # calculate start and end index within the raw text
-            start_index = sum(
-                len(line) + 1 for line in lines[:start_line]
-            )  # +1 for the newline character
-            end_index = sum(
-                len(line) + 1 for line in lines[:end_line]
-            )  # +1 for the newline character
-            return (start_index, end_index)
-
-        txt_df["DD_Range"] = txt_df.apply(
-            lambda row: find_section_range(row, "Discharge Diagnosis"), axis=1
-        )
-        txt_df["CC_Range"] = txt_df.apply(
-            lambda row: find_section_range(row, "Chief Complaint"), axis=1
-        )
-        txt_df["HPI_Range"] = txt_df.apply(
-            lambda row: find_section_range(row, "History of Present Illness"), axis=1
-        )
-
-        # Join the 'DD_Range', 'CC_Range', and 'HPI_Range' columns from txt_df to ent_df
-        ent_df = ent_df.merge(
-            txt_df[["file_idx", "DD_Range", "CC_Range", "HPI_Range"]],
-            how="left",
-            left_on=["file_idx"],
-            right_on=["file_idx"],
-        )
-
-        def find_section(row):
-            # If start_idx and end_idx are in one section, return the section name
-            if (
-                row["start_idx"] >= row["DD_Range"][0]
-                and row["end_idx"] <= row["DD_Range"][1]
-            ):
-                return "Discharge Diagnosis"
-            elif (
-                row["start_idx"] >= row["CC_Range"][0]
-                and row["end_idx"] <= row["CC_Range"][1]
-            ):
-                return "Chief Complaint"
-            elif (
-                row["start_idx"] >= row["HPI_Range"][0]
-                and row["end_idx"] <= row["HPI_Range"][1]
-            ):
-                return "History of Present Illness"
-            else:
-                return "Other"
-
-        ent_df["section"] = ent_df.apply(lambda row: find_section(row), axis=1)
-        # Drop DD_Range, CC_Range, and HPI_Range columns from ent_df
-        ent_df.drop(columns=["DD_Range", "CC_Range", "HPI_Range"], inplace=True)
-        # Apply one hot encoding to 'section' column in ent_df
-        ent_df = pd.get_dummies(ent_df, columns=["section"])
-
+        
         return [rel_df, ent_df, txt_df]

@@ -31,6 +31,9 @@ class ClinicianNoteDataSetHandler():
         underlying_factor_df = underlying_factor_identifier.process_dataset()
 
         merged_output_with_diagnosis_and_factors_df = primary_diagnosis_df.merge(underlying_factor_df, on='file_idx')
+        merged_output_with_diagnosis_and_factors_df['file_idx'] = merged_output_with_diagnosis_and_factors_df['file_idx'].astype(int)
+        merged_output_with_diagnosis_and_factors_df['count'] = merged_output_with_diagnosis_and_factors_df['count'].astype(int)
+        merged_output_with_diagnosis_and_factors_df = merged_output_with_diagnosis_and_factors_df.sort_values(by=['file_idx', 'count'], ascending=False).drop_duplicates(subset=['file_idx'], keep='first')
 
         return merged_output_with_diagnosis_and_factors_df
 

@@ -16,6 +16,8 @@ class PrimaryDiagnosisIdentifier:
         return self.output_df
 
     def __create_primary_diagnosis_freq_df(self, txt_df: pd.DataFrame) -> pd.DataFrame:
+        nltk.download('punkt')
+        nltk.download('wordnet')
         nlp = spacy.load("en_core_sci_sm")
         nlp.add_pipe("abbreviation_detector")
         nlp.add_pipe(
