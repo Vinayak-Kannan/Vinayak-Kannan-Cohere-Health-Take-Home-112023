@@ -107,9 +107,11 @@ class UnderlyingFactorIdentifier:
                 .sort_values(by="count_in_document", ascending=False)["Joined_Reason"]
                 .unique()
             )
+            print(common_factors)
             factors_cleaned = ""
             for factor in common_factors.split(","):
-                factors_cleaned += factor.strip().title()
+                factors_cleaned += factor.strip().title() + ","
+            print(factors_cleaned)
             top_5_factors_by_file = top_5_factors_by_file.append({"file_idx": file_idx, "Common_Underlying_Factors": factors_cleaned}, ignore_index=True)  # type: ignore
 
         return top_5_factors_by_file

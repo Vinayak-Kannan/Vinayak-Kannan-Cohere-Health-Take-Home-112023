@@ -27,8 +27,16 @@ class ClinicianNoteDataSetHandler():
         primary_diagnosis_identifier = PrimaryDiagnosisIdentifier(txt_df)
         primary_diagnosis_df = primary_diagnosis_identifier.process_data()
 
+        # Save txt_df, ent_df, rel_df to csv
+        txt_df.to_csv('./txt_df.csv', index=False)
+        ent_df.to_csv('./ent_df.csv', index=False)
+        rel_df.to_csv('./rel_df.csv', index=False)
         underlying_factor_identifier = UnderlyingFactorIdentifier(txt_df, ent_df, rel_df)
         underlying_factor_df = underlying_factor_identifier.process_dataset()
+        # Save underlying_factor_df to csv
+        underlying_factor_df.to_csv('./Underlying_Factors_Dataset.csv', index=False)
+        # SAve primary_diagnosis_df to csv
+        primary_diagnosis_df.to_csv('./Primary_Diagnosis_Dataset.csv', index=False)
 
         merged_output_with_diagnosis_and_factors_df = primary_diagnosis_df.merge(underlying_factor_df, on='file_idx')
         merged_output_with_diagnosis_and_factors_df['file_idx'] = merged_output_with_diagnosis_and_factors_df['file_idx'].astype(int)

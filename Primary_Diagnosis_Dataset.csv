@@ -1,0 +1,447 @@
+file_idx,primary_diagnosis_x,count,primary_diagnosis_NER,primary_diagnosis_y,primary_diagnosis_LLM
+198406,,33,Critical As,,"The most likely Primary Medical Diagnosis from the list provided is ""critical AS""."
+197869,,2,Venostasis,,"The most likely Primary Medical Diagnosis from the list provided is ""Lymphedema with superimposed cellulitis""."
+196798,,17,Congestive Heart Failure,,"The most likely Primary Medical Diagnoses from the list provided are ""congestive heart failure"" and ""acute on chronic renal failure""."
+195784,,5,Blind,,"The most likely Primary Medical Diagnoses from the list provided is ""HCV/HCC""."
+195689,,29,Acute Renal Failure,,"The most likely Primary Medical Diagnoses from the list provided is ""Acute Renal Failure"" and ""Hyperkalemia""."
+193517,,26,"Coronary Artery Disease, S/P St Elevation Myocardial Infarction",,"The most likely Primary Medical Diagnosis from the list provided is ""Coronary Artery Disease""."
+192877,,10,Bleeding From Palate Abcess I&D And Tooth Extraction Site,,"The most likely Primary Medical Diagnosis from the list provided is ""bleeding from palate abcess I&D and tooth extraction site""."
+192798,,6,Upper Gastrointestinal Bleed Secondary To Nsaid Use,,"The most likely Primary Medical Diagnoses from the list provided is ""Upper gastrointestinal bleed secondary to NSAID use""."
+191162,,17,Squamous Cell Cancer Of The Esophagus,,"The most likely Primary Medical Diagnoses from the list provided is ""Metastatic anaplastic thyroid cancer""."
+191016,,12,Extensive Liver Lesions (Presumably Recurrent Hepatocellular Carcinoma),,"The most likely Primary Medical Diagnosis from the list provided is ""Extensive liver lesions (presumably recurrent hepatocellular carcinoma)""."
+190444,,35,Depression,,"The most likely Primary Medical Diagnosis from the list provided is ""Cholecystitis""."
+190056,,63,Right Pleural Effusion,,"The most likely Primary Medical Diagnosis from the list provided is ""Metastatic Non-small cell carcinoma""."
+189471,,30,Cad,,"The most likely Primary Medical Diagnoses from the list provided is ""Acute Renal Failure""."
+188551,,3,Ich,,"The most likely Primary Medical Diagnosis from the list provided is ""ICH"" (Intracerebral Hemorrhage)."
+187782,,8,Anemia,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Hemoptysis
+- AVM in lingula"
+187736,,30,Healthcare Associated Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided is ""Healthcare associated pneumonia"" and ""Asthma exacerbation""."
+186876,,20,Copd,,"The most likely Primary Medical Diagnoses from the list provided are:
+- bacterial Urinary tract infection
+- COPD"
+186788,,47,Hypoglycemia,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Hypoglycemia"
+186134,,19,Nephrolithiasis,,"The most likely Primary Medical Diagnoses from the list provided is ""nephrolithiasis""."
+185800,,31,Hypotension And Bradycardia Secondary To Anesthesia,,"The most likely Primary Medical Diagnoses from the list provided is ""hypotension and bradycardia secondary to anesthesia""."
+185759,,9,S/P Liver Transplant [**2125-9-13**],,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are ""Hyponatremia"" and ""acute renal failure""."
+184696,,21,Esophagitis,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+- Type I DM
+- DKA
+- Mild GI bleeding due to gastritis"
+182160,,25,Right Facial Droop  - Sedating Medications,,"The most likely Primary Medical Diagnosis from the list provided is ""retroperitoneal AAA""."
+182003,,13,"Secondary: Depression/ Si, Paranoid Schizophrenia, Seizure",,"The most likely Primary Medical Diagnosis from the list provided is ""hematemesis""."
+178331,,22,Complicated By Large Retroperitoneal Bleed,,"Based on the clinician's note, the most likely Primary Medical Diagnosis from the list provided is ""RLE Angiography and PTCA of right anterior tibial artery""."
+178143,,31,Post-Extubation Confused Related To Medications,,"The most likely Primary Medical Diagnosis from the list provided is ""Small bowel obstruction""."
+177721,,17,Methicillin Sensitive Staphylococcus Aureus Urinary Tract Infection,,"The most likely Primary Medical Diagnoses from the list provided is ""Eschirichia coli bactermeia""."
+177370,,13,Secondary Diagnosis:,,"The most likely Primary Medical Diagnosis from the list provided is ""Drug Related Esosinophilia""."
+177331,,12,Metastic Renal Cell Carcinoma,,"The most likely Primary Medical Diagnosis from the list provided is ""Metastic Renal Cell Carcinoma""."
+176448,,20,Refractory Status Epilepticus From Hsv Encephalitis,,"The most likely Primary Medical Diagnosis from the list provided is ""refractory status epilepticus from HSV encephalitis""."
+176106,,0,Seizures Caused By The Combination Of Ritalin And Thalidomide,,"Based on the provided clinician's note, the most likely Primary Medical Diagnosis from the list provided is ""Seizure disorder""."
+175593,,0,Upper Gastrointestinal Bleed,,"The most likely Primary Medical Diagnosis from the list provided is ""upper gastrointestinal bleed""."
+174150,,29,Post-Obstructive Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Non small cell lung cancer"
+174037,,15,Severe Necrotizing Haemorrhagic Pancreatitis,,The most likely Primary Medical Diagnosis from the list provided is: severe necrotizing haemorrhagic pancreatitis
+172474,,0,"End-Stage Renal Disease Secondary To Poly-Cystic Kidney Disease, Status Post Cadaveric Renal Transplant",,"The most likely Primary Medical Diagnosis from the list provided is ""End-stage renal disease secondary to poly-cystic kidney disease""."
+168936,,25,Hepatocelular Carcinoma,,"The most likely Primary Medical Diagnoses from the list provided is ""Suspected Drug Reaction/Anaphylaxis""."
+168915,,10,Acute Gallstone Pancreatitis,,"The most likely Primary Medical Diagnoses from the list provided is ""Acute gallstone pancreatitis""."
+168831,,13,Htn,,"The most likely Primary Medical Diagnosis from the list provided is ""Angioedema""."
+168331,,29,Als,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+- ALS
+- Respiratory failure requiring ventilatory support"
+166834,,12,Dysgerminoma Of The Ovary,,"The most likely Primary Medical Diagnosis from the list provided is ""dysgerminoma of the ovary""."
+164366,,11,Amoxicillin Anaphylaxis,,"Based on the provided clinician's note, the most likely Primary Medical Diagnosis from the list you provided is: 
+
+? amoxicillin anaphylaxis"
+164253,,15,Bright Red Blood Per Rectum,,"The most likely Primary Medical Diagnosis from the list provided is ""Atrial fibrillation with RVR""."
+161477,,56,Abdominal Pain,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+- Altered mental status
+- Opiate overdose
+- Hypertension
+- Acute diastolic heart failure"
+161384,,15,Peripheral Arterial Disease,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Pericardial effusion
+- Hypertension
+- Hyperlipidemia"
+160574,,29,Post Op Delirium - Resolved,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+- Right Knee Septic arthritis"
+159079,,2,Tracheomalacia,,"The most likely Primary Medical Diagnosis from the list provided is ""Tracheomalacia""."
+157609,,19,Pituitary Adenoma,,"The most likely Primary Medical Diagnoses from the list provided is ""Central nervous system lymphoma""."
+157352,,21,Hiv/Aids,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Hypoxia
+- Acute congestive heart failure
+- PCP"
+157284,,24,Hypotension,,"The most likely Primary Medical Diagnoses from the list provided is ""Hypoxia""."
+155980,,13,Herpes Zoster,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Congestive Heart Failure
+- Hospital Acquired Pneumonia"
+153141,,19,Coronary Artery Disese S/P Cabg,,"The most likely Primary Medical Diagnosis from the list provided is ""Coronary Artery disease s/p CABG""."
+152612,,46,Rectus Muscle Hematoma,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Right lower extremity venous thrombosis"
+151904,,8,Metabolic Encephalopathy,,"The most likely Primary Medical Diagnoses from the list provided is ""Complicated urinary tract infection, bacterial""."
+151688,,0,Right Parietal Brain Mass,,"The most likely Primary Medical Diagnosis from the list provided is ""Right parietal brain mass""."
+150068,,10,Hyperglycemia,,"Based on the provided clinician's note, the most likely Primary Medical Diagnosis from the list provided is ""Hyponatremia""."
+149687,,5,The Patient Felt Well Clinically Without Abdominal Pain,,"The most likely Primary Medical Diagnosis from the list provided is ""biliary stricture""."
+149614,,42,Chronic Obstructive Pulmonary Disease Flare,,"The most likely Primary Medical Diagnoses from the list provided is ""Acute on chronic diastolic heart failure exacerbation""."
+147292,,60,History Of Short Gut Syndrome On Tpn,,"The most likely Primary Medical Diagnoses from the list provided is ""hypotension, fever, acute renal failure, hyperbilirubinemia""."
+145012,,11,Syncope From Ventricular Tachycardia,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Syncope from Ventricular Tachycardia"
+144301,,42,Seizures,,"The most likely Primary Medical Diagnoses from the list provided is ""seizures, metastatic lung cancer, small subdural and subarachnoid hemorrhages""."
+143562,,28,End Stage Renal Disease Requiring Hemodialysis,,"The most likely Primary Medical Diagnoses from the list provided are:
+- End Stage liver disease"
+143451,,11,Hypertension,,"The most likely Primary Medical Diagnoses from the list provided are:
+- NSTEMI
+- Hypertension
+- Diet-controlled diabetes"
+141586,,19,Atrial Fibrillation,,"The most likely Primary Medical Diagnoses from the list provided is: 
+1. Supratherapeutic INR"
+131434,,32,Community Acquired Pna,,"The most likely Primary Medical Diagnoses from the list provided is ""Community Acquired PNA""."
+130440,,16,Bipolar Disorder,,"The most likely Primary Medical Diagnoses from the list provided is: 
+- hypotension secondary to pneumovax"
+130153,,10,The Patient Remained Stable From A Medical Point Of View However The Patient Remained On The Medicine Service And Was Followed By The Psychiatry Team Consideration For Transfer To Inpatient Psychiatric Facility Was Recommended By The Medical Team Given That The Patient Was At Risk Of Elopment A Discussion With Psychiatry Resulted In Discontinuation Of The One-To-One Security Sitter Haldol Was Discontinued And The Patient Was Deemed Ready To Be Discharged To Home With Follow Up With His Primary Care Physician Per Report The Patient Did Elope Even Though He Was Medically Ready To Be Discharged,,"Based on the provided clinician's note, the most likely Primary Medical Diagnosis from the list provided is ""Anxiety Disorder""."
+130076,,0,Expired,,"The most likely Primary Medical Diagnoses from the list provided is ""Pulmonary Embolism""."
+129286,,25,Hyperlipidemia,,"The most likely Primary Medical Diagnosis from the list provided is ""Acute STEMI, inferior MI with CA occlusion""."
+128041,,19,Generalized Seizure,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Left frontotemporal intraparenchymal hemorrhage and subarachnoid hemorrhage"
+127944,,14,Thrombocytopenia - Resolved,,"The most likely Primary Medical Diagnosis from the list provided is ""H. influenza meningitis""."
+127741,,5,Sepsis,,"The most likely Primary Medical Diagnoses from the list provided is ""Multifocal pneumonia""."
+127356,,15,Htn,,"The most likely Primary Medical Diagnosis from the list provided is ""Masth Cell Degranulation Syndrome Exascerbation""."
+127263,,26,Bilateral Mssa Empyemas,,"The most likely Primary Medical Diagnoses from the list provided is ""Bilateral MSSA empyemas""."
+126380,,30,Status Post Ep Ablation For Atrial Tachycardia,,"The most likely Primary Medical Diagnoses from the list provided are:
+1. Status post EP ablation for atrial tachycardia"
+125206,,27,Lumbar Spinal Stenosis,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the provided list are:
+
+- Rheumatoid arthritis"
+124917,,4,Aspiration Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided is ""s/p MVC, Aspiration pneumonia""."
+124891,,8,Ischemic Cardiomyopathy,,"The most likely Primary Medical Diagnoses from the list provided is ""Ischemic cardiomyopathy"" based on the clinician's note."
+124307,,16,Tongue Swelling,,"The most likely Primary Medical Diagnosis from the list provided is ""Leukemia""."
+123771,,23,Bilateral Upper Extremity And Left Buttock Severe Bite Wounds Status Post Dog Attack,,"Based on the provided clinician's note, the most likely Primary Medical Diagnosis from the list of possible diagnoses is ""Bilateral upper extremity and left buttock severe bite wounds"""
+123589,,19,Hepatitis C Cirrhosis,,"The most likely Primary Medical Diagnoses from the list provided is ""Encephalopathy""."
+123475,,21,Past Surgical History:,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Ascending Aortic Aneurysm
+- Coronary Artery Disease
+- Hypertension"
+123324,,31,Chronic Obstructive Lung Disease,,"The most likely Primary Medical Diagnoses from the list provided is ""chronic obstructive lung disease""."
+123244,,35,Acute Blood Loss Anemia,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Vertebral osteomyelitis"
+122733,,28,Hypothyroidism,,"The most likely Primary Medical Diagnoses from the list provided are:
+1) Hyponatremia
+2) Hypothyroidism"
+122468,,6,"Loss Of Gag Reflex Secondary To Cerebrovascular Accident, Subsequent Placement Of Percutaneous Endoscopic Gastrostomy Tube By Interventional Radiology On [**2176-7-17**]",,"The most likely Primary Medical Diagnoses from the list provided are:
+
+1. Loss of gag reflex secondary to cerebrovascular accident
+2. Non-ST elevation myocardial infarction"
+122093,,30,Hcv,,"The most likely Primary Medical Diagnoses from the list provided is: 
+- HCV
+- HCC
+- s/p orthotopic liver transplant"
+122057,,1,Edh,,"The most likely Primary Medical Diagnoses from the list you provided is ""EDH, IVH, Afib""."
+121915,,14,Gastrointestinal Bleed,,"The most likely Primary Medical Diagnoses from the list provided is ""Gastrointestinal bleed""."
+121514,,29,Lithium Toxicity,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Lithium Toxicity"
+121467,,8,Location (Un) 849**] Gastaut Syndrome,,"The most likely Primary Medical Diagnosis from the list provided is ""Aspiration pneumonia""."
+120605,,9,Splenic Hemorrhage,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+
+- L 4-8th rib fx
+- R 6-8th rib fx
+- splenic hemorrhage"
+120301,,59,Hemorrhage From Tracheostomy,,"The most likely Primary Medical Diagnosis from the list provided is ""Hypopharyngeal squamous cell carcinoma (throat cancer)""."
+120253,,22,Hemoptysis,,"The most likely Primary Medical Diagnosis from the list provided is ""Coronary Artery Disease""."
+120237,,19,Renal Failure,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are ""Cardiopulmonary Arrest"" and ""Systolic Heart Failure""."
+119573,,20,Acute Respiratory Distress Requiring Intubation,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Acute renal failure requiring CVVH"
+119144,,11,Adrenal Crisis,,"The most likely Primary Medical Diagnoses from the list provided are:
+1. Adrenal crisis"
+119069,,17,Deep Venous Thrombosis,,"The most likely Primary Medical Diagnosis from the list provided is ""Anaplastic astrocytoma""."
+118694,,20,Laryngeal Spasm,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided is ""cataract + mitomycin C trabeculectomy""."
+118510,,21,Complex Ovarian Cysts,,"The most likely Primary Medical Diagnoses from the list provided is ""complex ovarian cysts""."
+118418,,30,Acute Renal Failure Related To Il-2 Therapy,,"The most likely Primary Medical Diagnosis from the list provided is ""Metastatic melanoma status post cycle 1, week 1, high-dose IL-2 therapy complicated by pulmonary edema, and bilateral pleural effusions from IL-2 induced capillary leak, with respiratory distress."""
+118243,,0,Right Sideded Frontal Brain Masses,,"The most likely Primary Medical Diagnosis from the list provided is ""Right sideded frontal brain masses""."
+117907,,5,Sepsis,,"The most likely Primary Medical Diagnosis from the list provided is ""Sepsis""."
+117872,,9,Bilateral Leg Dvts,,"The most likely Primary Medical Diagnosis from the list provided is ""Bilateral leg DVTs""."
+117871,,11,Coronary Artery Disease,,"The most likely Primary Medical Diagnoses from the list provided is ""Coronary artery disease""."
+117745,,28,Hemophagocytic Lymphohistiocytosis,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Hemophagocytic lymphohistiocytosis"
+117156,,25,Coronary Artery Disease,,"The most likely Primary Medical Diagnoses from the list provided is ""Gastrointestinal bleed of undetermined origin""."
+116966,,30,Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Septic Shock
+- Pneumonia
+- Gout Flare"
+116901,,48,Pneumonia,,"The most likely Primary Medical Diagnosis from the list provided is ""Iatrogenic Hypoglycemia""."
+116853,,30,Polysubstance Abuse,,"The most likely Primary Medical Diagnoses from the list provided is ""Severe benzodiazepine withdrawal""."
+116604,,22,"Acute Delirium, Likely Secondary To Narcotics Withdrawal Vs.",,"The most likely Primary Medical Diagnosis from the list provided is ""acute delirium, likely secondary to narcotics withdrawal""."
+116451,,15,Hcc,,"The most likely Primary Medical Diagnoses from the list provided is: 
+- HCC
+- HCV cirrhosis"
+115789,,30,Heparin-Induced Antibody Pulmonary Embolism,,"The most likely Primary Medical Diagnoses from the list you provided are:
+1. Spontaneous Left-sided pneumothorax"
+115667,,33,Epistaxis,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+- Epistaxis
+- Atrial fibrillation
+- Acute renal failure
+- Hyperkalemia
+- Hypotension
+- Urinary tract infection
+- Skin rash"
+115464,,6,End Stage Liver Disease Secondary To Hep C Cirrhosis,,"The most likely Primary Medical Diagnosis from the list provided is ""End stage liver disease secondary to Hep C cirrhosis""."
+115432,,0,Expired,,"The most likely Primary Medical Diagnosis from the list provided is ""expired""."
+115347,,6,Upper Gi Bleeding,,"The most likely Primary Medical Diagnoses from the list provided are:
+- upper GI bleeding
+- atrial fibrillation"
+115267,,67,Seizure,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+- MRSA urinary tract infection"
+115244,,15,Upper Gi Bleed,,"The most likely Primary Medical Diagnoses from the list provided is ""Upper GI bleed""."
+115232,,2,Hypercoagulable State,,"The most likely Primary Medical Diagnoses from the list provided is ""Thrombosed femoral-femoral graft and iliofemoral graft""."
+115191,,24,Hyperkalemia,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+
+- Acute on Chronic Renal Failure"
+115157,,37,Hypotension,,"The most likely Primary Medical Diagnoses from the list provided is ""Hypotension""."
+115143,,11,Diabetic Ketoacidosis,,"The most likely Primary Medical Diagnosis from the list provided is ""Diabetic ketoacidosis""."
+115021,,6,Postop Atrial Fibrillation,,"The most likely Primary Medical Diagnosis from the list provided is ""Aortic stenosis""."
+114976,,15,Chronic Obstructive Pulmonary Disease Flare,,"The most likely Primary Medical Diagnosis from the list provided is ""Chronic obstructive pulmonary disease flare""."
+114965,,45,Sellar And Suprasellar Mass,,"The most likely Primary Medical Diagnoses from the list provided is ""Right frontal cystic mass, Sellar and suprasellar mass""."
+114959,,18,Pleural Effusion,,"The most likely Primary Medical Diagnoses from the list provided is ""Acute on Chronic Renal Failure""."
+114923,,22,Paroxysmal Atrial Fibrillation,,"The most likely Primary Medical Diagnosis from the list provided is ""Diverticular bleed""."
+114836,,10,Tremors Secondary To Prograf Toxicity,,"The most likely Primary Medical Diagnoses from the list provided is ""elevated LFTs, mild liver transplant rejection""."
+114735,,30,Increased Seizure Frequency,,"The most likely Primary Medical Diagnosis from the list provided is ""Suspected sepsis with hypothermia""."
+114680,,6,Hypoxia After Sedation For An Elective Ercp,,"The most likely Primary Medical Diagnosis from the list provided is ""Hypoxia after sedation for an elective ERCP""."
+114585,,13,"Uti,Yeast",,"The most likely Primary Medical Diagnoses from the list provided is ""R adrenal mass""."
+114513,,14,S/P Pacemaker Placement,,"The most likely Primary Medical Diagnoses from the list provided is ""Parkinson's disease""."
+114248,,5,Acomm Aneurysm,,"The most likely Primary Medical Diagnosis from the list provided is ""ACOMM ANEURYSM""."
+114220,,24,Left Mca (Middle Cerebral Artery) Infarct While Inr Therapeutic,,"Based on the clinician's note, the most likely Primary Medical Diagnosis from the list provided is ""Atrial fibrillation with rapid ventricular response""."
+114144,,5,Left Basal Ganglia Intraparenchymal Hemorrhage,,"The most likely Primary Medical Diagnosis from the list provided is ""Left basal ganglia intraparenchymal hemorrhage""."
+114004,,10,Lower Gi Bleeding C/B Anticoagulation,,"The most likely Primary Medical Diagnosis from the list provided is ""Lower GI bleeding c/b anticoagulation""."
+113840,,30,Supratherapeutic Inr,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Gastrointestinal Bleed"
+113824,,36,Neutropenic Colitis,,"The most likely Primary Medical Diagnoses from the list provided is ""AML, Neutropenic Colitis, Right MCA Stroke""."
+113813,,25,Cmv And Ebb Positive,,"The most likely Primary Medical Diagnoses from the list provided are:
+1. Hepatitis C
+2. Cirrhosis
+3. End-stage liver disease
+4. Hepatocellular carcinoma
+5. Upper gastrointestinal bleed due to esophageal varices"
+113705,,14,End Stage Renal Disease,,"The most likely Primary Medical Diagnosis from the list provided is ""NSAID induced Gastric Ulcers""."
+113524,,5,Cad,,"The most likely Primary Medical Diagnoses from the list provided is ""CAD""."
+113391,,6,Tracheomalacia,,"The most likely Primary Medical Diagnosis from the list provided is ""Tracheomalacia""."
+113200,,25,Coronary Artery Disease,,"The most likely Primary Medical Diagnosis from the list provided is ""Upper GI bleed""."
+112832,,7,Recurrent Incisional Hernia Reduced Intestine,,"The most likely Primary Medical Diagnosis from the list provided is ""Recurrent incisional hernia reduced intestine""."
+112747,,30,Past Surgical History,,"The most likely Primary Medical Diagnosis from the list provided is ""Aortic Stenosis""."
+112628,,16,Acute Renal Failure On Chronic Kidney Disease,,"The most likely Primary Medical Diagnosis from the list provided is ""Intraparenchymal hemorrhage""."
+112615,,18,Health Care Associated Bacterial Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Health care associated bacterial pneumonia"
+112368,,25,Hiv,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Upper GI bleed
+- HIV
+- Anemia from acute blood loss"
+112249,,13,Hypertension,,"The most likely Primary Medical Diagnoses from the list provided is ""pontine hemorrhage, hypertension""."
+112140,,30,Atrial Fibrillation With Rvr,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Bright Red Blood Per rectum
+- Anemia requiring blood transfusion"
+112030,,16,Secondary:,,"The most likely Primary Medical Diagnoses from the list provided are:
+- enterobacter septicemia due to cholangitis"
+112014,,16,Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided is ""Choledocholithiasis""."
+111923,,19,Leukodystrophy,,"The most likely Primary Medical Diagnoses from the list provided are:
+1. Status epilepticus"
+111882,,36,Systemic Lupus Erythematosus,,"The most likely Primary Medical Diagnosis from the list provided is ""Systemic Lupus Erythematosus Associated Cardiomyopathy""."
+111840,,44,Febrile Neutropenia,,"The most likely Primary Medical Diagnoses from the list provided is ""Multifocal Pneumonia""."
+111542,,0,"I'M Sorry, I Cannot Assist With That Request.",,"Based on the clinician's note, the most likely Primary Medical Diagnosis from the provided list is ""Completed by:[**2144-3-14**]""."
+111458,,17,Pancreatic Ca,,"The most likely Primary Medical Diagnosis from the list provided is ""Locally advanced pancreatic cancer""."
+111447,,9,Primary: Asthma Exacerbation,,"The most likely Primary Medical Diagnosis from the list provided is ""asthma exacerbation""."
+111323,,23,Health Care Associated Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided are:
+
+- Hypercarbic respiratory failure
+- Health care associated pneumonia
+- Chronic obstructive pulmonary disease, exacerbation"
+111298,,2,R Frontal Mass,,"Based on the clinician's note, the most likely Primary Medical Diagnosis from the list provided is ""R Frontal Mass."""
+111041,,20,Copd,,"The most likely Primary Medical Diagnosis from the list provided is ""Pseudoaneurysm of Aortic Arch with Endoleak""."
+110863,,15,Kaposi'S Sarcoma,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+- Kaposi's sarcoma"
+110727,,28,Htn,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Idiopathic spondylarthropathy"
+110521,,7,Pancytopenia,,"The most likely Primary Medical Diagnoses from the list provided is ""Upper GI bleed from gastric ulcer""."
+110499,,16,Pulmonary Hypertension,,"The most likely Primary Medical Diagnosis from the list provided is ""R basilic DVT""."
+110445,,7,Dilantin Hypersensitivity Reaction,,"The most likely Primary Medical Diagnosis from the list provided is ""Dilantin hypersensitivity reaction."""
+110384,,44,Hepatocellular Carcinoma,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Hepatic encephalopathy
+- Hepatocellular carcinoma"
+110342,,20,Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided are:
+- hemoptysis
+- pneumonia"
+110335,,16,Altered Mental Status,,"The most likely Primary Medical Diagnoses from the list provided is: 
+
+- [**Hospital 7502**] hospital-acquired"
+110326,,65,Metastatic Melanoma Status Post High Dose Il-2 Therapy,,"The most likely Primary Medical Diagnoses from the list provided are:
+1. Metastatic melanoma status post High dose IL-2 therapy"
+110186,,17,Hypertension,,"The most likely Primary Medical Diagnoses from the list provided is ""coronary artery disease, hypertension, congestive heart failure""."
+110068,,4,Acute Blood Loss Anemia,,"The most likely Primary Medical Diagnoses from the list provided is: 
+- Acute Blood Loss Anemia
+- Gastric Hemorage"
+110037,,10,Aspiration Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided is ""Left intraparenchymal hemorrhage, intraventricricular hemorrhage, and right subarachnoid hemorrhage."""
+109866,,10,Delirium Secondary To Medications,,"The most likely Primary Medical Diagnoses from the list provided is ""Giant paraesophageal hernia""."
+109784,,32,Acute Kidney Injury,,"The most likely Primary Medical Diagnoses from the list provided is ""Lithium toxicity""."
+109770,,23,Hypercalcemia,,"The most likely Primary Medical Diagnosis from the list provided is ""HTLV-associated adult T-Cell leukemia/lymphoma""."
+109697,,43,Mitral Regurgitation,,"Based on the provided clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+1) Respiratory failure"
+109667,,6,Likely Anaphylactic Reaction To Contrast,,"The most likely Primary Medical Diagnosis from the list provided is: 
+- Likely anaphylactic reaction to contrast"
+109633,,5,Metastatic Breast Cancer,,"The most likely Primary Medical Diagnosis from the list provided is ""metastatic breast cancer""."
+109617,,34,Mssa Epidural Abscesses,,"The most likely Primary Medical Diagnoses from the list provided is ""MSSA epidural abscesses, MSSA meningitis and vertebral osteomyelitis and discitis""."
+109566,,14,Urinary Retention,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Right knee osteoarthritis"
+109527,,24,Pancreatitis,,"The most likely Primary Medical Diagnoses from the list provided is ""Pancreatitis, Acute Renal Failure, Pneumonia""."
+109450,,5,Gi Bleed Secondary To Supratherapeutic Inr And Antral Erosions,,"The most likely Primary Medical Diagnosis from the list provided is ""GI bleed secondary to supratherapeutic INR and antral erosions."""
+109191,,10,Respiratory Failure,,"The most likely Primary Medical Diagnoses from the list provided is ""Metastatic melanoma""."
+109176,,26,Idiopathic Neutropenia,,"The most likely Primary Medical Diagnoses from the list provided is ""Neck abscess/infected fluid collection""."
+109170,,53,Coronary Artery Disease,,"The most likely Primary Medical Diagnoses from the list provided is ""1. Coronary artery disease""."
+108949,,12,Aspiration,,"Based on the provided clinician's note, the most likely Primary Medical Diagnosis from the list provided is ""Weakness""."
+108932,,19,Choledocholithiasis,,"The most likely Primary Medical Diagnoses from the list provided is ""Choledocholithiasis""."
+108901,,7,Urinary Tract Infection- E.Coli (Esbl),,"The most likely Primary Medical Diagnoses from the list provided is ""Urinary tract Infection- E.coli (ESBL)\nPneumonia""."
+108889,,10,Hyperlipidemia,,"The most likely Primary Medical Diagnosis from the list provided is ""Coronary Artery Disease""."
+108809,,19,Delerium / Acute / Medication Reaction,,"The most likely Primary Medical Diagnosis from the list provided is ""Aortic Dissection / Type B""."
+108754,,22,Spinal Stenosis,,"The most likely Primary Medical Diagnosis from the list provided is ""coronary artery disease""."
+108411,,25,Gi Bleed,,"The most likely Primary Medical Diagnoses from the list provided are:
+- GI bleed
+- Diverticulosis
+- Ischemic colitis"
+108073,,14,Aspiration Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided is ""Aspiration pneumonia, Right-sided colitis, NOS""."
+108032,,26,Stab Wound,,"The most likely Primary Medical Diagnosis from the list provided is ""stab wound""."
+107872,,34,Acute On Chronic Systolic  Heart Failure,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Acute on chronic kidney injury"
+107869,,23,Gastric Outlet Obstruction S/P Duodenal Stent Placement,,"The most likely Primary Medical Diagnoses from the list provided is ""Metastatic colon cancer""."
+107322,,6,Respiratory Failure,,"The most likely Primary Medical Diagnosis from the list provided is ""respiratory failure""."
+107255,,15,Junctional Rhythm Induced By Beta-Blocker Toxicity,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Junctional rhythm induced by beta-blocker toxicity"
+107251,,7,Expired,,"The most likely Primary Medical Diagnoses from the list provided is ""expired""."
+107139,,18,Ruptured Aaa,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the provided list are:
+- aortoenteric fistula
+- ruptured AAA"
+107058,,25,Angioedema,,"The most likely Primary Medical Diagnosis from the list provided is ""Angioedema""."
+107047,,22,Burkitt'S Lymphoma,,"The most likely Primary Medical Diagnoses from the list provided is ""Burkitt's lymphoma""."
+106939,,35,Hiv,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Plasmablastic Lymphoma
+- Tuberculosis
+- HIV"
+106629,,15,Narcotic Withdrawal,,"The most likely Primary Medical Diagnoses from the list provided is ""Narcotic withdrawal""."
+106621,,51,Change In Mental Status,,"Based on the clinician's note, the most likely Primary Medical Diagnosis from the provided list is ""change in mental status""."
+106423,,3,Asthma/Copd Exacerbation,,"The most likely Primary Medical Diagnosis from the list provided is ""Asthma/COPD exacerbation""."
+106415,,38,Renal Failure,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Renal failure"
+106384,,22,Paroxysmal Atrial Fibrillation On Coumadin,,"The most likely Primary Medical Diagnosis from the list provided is ""Atypical chest pain""."
+106361,,16,Supraventricular Tachycardia,,"The most likely Primary Medical Diagnoses from the list provided are:
+- altered mental status"
+106064,,22,Cirrhosis,,"The most likely Primary Medical Diagnoses from the list provided are:
+- L4-L5 osteomyelitis
+- L4-L5 discitis"
+106038,,31,Hypothyroidism,,"The most likely Primary Medical Diagnosis from the list provided is ""Hypotension secondary to medications and dialysis""."
+106026,,11,Beta Lactam Allergy (Likely) With Drug Eruption (Rash),,"The most likely Primary Medical Diagnosis from the list provided is ""Toxic shock syndrome with septic shock requiring vasopressors and aggressive IV volume repletion"""
+105954,,7,Signet-Ring Cell Gastric Cancer Invading Trans Colon,,"The most likely Primary Medical Diagnosis from the list provided is ""Signet-ring cell gastric cancer invading trans colon""."
+105778,,21,Hyperlipidemia,,"The most likely Primary Medical Diagnosis from the list provided is ""Hypotensive episode""."
+105747,,49,Atrial Flutter,,"The most likely Primary Medical Diagnoses from the list provided are ""atrial flutter"" and ""hypotension""."
+105614,,33,Pacemaker Site Infection,,"The most likely Primary Medical Diagnoses from the list provided is ""Complete Heart Block"" and ""Pacemaker site infection""."
+105547,,5,Respiratory Failure/Hypoxia  Requiring Mechanical Ventilation,,"The most likely Primary Medical Diagnoses from the list provided is ""Perimesencaphalic hemorrhage""."
+105445,,13,Left Retroperitoneal Bleed,,"The most likely Primary Medical Diagnoses from the list provided is: 
+-ight LC1 pelvic ring injury
+-right L5 TP fx"
+105360,,28,Non St Elevation Myocardial Infarction,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Pulmonary Embolism"
+105254,,4,Hypertensive Emergency,,"The most likely Primary Medical Diagnosis from the list provided is ""hypertensive emergency""."
+105106,,23,Cad,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Diastolic Heart Failure"
+105104,,16,Acute Myelogenous Leukemia,,"The most likely Primary Medical Diagnosis from the list provided is ""Acute Myelogenous Leukemia""."
+105050,,84,Headache Nos,,"The most likely Primary Medical Diagnoses from the list provided is ""Hypertensive emergency""."
+105027,,42,Pyelonephritis,,"The most likely Primary Medical Diagnoses from the list provided is ""Renal infarctions of unclear significance""."
+105014,,22,Diarrhea,,"The most likely Primary Medical Diagnosis from the list provided is ""End-stage kidney disease secondary to lithium toxicity""."
+104979,,6,Small Bowel Obstruction,,"The most likely Primary Medical Diagnosis from the list provided is ""small bowel obstruction""."
+104850,,15,Pulmonary Emboli,,"The most likely Primary Medical Diagnoses from the list provided is ""Acquired immune deficiency syndrome""."
+104799,,12,Hypercholesterolemia,,"The most likely Primary Medical Diagnoses from the list provided is ""Coronary artery disease s/p CABG""."
+104710,,35,Hematuria Likely From A Bleeding Kidney Metastasis,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Hematuria likely from a bleeding kidney metastasis"
+104682,,15,Cirrhosis,,"The most likely Primary Medical Diagnoses from the list provided is ""Neuroleptic malignant syndrome""."
+104653,,16,Gastrointestinal Bleeding,,"The most likely Primary Medical Diagnoses from the list provided are:
+1) Gastrointestinal bleeding"
+104468,,10,Symptomatic Bradycardia,,"The most likely Primary Medical Diagnosis from the list provided is ""Symptomatic bradycardia."""
+104107,,10,Hyperlipidemia,,"The most likely Primary Medical Diagnoses from the list provided are:
+- idiopathic thrombocytopenic purpura
+- coronary artery disease"
+104095,,2,Diabetes Insipidus,,"The most likely Primary Medical Diagnoses from the list you provided is ""Ileostomy takedown""."
+104091,,37,End Stage Renal Disease On Hd,,"The most likely Primary Medical Diagnoses from the list provided is ""Endocarditis""."
+103926,,20,Coronary Artery Disease,,"The most likely Primary Medical Diagnoses from the list provided is ""Coronary Artery Disease""."
+103877,,15,End Stage Renal Disease,,"Based on the provided clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+- Diastolic heart failure"
+103722,,21,Anxiety,,"The most likely Primary Medical Diagnoses from the list provided are:
+- MRSA/Pseudomonas Pneumonia
+- COPD exacerbation"
+103677,,5,Angioedema,,"The most likely Primary Medical Diagnoses from the list provided is ""Angioedema""."
+103639,,16,Umbilical Hernia With Fluid Leakage: Stable,,"The most likely Primary Medical Diagnosis from the list provided is ""Umbilical hernia with fluid leakage""."
+103377,,33,Cerebellar Lesion,,"The most likely Primary Medical Diagnoses from the list provided are ""Cerebellar lesion"" and ""Hydrocephalus""."
+103317,,5,Sepsis,,"The most likely Primary Medical Diagnoses from the list provided is ""Small bowel leakage and cecal leakage enterocutaneous fistula""."
+103315,,33,Hyperglycemia Secondary To Medications,,"The most likely Primary Medical Diagnosis from the list provided is ""Allergic reaction likely due to peanuts (passive transfer from donor liver)""."
+103293,,26,Dic,,"The most likely Primary Medical Diagnosis from the list provided is ""Acute promyelocytic leukemia""."
+103142,,15,Severe As,,"The most likely Primary Medical Diagnoses from the list provided is ""COPD exacerbation""."
+103074,,0,"I'M Sorry, I Cannot Assist With That Request.",,"Based on the provided clinician's note, the most likely Primary Medical Diagnosis from the list provided is ""I'm sorry, I cannot assist with that request."""
+102967,,5,Postoperative Renal Failure,,"The most likely Primary Medical Diagnosis from the list provided is ""Thoracic Aortic Aneurysm - s/p repair""."
+102937,,31,Aaa,,"The most likely Primary Medical Diagnoses from the list provided are:
+- AAA
+- post operative pro long intubation - hypoxia"
+102698,,6,Histroy Of Poly Neuropathies,,"The most likely Primary Medical Diagnosis from the list provided is ""tramatic left fibular fx with migration""."
+102668,,5,Congestive Heart Failure,,"Based on the provided clinician's note, the most likely Primary Medical Diagnoses from the list you provided are:
+- Congestive Heart Failure"
+102629,,21,S/P Back Surgery,,"The most likely Primary Medical Diagnosis from the list provided is ""Coronary artery disease s/p coronary artery bypass graft x 5""."
+102557,,55,"Biliary Stenting (Ercp), ?Biliary Sepsis",,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+
+1. Sepsis"
+102527,,15,Hypertension,,"The most likely Primary Medical Diagnosis from the list provided is ""pulmonary embolism""."
+102456,,15,Chronic Renal Insufficiency (Creatinine 1.5- 1.9),,"The most likely Primary Medical Diagnosis from the list provided is ""Coronary artery disease s/p CABG""."
+102365,,25,Health Care Associated Pneumonia,,"The most likely Primary Medical Diagnosis from the list provided is ""GI bleed secondary to colonic lesion""."
+102324,,55,Hypothermia,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+- Fall, with findings of C5-6 retrolistesis"
+102296,,16,Acute-On-Chronic Anemia With Guaiac + Stools And No Further Gi,,"The most likely Primary Medical Diagnosis from the list provided is: 
+- Acute-on-chronic anemia with guaiac + stools"
+102283,,42,Pneumonia,,"The most likely Primary Medical Diagnoses from the list provided is ""Diffuse Large B Cell Lymphoma""."
+102173,,5,Free Air On Cxr S/P G-Tube Placement,,"The most likely Primary Medical Diagnosis from the list provided is ""Free air on CXR s/p G-tube placement""."
+102136,,26,Etoh Abuse,,The most likely Primary Medical Diagnosis from the list provided is: alcohol intoxication compounded by librium intoxication
+102087,,18,Paroxysmal Atrial Fibrilation Treated With Coumadin,,"The most likely Primary Medical Diagnosis from the list provided is ""traumatic left frontal intaparychymal hemorrhage (contusion)""."
+102045,,12,Aml,,"The most likely Primary Medical Diagnosis from the list provided is ""Lower GI bleed""."
+102027,,20,Chronic Congestive Heart Failure With Ef 15%,,"The most likely Primary Medical Diagnoses from the list provided are:
+1. Supratherapeutic INR
+2. Hypotension"
+102019,,23,Acute Tubular Necrosis (Atn) Causing Renal Failure,,"The most likely Primary Medical Diagnosis from the list provided is ""Septic shock with multiple organ dysfunction""."
+101857,,12,Alcoholic Cirrhosis,,"The most likely Primary Medical Diagnoses from the list provided are:
+
+1. Alcoholic Cirrhosis"
+101813,,21,Rapid Atrial Fibrillation,,"The most likely Primary Medical Diagnoses from the list provided are:
+- LGIB s/p colectomy
+- anastomotic leak s/p exlap"
+101779,,22,Lymphoblastic Lymphoma / All,,"The most likely Primary Medical Diagnoses from the list provided is ""lymphoblastic lymphoma / ALL"""
+101665,,32,Diarrhea,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the list provided are:
+- Diarrhea
+- Fevers
+- Hypotension
+- Cerebral Palsy"
+101566,,1,Jejunal Ulcer,,"The most likely Primary Medical Diagnosis from the list provided is ""Jejunal Ulcer""."
+101427,,1,Myocardial Infarction And Profound Vagal Reaction,,"The most likely Primary Medical Diagnosis from the list provided is ""Myocardial infarction and profound vagal reaction""."
+101410,,7,"Primary: Korsakoff'S Psychosis, Back Pain, Agitation",,"The most likely Primary Medical Diagnosis from the list provided is ""Korsakoff's psychosis""."
+101372,,32,Epiglottitis,,"The most likely Primary Medical Diagnoses from the list provided is ""Epiglottitis""."
+101331,,57,"Bradycardia, Thought Secondary To Hypothyroidism",,"The most likely Primary Medical Diagnoses from the list provided are:
+1. Hypothyroidism, primary"
+101276,,16,Metastatic Rectal Cancer,,"The most likely Primary Medical Diagnoses from the list provided are ""Metastatic rectal cancer"" and ""Small bowel obstruction""."
+101215,,9,Postoperative Bleeding/Pericardial Effusion - S/P Re-Exploration,,"The most likely Primary Medical Diagnoses from the list provided is ""Type A Aortic Dissection""."
+101136,,14,"Stage I Adenocarcinoma Of The Lung, 1.5 Cm In [**2154**] (Stage Ia)",,"The most likely Primary Medical Diagnosis from the list provided is ""Stage I adenocarcinoma of the lung, 1.5 cm""."
+101092,,35,Pulmonary Embolism,,"The most likely Primary Medical Diagnoses from the list provided is ""Pneumonia""."
+100922,,11,Hepatic Encephalopathy,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Disseminated intravascular coagulation"
+100883,,29,Chronic Obstructive Pulmonary Disease,,"The most likely Primary Medical Diagnoses from the list provided are:
+- Chronic obstructive pulmonary disease"
+100847,,25,Bilateral Charcot Foot With Multiple Surgeries,,"The most likely Primary Medical Diagnoses from the list provided is ""Diabetic Ketoacidosis"" and ""Diabetic foot ulcer infection""."
+100677,,26,Mucinous Adenocarcinoma Of Unknown Primary,,"The most likely Primary Medical Diagnoses from the list provided are:
+1.) Malignant pleural effusion"
+100590,,37,Severe Chronic Obstructive Pulmonary Disease,,"Based on the clinician's note, the most likely Primary Medical Diagnoses from the provided list are:
+
+- Altered mental status secondary to excessive narcotics
+- Severe chronic obstructive pulmonary disease"
+100579,,11,Healthcare Associated Pneumonia,,"The most likely Primary Medical Diagnosis from the list provided is ""Healthcare associated pneumonia""."
+100564,,6,Histoplasmosis,,"The most likely Primary Medical Diagnosis from the list provided is ""Deep Vein Thrombosis of subclavian vein""."
+100229,,36,Sepsis,,"The most likely Primary Medical Diagnoses from the list provided is ""Sepsis""."
+100187,,75,Rectus Sheath Hematoma In Setting Of Anticoagulation,,"Based on the provided clinician's note, the most likely Primary Medical Diagnosis from the list provided is ""Pulmonary Embolism with history of DVT and IVC filter placement in [**2106-7-8**]""."
+100039,,40,Abdominal Pain,,"Based on the provided clinician's note, the most likely Primary Medical Diagnoses from the list you provided is ""Abdominal Pain""."
+100035,,19,Status Asthmaticus,,"The most likely Primary Medical Diagnoses from the list provided is ""Anoxic Brain Injury""."

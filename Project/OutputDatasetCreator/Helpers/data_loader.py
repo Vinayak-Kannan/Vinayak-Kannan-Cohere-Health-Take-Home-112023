@@ -1,6 +1,5 @@
 import time
 from typing import List
-from thefuzz import fuzz
 from openai import OpenAI
 import pandas as pd
 import nltk
@@ -42,7 +41,7 @@ class DataLoader:
                 "role": "system",
                 "content": "You will ingest a docuement and look for the 'Discharge Diagnosis' section. You will then extract each diagnosis from that section and return them seperated by a newline character. Do not change or alter the original diagnosis text. Remove any leading or trailing punctuation from the diagnosis.",
             },
-            {"role": "user", "content": "Who won the world series in 2020?"},
+            {"role": "user", "content": ""},
         ]
         txt_df["DD_Formatted"] = ""
 
@@ -161,7 +160,7 @@ class DataLoader:
         )
 
         """
-        3. Extract Dischrage Diagnosis using OpenAI LLM
+        3. Extract Discharge Diagnosis using OpenAI LLM
         """
         txt_df = self.__summarize_discharge_diagnosis(txt_df)
 
