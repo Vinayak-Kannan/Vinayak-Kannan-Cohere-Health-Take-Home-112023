@@ -2,6 +2,7 @@ import pandas as pd
 from Helpers.data_loader import DataLoader
 from Helpers.underlying_factor_identifier import UnderlyingFactorIdentifier
 from Helpers.primary_diagnosis_identifier import PrimaryDiagnosisIdentifier
+from Project.OutputDatasetCreator.Helpers.tester import Tester
 
 
 class ClinicianNoteDataSetHandler():
@@ -46,5 +47,11 @@ class ClinicianNoteDataSetHandler():
         merged_output_with_diagnosis_and_factors_df = merged_output_with_diagnosis_and_factors_df.sort_values(by=['file_idx', 'count', 'primary_diagnosis'], ascending=[False, False, True]).drop_duplicates(subset=['file_idx'], keep='first')
 
         return merged_output_with_diagnosis_and_factors_df
+    
+    def test_primary_diagnosis(self, path_to_output: str) -> None:
+        output_df = pd.read_csv(path_to_output)
+        txt_df = self.txt_df
+        tester = Tester(txt_df, self.ent_df, self.rel_df, output_df)
+        tester.test_primary_medical_diagnosis()
 
 
