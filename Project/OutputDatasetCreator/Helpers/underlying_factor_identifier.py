@@ -1,11 +1,16 @@
 import pandas as pd
 from Bio_Epidemiology_NER.bio_recognizer import ner_prediction
+from nltk.stem import WordNetLemmatizer
 
 
 class UnderlyingFactorIdentifier:
+    """Identifies underlying factors for each clinician note using NER across all documents"""
+
+
     ent_df = pd.DataFrame()
     rel_df = pd.DataFrame()
     txt_df = pd.DataFrame()
+    lemmatizer = WordNetLemmatizer()
 
     def __init__(
         self, txt_df: pd.DataFrame, ent_df: pd.DataFrame, rel_df: pd.DataFrame
@@ -15,12 +20,38 @@ class UnderlyingFactorIdentifier:
         self.rel_df = rel_df
 
     def process_dataset(self) -> pd.DataFrame:
+        """
+        Runs pipeline to identify underlying factors for each clinician note using NER across all documents
+
+        Returns
+        -------
+        pandas DataFrame
+            Dataframe containing identified underlying factors for each clinician note.
+        """
+
         print("Processing Underlying Factors...")
         self.__connect_reasons_to_drugs(self.rel_df, self.ent_df)
         top_5_factors_by_file = self.__parse_top_5_factors()
         return top_5_factors_by_file
 
     def __connect_reasons_to_drugs(self, rel_df: pd.DataFrame, ent_df: pd.DataFrame):
+        """
+        Creates dataframe marrying 'Reason' and 'Drug' entities together, in order to identify underlying factors
+        tied to each drug within a clinician note.
+    
+        Parameters
+        ----------
+        rel_df: pandas DataFrame
+            Dataframe containing RE information between different entities across docuements.
+        ent_df: pandas DataFrame
+            Dataframe containing Named Entity informaiton for different entities across docuements.
+
+        Returns
+        -------
+        pandas DataFrame
+            Intermediary Dataframe containing 'Reason' and 'Drug' entities tied together.
+        """
+
         print("Tying reasons to drugs to identify underlying factors...")
         # Make a dataframe with only 'Reason' category and 'Drug' category
         ent_df = ent_df[ent_df["category"].isin(["Reason", "Drug"])]
@@ -87,6 +118,15 @@ class UnderlyingFactorIdentifier:
         self.ent_df = ent_df
 
     def __parse_top_5_factors(self) -> pd.DataFrame:
+        """
+        Extracts the top 5 factors for each clinician note
+
+        Returns
+        -------
+        pandas DataFrame
+            Dataframe containing top 5 factors for each clinician note.
+        """
+
         print("Parsing top 5 factors...")
         ent_df_reason_drug = self.ent_df
         # Filter out entities which aren't factors
@@ -106,13 +146,20 @@ class UnderlyingFactorIdentifier:
                 .sort_values(by="count_in_document", ascending=False)["Joined_Reason"]
                 .unique()
             )
-            print(common_factors)
+            
+            lemmatized_words = []
             factors_cleaned = ""
-            for i, factor in enumerate(common_factors.split(",")):
-                if i == 5:
+            counter = 0
+            for _, factor in enumerate(common_factors.split(",")):
+                if counter == 5:
                     break
-                factors_cleaned += factor.strip().title() + ","
-            print(factors_cleaned)
+                factor_cleaned = factor.strip()
+                factor_cleaned = factor.title()
+                lemmatized_word = self.lemmatizer.lemmatize(factor_cleaned)
+                if lemmatized_word not in lemmatized_words:
+                    factors_cleaned += factor_cleaned + ","
+                    counter += 1
+                    lemmatized_words.append(lemmatized_word)
             top_5_factors_by_file = top_5_factors_by_file.append({"file_idx": file_idx, "Common_Underlying_Factors": factors_cleaned}, ignore_index=True)  # type: ignore
 
         return top_5_factors_by_file

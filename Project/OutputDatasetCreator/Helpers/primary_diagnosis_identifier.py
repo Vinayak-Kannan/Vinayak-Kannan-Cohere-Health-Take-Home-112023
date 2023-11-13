@@ -10,6 +10,9 @@ from openai import OpenAI
 
 
 class PrimaryDiagnosisIdentifier:
+    """Identifies primary diagnosis for each clinician note using ensemble method between NER and LLM"""
+
+
     txt_df = pd.DataFrame()
     output_df_NER = pd.DataFrame(columns=["file_idx", "primary_diagnosis_NER", "count"])
     output_df_LLM = pd.DataFrame(columns=["file_idx", "primary_diagnosis_LLM"])
@@ -22,6 +25,15 @@ class PrimaryDiagnosisIdentifier:
         self.OpenAI_API_KEY = OpenAI_API_KEY
         
     def process_data(self) -> pd.DataFrame:
+        """
+        Runs pipeline to extract primary diagnosis from each clinician note using ensemble method between NER and LLM
+
+        Returns
+        -------
+        List[pandas DataFrame]
+            Dataframe containing predicted primary diagnosis from each ensemble method and confidence statement.
+        """
+                
         print("Processing Data...")
         self.output_df_LLM = self.__create_primary_diagnosis_LLM(self.txt_df)
         self.output_df_LLM = self.output_df_LLM.sort_values(by=['file_idx'], ascending=[False])
@@ -36,6 +48,20 @@ class PrimaryDiagnosisIdentifier:
         return self.output_df_filtered
 
     def __select_approach(self, output_df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Helps select the best approach for each file in the dataset from the ensemble
+    
+        Parameters
+        ----------
+        output_df: pandas DataFrame
+            Dataframe containing ensemble predictions for each file in the dataset.
+
+        Returns
+        -------
+        pandas DataFrame
+            Dataframe containing ensemble predictions for each file in the dataset with the best approach selected.
+        """
+                
         output_df['selected_approach'] = ''
         output_df['confidence'] = ''
         output_df['primary_diagnosis'] = ''
@@ -64,6 +90,20 @@ class PrimaryDiagnosisIdentifier:
 
 
     def __create_primary_diagnosis_NER(self, txt_df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Identifies primary diagnosis for each clinician note using NER method
+    
+        Parameters
+        ----------
+        txt_df: pandas DataFrame
+            Dataframe containing raw text information for each file in the dataset.
+
+        Returns
+        -------
+        pandas DataFrame
+            Intermediary Dataframe containing predicted primary diagnosis from each NER.
+        """
+
         nltk.download('punkt')
         nltk.download('wordnet')
         nlp = spacy.load("en_core_sci_sm")
@@ -129,6 +169,20 @@ class PrimaryDiagnosisIdentifier:
         return local_output_df
 
     def __create_primary_diagnosis_LLM(self, txt_df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Identifies primary diagnosis for each clinician note using LLM method
+    
+        Parameters
+        ----------
+        txt_df: pandas DataFrame
+            Dataframe containing raw text information for each file in the dataset.
+
+        Returns
+        -------
+        pandas DataFrame
+            Intermediary Dataframe containing predicted primary diagnosis from each LLM.
+        """
+
         client = OpenAI(
             api_key=self.OpenAI_API_KEY,
         )

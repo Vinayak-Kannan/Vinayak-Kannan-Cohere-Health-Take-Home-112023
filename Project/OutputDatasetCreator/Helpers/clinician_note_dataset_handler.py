@@ -6,6 +6,8 @@ from Helpers.primary_diagnosis_identifier import PrimaryDiagnosisIdentifier
 
 
 class ClinicianNoteDataSetHandler():
+    """Handles exeucting pipeline to create dataset with identified primary diagnosis and underlying factors"""
+
     txt_df = pd.DataFrame()
     rel_df = pd.DataFrame()
     ent_df = pd.DataFrame()
@@ -19,6 +21,17 @@ class ClinicianNoteDataSetHandler():
         self.OpenAI_API_KEY = OpenAI_API_KEY
 
     def identify_primary_diagnosis_and_underlying_factors(self) -> pd.DataFrame:
+        """
+        Runs raw text dataframes through data set generation pipeilne and returns data
+        frame with primary diagnosis and underlying factors identified for each file
+    
+    
+        Returns
+        -------
+        pandas DataFrame
+            Df indexed by the file_idx field, containing primary diagnosis, underlying factors,
+            confidence statements, and outputs for each model used in ensemble method.
+        """
         txt_df = self.txt_df
         ent_df = self.ent_df
         rel_df = self.rel_df
@@ -31,8 +44,8 @@ class ClinicianNoteDataSetHandler():
         txt_df, ent_df, rel_df = data_loader.get_data()
 
         txt_df.to_csv('./Intermediate Data File/txt_df.csv', index=False)
-        ent_df.to_csv('./Intermediate Data File/txt_df.csv', index=False)
-        rel_df.to_csv('./Intermediate Data File/txt_df.csvv', index=False)
+        ent_df.to_csv('./Intermediate Data File/ent_df.csv', index=False)
+        rel_df.to_csv('./Intermediate Data File/rel_df.csv', index=False)
 
         primary_diagnosis_identifier = PrimaryDiagnosisIdentifier(txt_df, self.OpenAI_API_KEY)
         primary_diagnosis_df = primary_diagnosis_identifier.process_data()

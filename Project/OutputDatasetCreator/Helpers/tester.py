@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 
 class Tester():
+    """Performs test exeuction to evalute performance of the model."""
+
+
     txt_df = pd.DataFrame(columns=['file_idx','text','DD_Formatted'])
     rel_df = pd.DataFrame(columns=['file_idx','relationship_id','category','entity1','entity2','entity1_text','entity2_text','entity1_entity2','count_in_document'])
     ent_df = pd.DataFrame(columns=['file_idx','entity_id','category','start_idx','end_idx','text','orig_txt','count_in_document'])
@@ -14,7 +17,10 @@ class Tester():
         self.output_df = output_df
     
     def test_primary_medical_diagnosis(self) -> None:
-        print("Testing Primary Medicla diagnoses...")
+        """
+        Runs evaluation metrics on the primary medical diagnosis identified by the model.
+        """
+        print("Testing Primary Medical diagnoses...")
         count_matches = 0
         count_NER_matches = 0
         count_LLM_matches = 0
@@ -53,6 +59,10 @@ class Tester():
     
 
     def test_common_underlying_factors(self) -> None:
+        """
+        Runs evaluation metrics on the common underlying factors identified by the model.
+        """
+
         print("Testing Common Underlying Factors...")
         count_of_matches_between_ent_df_and_common_underlying_factors = 0
 

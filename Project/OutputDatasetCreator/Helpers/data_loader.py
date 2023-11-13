@@ -7,6 +7,8 @@ from nltk.stem import WordNetLemmatizer
 
 
 class DataLoader:
+    """Cleans and creates features from raw txt_df, ent_df, and rel_df dataframes"""
+
     txt_df = pd.DataFrame()
     ent_df = pd.DataFrame()
     rel_df = pd.DataFrame()
@@ -22,6 +24,14 @@ class DataLoader:
         self.OpenAI_API_KEY = OpenAI_API_KEY
 
     def clean_data(self) -> None:
+        """
+        Runs raw text dataframes through data cleaning / extraction pipelins and returns data
+    
+        Returns
+        -------
+        None
+        """
+
         print("Cleaning Data...")
         self.rel_df, self.ent_df, self.txt_df = self.__clean_data(
             self.rel_df, self.ent_df, self.txt_df
@@ -32,9 +42,32 @@ class DataLoader:
         )
 
     def get_data(self) -> List[pd.DataFrame]:
+        """
+        Getter for dataframes
+    
+        Returns
+        -------
+        List[pandas DataFrame]
+            Raw text from doctors note DF, entity DF, and RE DF.
+        """
         return [self.txt_df, self.ent_df, self.rel_df]
 
     def summarize_discharge_diagnosis(self, txt_df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Passes each file in txt_df to OpenAI's LLM to clean the 'Discharge Diagnosis' section of the file
+        and return each diagnosis seperated by a newline character.
+
+        Parameters
+        ----------
+        txt_df: pandas DataFrame
+            Dataframe containing raw text information for each file in the dataset.
+    
+        Returns
+        -------
+        pandas DataFrame
+            txt_df with 'DD_Formatted' column added containing cleaned 'Discharge Diagnosis' section.
+        """
+
         client = OpenAI(
             api_key=self.OpenAI_API_KEY,
         )
@@ -82,6 +115,28 @@ class DataLoader:
         self, rel_df: pd.DataFrame, ent_df: pd.DataFrame, txt_df: pd.DataFrame
     ) -> List[pd.DataFrame]:
         """
+        Cleaning portion of the data pipeline. Cleans the data in the following ways:
+        1. Convert 'text' columns to lowercase, in order to facilitate comparison.
+        2. Remove \n ending from 'text' column in ent_df and in 'entity2' column in rel_df.
+        3. Lemmatize entity texts and preserve original values in a new column
+    
+        Parameters
+        ----------
+        rel_df: pandas DataFrame
+            Dataframe containing RE information between different entities across docuements.
+        ent_df: pandas DataFrame
+            Dataframe containing Named Entity informaiton for different entities across docuements.
+        txt_df: pandas DataFrame
+            Dataframe containing raw text information for each file in the dataset.
+
+        Returns
+        -------
+        List[pandas DataFrame]
+            Cleaned txt_df, ent_DF, and rel_DF.
+        """
+
+
+        """
         1. Convert 'text' columns to lowercase, in order to facilitate comparison.
         """
         ent_df["text"] = ent_df["text"].str.lower()
@@ -111,6 +166,27 @@ class DataLoader:
     def __feature_engineer(
         self, rel_df: pd.DataFrame, ent_df: pd.DataFrame, txt_df: pd.DataFrame
     ) -> List[pd.DataFrame]:
+        """
+        Runs Feature Engineering portion of the data pipeline. Performs the following:
+        1. Join the appropriate entity1 and entity2 for each relation in rel_df.
+        2. Get count of text in file_idx for each entity in ent_df. Do the same for the 'entity1_entity2' in rel_df.
+        3. Extract Discharge Diagnosis using OpenAI LLM
+    
+        Parameters
+        ----------
+        rel_df: pandas DataFrame
+            Dataframe containing RE information between different entities across docuements.
+        ent_df: pandas DataFrame
+            Dataframe containing Named Entity informaiton for different entities across docuements.
+        txt_df: pandas DataFrame
+            Dataframe containing raw text information for each file in the dataset.
+
+        Returns
+        -------
+        List[pandas DataFrame]
+            Cleaned txt_df, ent_DF, and rel_DF.
+        """
+
         """
         1. Join the appropriate entity1 and entity2 for each relation in rel_df.
         """
