@@ -1171,11 +1171,10 @@ D:  [**2168-4-21**]  14:58
 T:  [**2168-4-25**]  09:09
 JOB#:  [**Job Number 33027**]
 
-cc:[**Name8 (MD) 33028**]","The discharge diagnoses are:
-1. Upper GI bleed
-2. Anemia secondary to blood loss status post six units of packed red blood cells
-3. Melena
-4. Chest pain, not otherwise specified"
+cc:[**Name8 (MD) 33028**]","Upper GI bleed
+Anemia secondary to blood loss status post six units of packed red blood cells
+Melena
+Chest pain, not otherwise specified"
 121467,"Admission Date:  [**2166-12-9**]              Discharge Date:   [**2166-12-21**]
 
 Date of Birth:  [**2115-11-19**]             Sex:   M
@@ -2282,7 +2281,8 @@ MEDQUIST36
 D:  [**2163-1-19**]  10:52
 T:  [**2163-1-19**]  12:18
 JOB#:  [**Job Number 35439**]
-",Myocardial infarction and profound vagal reaction
+","Myocardial infarction
+profound vagal reaction"
 107322,"Admission Date:  [**2104-8-8**]              Discharge Date:   [**2104-8-27**]
 
 Date of Birth:  [**2027-2-15**]             Sex:   M
@@ -3582,8 +3582,7 @@ Date/Time:[**2159-10-31**] 1:00
 
                              [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) **] MD [**MD Number(2) 6753**]
 
-Completed by:[**2159-10-4**]","The discharge diagnosis is:
-dysgerminoma of the ovary"
+Completed by:[**2159-10-4**]",dysgerminoma of the ovary
 103317,"Admission Date:  [**2156-7-26**]              Discharge Date:   [**2156-9-3**]
 
 Date of Birth:  [**2104-3-28**]             Sex:   F
@@ -4085,9 +4084,12 @@ Please follow-up with your primary physician [**Name Initial (PRE) 3390**]:
 
                              [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) **] MD [**MD Number(1) 1379**]
 
-Completed by:[**2140-8-6**]","1. Alcoholic Cirrhosis
-2. Acute Alcoholic Hepatitis
-3. Esophogeal Varices with Variceal Bleed"
+Completed by:[**2140-8-6**]","Alcoholic Cirrhosis
+Acute Alcoholic Hepatitis
+Esophogeal Varices with Variceal Bleed
+Nutritional Deficiency
+Acute Renal Failure
+HIT antibody Positive"
 100579,"Admission Date:  [**2125-10-17**]              Discharge Date:   [**2125-10-26**]
 
 Date of Birth:  [**2058-6-10**]             Sex:   M
@@ -4647,11 +4649,11 @@ come discuss the surgical options in an office visit.
 
 
 
-","1) H. influenza meningitis
-2) SIADH
-3) H. influenza bacteremia
-4) Thrombocytopenia - resolved
-5) Anemia - prob secondary to acute illness"
+","H. influenza meningitis
+SIADH
+H. influenza bacteremia
+Thrombocytopenia - resolved
+Anemia - prob secondary to acute illness"
 174037,"Admission Date:  [**2164-10-15**]              Discharge Date:   [**2164-11-4**]
 
 Date of Birth:  [**2103-10-13**]             Sex:   F
@@ -5498,15 +5500,15 @@ Follow up with Dr. [**Last Name (STitle) **]
 
 
 
-Completed by:[**2162-12-1**]","1) Respiratory failure
-2) Congestive heart failure
-3) Mitral regurgitation
-4) Community-acquired pneumonia
-5) Ventilator associated pneumonia
-6) Tracheostomy
-7) Anemia
-8) Thrombocytopenia
-9) Hypopituitarism"
+Completed by:[**2162-12-1**]","Respiratory failure
+Congestive heart failure
+Mitral regurgitation
+Community-acquired pneumonia
+Ventilator associated pneumonia
+Tracheostomy
+Anemia
+Thrombocytopenia
+Hypopituitarism"
 176106,"Name:  [**Known lastname 2170**], [**Known firstname **]                       Unit No:  [**Numeric Identifier 2171**]
 
 Admission Date:  [**2105-11-20**]     Discharge Date:  [**2105-11-27**]
@@ -5532,8 +5534,7 @@ MEDQUIST36
 D:  [**2105-11-27**]  14:35
 T:  [**2105-11-28**]  04:39
 JOB#:  [**Job Number 2173**]
-","Discharge Diagnosis:
-1. Seizures caused by the combination of Ritalin and thalidomide"
+","The provided text does not contain a ""Discharge Diagnosis"" section or any explicit list of diagnoses. Therefore, I cannot extract any diagnoses from this document. If there is more to the document or a specific section that includes the discharge diagnoses, please provide that for further assistance."
 188551,"Admission Date:  [**2173-7-26**]              Discharge Date:   [**2173-8-5**]
 
 Date of Birth:  [**2103-8-12**]             Sex:   F
@@ -5949,11 +5950,8 @@ Date/Time:[**2152-10-19**] 1:00
 
 ","Masth Cell Degranulation Syndrome Exascerbation
 GERD
-Depression/anxiety/bipolar d/o, has attempted suicide in the
-past
-MI in [**2147**] after receiving cardiac arrest dose epi instead of
-
-anaphylactic dose epi
+Depression/anxiety/bipolar d/o, has attempted suicide in the past
+MI in [**2147**] after receiving cardiac arrest dose epi instead of anaphylactic dose epi
 HTN
 erosive osteoarthritis
 Anemia, iron studies c/w AOCD
@@ -6224,8 +6222,7 @@ with Dr. [**First Name8 (NamePattern2) 553**] [**Last Name (NamePattern1) 1356**
 
                              [**First Name5 (NamePattern1) **] [**Last Name (NamePattern1) **] MD [**MD Number(2) 617**]
 
-Completed by:[**2109-1-31**]","Discharge Diagnosis:
-Gastrointestinal bleed of undetermined origin
+Completed by:[**2109-1-31**]","Gastrointestinal bleed of undetermined origin
 Acute blood loss anemia
 Coronary artery disease
 Diabetes mellitus type II, uncontrolled with complications
@@ -6740,22 +6737,23 @@ Provider:
 
 
 
-Completed by:[**2199-5-8**]","- AAA
-- post operative pro long intubation - hypoxia
-- hyotension requiring pressure support
-- hyperchloremic metabolic acidosis 2nd to NS infusion
-- guiac positive stools
-- hypokalemia / hypomagnesium
-- Heparin induced thrombocytopenia
-- AF
-- seizure disorder
-- HTN
-- R. intraventricular bleed
-- emphysema
-- T2 compression fx
-- Post operative transfusion
-- decrease platelets
-- post op confusion"
+Completed by:[**2199-5-8**]","AAA
+post operative pro long intubation - hypoxia
+hyotension requiring pressure support
+hyperchloremic metabolic acidosis 2nd to NS infusion
+guiac positive stools
+hypokalemia / hypomagnesium
+Heparin induced thrombocytopenia
+
+AF
+seizure disorder
+HTN
+R. intraventricular bleed
+emphysema
+T2 compression fx
+Post operative transfusion
+decrease platelets
+post op confusion"
 102027,"Admission Date:  [**2119-9-16**]              Discharge Date:   [**2119-9-19**]
 
 Date of Birth:  [**2051-4-21**]             Sex:   F
@@ -7668,8 +7666,7 @@ Date/Time:[**2109-4-26**] 11:00
 
                              [**Initials (NamePattern4) **] [**Last Name (NamePattern4) **] [**Name8 (MD) **] MD [**MD Number(1) 292**]
 
-","Discharge Diagnosis:
-Symptomatic bradycardia"
+",Symptomatic bradycardia
 109176,"Admission Date:  [**2124-3-14**]              Discharge Date:   [**2124-3-27**]
 
 Date of Birth:  [**2094-3-2**]             Sex:   F
@@ -8374,9 +8371,12 @@ Followup Instructions:
   CC7 CARDIOLOGY (SB)
 
 
-","1. Coronary artery disease
-2. Stable angina
-3. Abnormal exercise tolerance test"
+","Coronary artery disease
+Stable angina
+Abnormal exercise tolerance test
+DM II
+Hypertension
+Hyperlipidemia"
 101410,"Admission Date:  [**2129-9-14**]              Discharge Date:   [**2129-10-6**]
 
 Date of Birth:  [**2072-9-6**]             Sex:   M
@@ -8706,8 +8706,12 @@ Campus: OFF CAMPUS     Best Parking: On Street Parking
 
 
 
-","Primary: Korsakoff's psychosis, back pain, agitation
-Secondary: Hypertension, BPH, GERD"
+","Korsakoff's psychosis
+back pain
+agitation
+Hypertension
+BPH
+GERD"
 115157,"Admission Date:  [**2204-4-8**]              Discharge Date:   [**2204-4-13**]
 
 Date of Birth:  [**2137-7-10**]             Sex:   M
@@ -9143,14 +9147,11 @@ be further assesed with ultrasound.
 
 
 
-","Primary Diagnosis:
-1) Hypotension
-2) Acute renal failure
-
-Secondary Diagnosis:
-1) Diabetes
-2) Systolic Heart Failure
-3) Hypertension"
+","Hypotension
+Acute renal failure
+Diabetes
+Systolic Heart Failure
+Hypertension"
 114585,"Admission Date:  [**2194-10-16**]              Discharge Date:   [**2194-11-13**]
 
 Date of Birth:  [**2119-1-20**]             Sex:   F
@@ -9720,8 +9721,7 @@ Campus: EAST     Best Parking: [**Hospital Ward Name 23**] Garage
 
                              [**First Name11 (Name Pattern1) **] [**Last Name (NamePattern4) 3559**] MD, [**MD Number(3) 3560**]
 
-Completed by:[**2151-3-4**]","Primary:
-cataract + mitomycin C trabeculectomy
+Completed by:[**2151-3-4**]","cataract + mitomycin C trabeculectomy
 Laryngeal spasm"
 152612,"Admission Date:  [**2158-11-20**]              Discharge Date:   [**2158-12-20**]
 
@@ -10176,18 +10176,22 @@ Phone:[**Telephone/Fax (1) 1393**]
 
 
 
-Completed by:[**2158-12-20**]","- Right lower extremity venous thrombosis now s/p Common Iliac thrombus s/p thrombecomy/embolectomy
-- Rectus muscle hematoma
-- Anemia-secondary to bleeding
-- Acute renal failure- on arrival creatinine peaked at 8.9, recovered w/ fluid resusciation, alcalinization w/ Bicarb drip, creatinine now normal
-Rhabdomyolysis- RLE ischemia 2nd to compartment syndrome, required faciotomy-now resolved
-- R Foot drop- prior to hospitalization, persistent, will need agressive physical therapy and splinting
-History of:
+Completed by:[**2158-12-20**]","Right lower extremity venous thrombosis now s/p Common Iliac thrombus s/p thrombecomy/embolectomy
+Rectus muscle hematoma
+Anemia-secondary to bleeding
+Acute renal failure
+Rhabdomyolysis
+R Foot drop
 HTN
 hyperlipidemia
 asthma
 L back melanoma
-PSH: IVC filter ([**10-23**]), L back melanoma excision with ax LN dxn, laparotomy x 2 for ovarian cysts, C-section, app, lap chole"
+PSH: IVC filter
+L back melanoma excision with ax LN dxn
+laparotomy x 2 for ovarian cysts
+C-section
+app
+lap chole"
 197869,"Admission Date:  [**2207-8-16**]              Discharge Date:   [**2207-9-2**]
 
 Date of Birth:  [**2150-9-2**]             Sex:   M
@@ -11088,21 +11092,19 @@ months for ultrasound to evaluate iliac artery dissestions
 
 
 
-Completed by:[**2101-1-1**]","The discharge diagnosis section contains the following diagnoses:
-
-- Vertebral osteomyelitis
-- NSTEMI
-- Complete Heart Block s/p external pacemaker placement and then perm. pacemaker placement
-- Vitamin B12 deficiency
-- Enterobacter pneumonia with pleural effusion s/p thorocentesis
-- Delirium -now resolved
-- Acute blood loss anemia
-- Hypokalemia
-- Hypocalcemia
-- Right upper extremity DVT
-- Iliac artery dissection
-- Gout
-- Hypertension"
+Completed by:[**2101-1-1**]","Vertebral osteomyelitis
+NSTEMI
+Complete Heart Block s/p external pacemaker placement and then perm. pacemaker placement
+vitamin B12 deficiency
+enterobacter pneumonia with pleural effusion s/p thorocentesis
+Delirium -now resolved
+Acute blood loss anemia
+Hypokalemia
+hypocalcemia
+right upper extremity DVT
+iliac artery dissection
+gout
+hypertension"
 125867,"Name:  [**Known lastname **], [**Known firstname 9188**]                       Unit No:  [**Numeric Identifier 15402**]
 
 Admission Date:  [**2107-3-4**]     Discharge Date:  [**2107-3-10**]
@@ -11141,7 +11143,7 @@ MEDQUIST36
 D:  [**2107-3-10**]  15:04
 T:  [**2107-3-11**]  04:24
 JOB#:  [**Job Number 15404**]
-",The discharge diagnosis section was not found in the provided text.
+","The provided text does not contain a 'Discharge Diagnosis' section or any explicit diagnoses listed. Therefore, I am unable to extract any diagnoses from the document. If there is additional text that includes the 'Discharge Diagnosis' section, please provide it so that I can assist you further."
 149687,"Name:  [**Known lastname 17298**], [**Known firstname **]                     Unit No:  [**Numeric Identifier 17299**]
 
 Admission Date:  [**2148-3-25**]     Discharge Date:  [**2148-4-9**]
@@ -11212,11 +11214,9 @@ MEDQUIST36
 D:  [**2148-4-9**]  06:13
 T:  [**2148-4-9**]  06:16
 JOB#:  [**Job Number 17301**]
-","The patient felt well clinically without abdominal pain
-Anastomotic stricture
-Post endoscopic retrograde cholangiopancreatography pancreatitis
-Left upper extremity swelling
-Deep venous thrombosis"
+","The provided text does not contain a specific ""Discharge Diagnosis"" section. The text appears to be a clinical summary or addendum that discusses the patient's course in the hospital, including various procedures, findings, and treatments. However, it does not explicitly list discharge diagnoses in a separate section.
+
+If you have another document that contains a ""Discharge Diagnosis"" section, please provide it, and I will extract the diagnoses as requested."
 190056,"Admission Date:  [**2197-10-24**]              Discharge Date:   [**2197-11-17**]
 
 Date of Birth:  [**2121-3-31**]             Sex:   F
@@ -12421,9 +12421,7 @@ month
 
 
 
-Completed by:[**2167-7-2**]","The discharge diagnosis from the document is as follows:
-
-congestive heart failure
+Completed by:[**2167-7-2**]","congestive heart failure
 acute on chronic renal failure"
 115667,"Admission Date:  [**2124-4-27**]              Discharge Date:   [**2124-4-29**]
 
@@ -12775,7 +12773,9 @@ Acute renal failure
 Hyperkalemia
 Hypotension
 Urinary tract infection
-Skin rash"
+Skin rash
+COPD
+Benign prostatic hypertrophy"
 114248,"Admission Date:  [**2120-5-7**]              Discharge Date:   [**2120-5-10**]
 
 Date of Birth:  [**2057-11-21**]             Sex:   F
@@ -13164,8 +13164,7 @@ a bulging disc could be contributing to your generalized
 weakness
 
 
-Completed by:[**2168-8-22**]","The discharge diagnosis is:
-small bowel obstruction"
+Completed by:[**2168-8-22**]",small bowel obstruction
 105547,"Admission Date:  [**2163-4-16**]              Discharge Date:   [**2163-4-25**]
 
 Date of Birth:  [**2131-9-11**]             Sex:   M
@@ -13577,7 +13576,7 @@ REGIME UPON DISCHARGE.
 
 
 Completed by:[**2163-5-9**]","Perimesencaphalic hemorrhage
-Respiratory failure/hypoxia  requiring mechanical ventilation
+Respiratory failure/hypoxia requiring mechanical ventilation
 Pneumonia = Community aquired
 Hyperglycemia = DM I
 MEDICATION REACTION / NEW ALLERGY TO AZITHROMYCIN AND ROCEPHIN"
@@ -14040,8 +14039,8 @@ Provider: [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) 4425**],
 
 
 
-","1.) Malignant pleural effusion
-2.) Mucinous adenocarcinoma of unknown primary"
+","Malignant pleural effusion
+Mucinous adenocarcinoma of unknown primary"
 185759,"Admission Date:  [**2125-10-2**]              Discharge Date:   [**2125-10-5**]
 
 Date of Birth:  [**2062-8-5**]             Sex:   F
@@ -14472,11 +14471,12 @@ Followup Instructions:
 Expired
 
 
-Completed by:[**2133-8-25**]","Diastolic heart failure
-Atrial Fibrillation
-Thrombocytopenia
+Completed by:[**2133-8-25**]","Dyspnea
+End Stage Renal Disease
 C Diff colitis
-End Stage Renal Disease"
+Diastolic heart failure
+Atrial Fibrillation
+Thrombocytopenia"
 168331,"Admission Date:  [**2187-8-3**]              Discharge Date:   [**2187-9-29**]
 
 Date of Birth:  [**2137-4-17**]             Sex:   M
@@ -15105,8 +15105,7 @@ MEDQUIST36
 D:  [**2133-4-21**]  16:51
 T:  [**2133-4-21**]  16:57
 JOB#:  [**Job Number 11284**]
-","The discharge diagnosis is:
-1. Dilantin hypersensitivity reaction"
+",Dilantin hypersensitivity reaction
 109527,"Admission Date:  [**2183-8-31**]              Discharge Date:   [**2183-9-15**]
 
 Date of Birth:  [**2121-8-27**]             Sex:   F
@@ -16302,7 +16301,11 @@ Completed by:[**2155-5-15**]","End-stage kidney disease secondary to lithium tox
 smal bowel obstruction
 Diarrhea
 incision cellulitis
-Fall"
+Fall
+Temporal arteritis versus polymyalgia rheumatica on prednisone
+Severe bipolar disorder, controlled with Lamictal and Celexa
+Vertigo
+Gastroesophageal reflux disease"
 104091,"Admission Date:  [**2123-6-26**]              Discharge Date:   [**2123-7-19**]
 
 Date of Birth:  [**2080-2-1**]             Sex:   M
@@ -16488,9 +16491,9 @@ clinic, DR. [**First Name (STitle) **] [**Doctor Last Name 9406**] Phone:[**Tele
 
 
 
-","1. Endocarditis
-2. End stage renal disease on HD
-3. Hypertension"
+","Endocarditis
+End stage renal disease on HD
+Hypertension"
 145012,"Admission Date:  [**2158-12-15**]              Discharge Date:   [**2158-12-22**]
 
 Date of Birth:  [**2097-9-24**]             Sex:   M
@@ -19027,10 +19030,8 @@ Deceased
 
                              [**Initials (NamePattern4) **] [**Last Name (NamePattern4) **] [**Name8 (MD) **] MD [**MD Number(1) 292**]
 
-Completed by:[**2166-2-1**]","Locally advanced pancreatic cancer
-Metastatic to lungs
-Acute renal failure
-Pancreatic CA"
+Completed by:[**2166-2-1**]","Discharge Diagnosis:
+Deceased"
 114220,"Admission Date:  [**2140-5-17**]              Discharge Date:   [**2140-5-28**]
 
 
@@ -19778,8 +19779,10 @@ Provider: [**First Name11 (Name Pattern1) **] [**Last Name (NamePattern4) 25249*
 
 
 
-","Primary: asthma exacerbation
-Secondary: acute bronchitis, hypertension, hyperglycemia"
+","asthma exacerbation
+acute bronchitis
+hypertension
+hyperglycemia"
 100922,"Admission Date:  [**2189-9-13**]              Discharge Date:   [**2189-10-8**]
 
 Date of Birth:  [**2144-11-9**]             Sex:   F
@@ -20143,7 +20146,17 @@ Hepatic encephalopathy
 Fulminant hepatic failure
 Urinary tract infection
 Hypernatremia
-Hypercalcemia"
+Hypercalcemia
+Autoimmune hepatitis, s/p orthotopic liver transplant in [**2176**]
+Chronic portal vein thrombosis
+Chronic lymphedema, which developed after her liver transplant
+Psorasis
+Allergic rhinitis
+Dysfunctional uterine bleeding s/p partial hysterectomy
+s/p cholecystectomy
+Depression
+Adnexal masses noted on scan in [**12/2187**]
+Antiphospholipid antibody"
 119144,"Admission Date:  [**2107-6-26**]              Discharge Date:   [**2107-6-30**]
 
 Date of Birth:  [**2069-9-13**]             Sex:   F
@@ -20453,8 +20466,9 @@ Tuesday [**2106-7-5**]:50 am
 
 
 
-","1. Adrenal crisis
-2. Central diabetes insipidus"
+","Adrenal crisis
+Central diabetes insipidus
+Pituitary macroadenoma"
 110521,"Admission Date:  [**2112-10-12**]              Discharge Date:   [**2112-10-21**]
 
 Date of Birth:  [**2032-7-22**]             Sex:   F
@@ -23222,10 +23236,7 @@ Date/Time:[**2163-2-2**] 2:30
 
 
 
-","Primary Diagnosis:
-Drug Related Esosinophilia and Systemic Symptoms
-
-Secondary Diagnosis:
+","Drug Related Esosinophilia and Systemic Symptoms
 Metastatic Melanoma"
 147292,"Admission Date:  [**2197-8-23**]              Discharge Date:   [**2197-8-27**]
 
@@ -25034,20 +25045,26 @@ renal cyst/mass that may be malignant.*******
 
                              [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) **] MD [**MD Number(2) 2937**]
 
-Completed by:[**2107-2-12**]","1) Pulmonary Embolism with history of DVT and IVC filter placement in [**2106-7-8**]
-2) Community Acquired Pneumonia
-3) History of GI Bleed (extensive) in [**2106-7-8**] when anticoagulated
-4) Abdominal wall hematoma, with acute blood loss anemia requiring 10 units PRBCs when anticoagulated for current pulmonary embolism
-5) Noscomial Pneumonia with GNR in sputum
-6) Coagulopathy
-7) Noscomial UTI with E. coli - quinolone resistant
-8) Vagnitis, attributed to broad spectrum antibiotic usage
-9) otitis externa
-10) tachycardia
-11) diarrhea
-12) incidentally noted left renal cyst/mass NOS
-13) Coagulase negative staphylococcal bacteremia
-14) Rectus sheath hematoma in setting of anticoagulation"
+Completed by:[**2107-2-12**]","Pulmonary Embolism with history of DVT and IVC filter placement in [**2106-7-8**]
+Community Acquired Pneumonia
+History of GI Bleed (extensive) in [**2106-7-8**] when anticoagulated
+Abdominal wall hematoma, with acute blood loss anemia requiring 10 units PRBCs when anticoagulated for current pulmonary embolism
+Noscomial Pneumonia with GNR in sputum
+Coagulopathy
+Noscomial UTI with E. coli - quinolone resistant
+Vagnitis, attributed to broad spectrum antibiotic usage
+otitis externa
+tachycardia
+diarrhea
+incidentally noted left renal cyst/mass NOS
+Coagulase negative staphylococcal bacteremia
+Rectus sheath hematoma in setting of anticoagulation
+chronic orthostatic hypotension
+recurrent otitis externa
+ulcerative colitis in remission
+chronic obstructive pulmonary disease
+depression
+h/o schizoaffective disorder"
 112747,"Admission Date:  [**2142-5-2**]              Discharge Date:   [**2142-5-6**]
 
 Date of Birth:  [**2075-12-7**]             Sex:   M
@@ -25354,18 +25371,13 @@ person during off hours**
 
 
 
-Completed by:[**2142-5-8**]","- Aortic Stenosis
-- Myocardial infarction
-- Coronary Disease
-- Dyslipidemia
-- Hypertension
-- History of postop PAF
-- Hypothyroid related to amiodarone
-Past Surgical History
-- Emergent coronary bypass grafting x5, on intra-aortic balloon
-pump with endoscopic left greater saphenous vein harvesting and
-endoscopic right greater saphenous vein harvesting on [**2137-9-19**]
-- Re-Exploration for bleeding following CABG"
+Completed by:[**2142-5-8**]","Aortic Stenosis
+Myocardial infarction
+Coronary Disease
+Dyslipidemia
+Hypertension
+History of postop PAF
+Hypothyroid related to amiodarone"
 108411,"Admission Date:  [**2198-11-11**]              Discharge Date:   [**2198-11-16**]
 
 
@@ -25931,7 +25943,7 @@ expired
 
 
 
-",expired
+","The document provided does not contain a list of discharge diagnoses in the usual format. Instead, the ""Discharge Diagnosis"" section only contains the word ""expired,"" indicating the patient's status at discharge but not providing specific diagnoses. Therefore, there are no diagnoses to extract from the ""Discharge Diagnosis"" section."
 117871,"Admission Date:  [**2119-7-14**]              Discharge Date:   [**2119-7-20**]
 
 Date of Birth:  [**2059-5-24**]             Sex:   M
@@ -26908,9 +26920,8 @@ Date/Time:[**2183-2-14**] 10:15
 
                              [**Name6 (MD) **] [**Name8 (MD) **] MD [**MD Number(2) 5913**]
 
-","The discharge diagnosis includes:
-- complex ovarian cysts
-- laceration to common iliac vein and artery"
+","complex ovarian cysts
+laceration to common iliac vein and artery"
 102053,"Name:  [**Known lastname 6963**], [**Known firstname **]                         Unit No:  [**Numeric Identifier 6964**]
 
 Admission Date:  [**2146-1-4**]     Discharge Date: [**2146-1-16**]
@@ -26945,7 +26956,7 @@ MEDQUIST36
 D:  [**2146-1-16**]  08:34
 T:  [**2146-1-17**]  11:45
 JOB#:  [**Job Number 6965**]
-",The 'Discharge Diagnosis' section is not present in the provided document.
+","The document provided does not contain a ""Discharge Diagnosis"" section or any explicit list of diagnoses. Therefore, I am unable to extract any diagnoses from the text as requested. If there is another document or section that contains the ""Discharge Diagnosis,"" please provide it so that I can assist you further."
 105027,"Admission Date:  [**2125-9-18**]              Discharge Date:   [**2125-10-8**]
 
 Date of Birth:  [**2088-6-30**]             Sex:   F
@@ -28168,7 +28179,7 @@ thrombocytopenia
 acute diastolic heart failure
 ascites
 hypokalemia
-latent TB"
+latent TB?"
 110037,"Admission Date:  [**2169-4-2**]              Discharge Date:   [**2169-4-8**]
 
 Date of Birth:  [**2091-3-26**]             Sex:   F
@@ -28403,7 +28414,9 @@ Followup Instructions:
 Deceased
 
 
-","Left intraparenchymal hemorrhage, intraventricular hemorrhage, and right subarachnoid hemorrhage
+","Left intraparenchymal hemorrhage
+intraventricular hemorrhage
+right subarachnoid hemorrhage
 Aspiration Pneumonia
 NSTEMI(+troponin 1.19)"
 102324,"Admission Date:  [**2150-2-16**]              Discharge Date:   [**2150-2-19**]
@@ -28825,15 +28838,15 @@ Followup Instructions:
 
 
 
-","- Fall, with findings of C5-6 retrolistesis
-- Type 2 diabetes, controlled with complications
-- Hypoglycemia
-- Hypothermia
-- Chronic diastolic heart failure; EF 50%
-- Coronary artery disease; s/p recent BMS to RCA
-- Chronic renal failure, stage III
-- Atrial fibrillation
-- Anemia"
+","Fall, with findings of C5-6 retrolistesis
+Type 2 diabetes, controlled with complications
+Hypoglycemia
+Hypothermia
+Chronic diastolic heart failure; EF 50%
+Coronary artery disease; s/p recent BMS to RCA
+Chronic renal failure, stage III
+Atrial fibrillation
+Anemia"
 112628,"Admission Date:  [**2167-11-27**]              Discharge Date:   [**2167-12-8**]
 
 Date of Birth:  [**2115-10-30**]             Sex:   M
@@ -30123,10 +30136,7 @@ Campus: EAST     Best Parking: [**Hospital Ward Name 23**] Garage
 
 
 
-","Primary:
-Angioedema
-
-Secondary:
+","Angioedema
 asthma
 HTN"
 116604,"Admission Date:  [**2161-11-22**]              Discharge Date:   [**2161-11-27**]
@@ -30456,13 +30466,12 @@ anemia and weight loss.
 
                              [**First Name5 (NamePattern1) **] [**Last Name (NamePattern1) **] MD [**MD Number(2) 617**]
 
-","- acute delirium, likely secondary to narcotics withdrawal vs.
-reaction to ciprofloxacin, resolved
-- iron deficiency anemia
-- depression
-- chronic pain
-- osteoporosis
-- migraine headache"
+","acute delirium, likely secondary to narcotics withdrawal vs. reaction to ciprofloxacin, resolved
+iron deficiency anemia
+depression
+chronic pain
+osteoporosis
+migraine headache"
 108809,"Admission Date:  [**2112-10-6**]              Discharge Date:   [**2112-10-14**]
 
 Date of Birth:  [**2055-4-7**]             Sex:   F
@@ -31391,7 +31400,7 @@ Facility:
 
                              [**Name6 (MD) 1706**] [**Name8 (MD) 1707**] MD [**MD Number(1) 3468**]
 
-Completed by:[**2160-6-2**]",The discharge diagnosis section was not found in the provided document.
+Completed by:[**2160-6-2**]","The document provided does not contain a ""Discharge Diagnosis"" section or any explicit list of diagnoses. Therefore, I am unable to extract any diagnoses from the text as requested. If there is additional information or another document that includes the ""Discharge Diagnosis"" section, please provide it so that I can assist you further."
 184696,"Admission Date:  [**2131-4-12**]              Discharge Date:   [**2131-4-27**]
 
 Date of Birth:  [**2093-2-10**]             Sex:   M
@@ -32092,9 +32101,7 @@ Provider: [**Last Name (NamePattern4) **]. [**First Name (STitle) **] BLOOD Phon
 
 
 
-Completed by:[**2112-12-12**]","Discharge Diagnosis:
-Upper GI bleed
-ulcer
+Completed by:[**2112-12-12**]","Upper GI bleed; ulcer
 HIV
 Anemia from acute blood loss"
 106384,"Admission Date:  [**2151-1-25**]              Discharge Date:   [**2151-1-27**]
@@ -32779,12 +32786,12 @@ Date/Time:[**2185-12-7**] 8:40
 
 
 
-Completed by:[**2185-11-24**]","- Vancomycin Resistant Enterococcus Bacteremia
-- Encephalopathy
-- Traumatic Skin Rash
-- Hyponatremia
-- Hepatitis C Cirrhosis
-- Chronic Kidney Disease"
+Completed by:[**2185-11-24**]","Vancomycin Resistant Enterococcus Bacteremia
+Encephalopathy
+Traumatic Skin Rash
+Hyponatremia
+Hepatitis C Cirrhosis
+Chronic Kidney Disease"
 120301,"Admission Date:  [**2108-8-7**]              Discharge Date:   [**2108-10-15**]
 
 Date of Birth:  [**2035-11-18**]             Sex:   M
@@ -33425,25 +33432,26 @@ appointment.   If you have not heard or have questions, please
 call ([**Telephone/Fax (1) 45687**].
 
 
-","Hypopharyngeal squamous cell carcinoma (throat cancer)
-Cycle #1 TCF (docetaxel, cisplatin, 5FU) chemotherapy
+","Hypopharyngeal squamous cell carcinoma
+Cycle #1 TCF chemotherapy
 Aspiration
-Hypertension (high blood pressure)
-Thrombocytopenia (low platelet count)
-Hypokalemia (low potassium level)
+Hypertension
+Thrombocytopenia
+Hypokalemia
 Diarrhea
 Arrhythmia
 Mucositis
 Pneumonia
-Neutropenia (low white blood count)
-Anemia (low red blood cell count)
+Neutropenia
+Anemia
 Diabetes
 Stroke
 Acute kidney failure
-DVT (deep vein thrombosis, blood clot in right leg)
-Patent foramen ovale (hole in heart)
+DVT
+Patent foramen ovale
 Hemorrhage from tracheostomy
-Zoster (shingles)
+Zoster
+Arrhythmia
 Generalized weakness
 Radiation therapy and cetuximab chemotherapy"
 107047,"Admission Date:  [**2134-10-9**]              Discharge Date:   [**2134-11-19**]
@@ -33836,8 +33844,7 @@ Campus: EAST     Best Parking: Main Garage
 
 
 
-Completed by:[**2134-11-19**]","Discharge Diagnosis:
-Burkitt's lymphoma"
+Completed by:[**2134-11-19**]",Burkitt's lymphoma
 120253,"Admission Date:  [**2174-9-22**]              Discharge Date:   [**2174-9-27**]
 
 Date of Birth:  [**2126-8-23**]             Sex:   M
@@ -34421,9 +34428,10 @@ Phone number: [**Telephone/Fax (1) 463**]
 
                              [**Name6 (MD) 251**] [**Name8 (MD) **] MD [**MD Number(1) 910**]
 
-Completed by:[**2121-7-28**]","PRIMARY: hematemesis
-SECONDARY: Depression/ SI, paranoid schizophrenia, seizure
-disorder"
+Completed by:[**2121-7-28**]","hematemesis
+Depression/ SI
+paranoid schizophrenia
+seizure disorder"
 114680,"Admission Date:  [**2121-9-30**]              Discharge Date:   [**2121-9-30**]
 
 Date of Birth:  [**2061-5-27**]             Sex:   M
@@ -34904,10 +34912,16 @@ Results to phone [**Telephone/Fax (1) 75761**] (confirmed with [**Doctor First N
 
 
 
-Completed by:[**2126-10-25**]","Aortic stenosis
-s/p Redo sternotomy
-Aortic Valve Replacement
-postop atrial fibrillation"
+Completed by:[**2126-10-25**]","Aortic stenosis s/p Redo sternotomy, Aortic Valve Replacement
+postop atrial fibrillation
+Dyslipidemia
+Hypertension
+Left bundle branch block
+Depression
+Anxiety
+Osteoarthritis of hands, shoulders and knees
+s/p Left carotid endarterectomy
+s/p Coronary Artery Bypass Graft x 2(LIMA to LAD, SVG to D1)"
 101136,"Admission Date:  [**2163-2-28**]              Discharge Date:   [**2163-3-7**]
 
 Date of Birth:  [**2086-12-13**]             Sex:   F
@@ -35179,10 +35193,7 @@ N/A
 
                              [**Initials (NamePattern4) **] [**Last Name (NamePattern4) **] [**Name8 (MD) **] MD [**MD Number(1) 292**]
 
-","Stage I adenocarcinoma of the lung, 1.5 cm in [**2154**] (stage IA)
-Multiple pulmonary ground glass opacities with indolent growth pattern (unclear etiology, thought to be possible adenocarcinomas) since [**2154**]
-Stage I (T1c, N0, M0), ER/PR positive, HER-2/neu positive breast cancer of the left breast in [**2148**]
-Possible early stage squamous cell carcinoma of the lung diagnosed on [**2163-2-11**] (growing right lower lobe lesion)"
+","The document provided does not contain a list of discharge diagnoses in the ""Discharge Diagnosis"" section. It simply states ""N/A"" which indicates that no specific diagnoses are listed there. Therefore, there are no diagnoses to extract from that section."
 108754,"Admission Date:  [**2158-4-27**]              Discharge Date:   [**2158-5-8**]
 
 Date of Birth:  [**2085-8-9**]             Sex:   M
@@ -35493,9 +35504,9 @@ person during off hours**
                              [**Name6 (MD) **] [**Name8 (MD) **] MD [**MD Number(2) 173**]
 
 Completed by:[**2158-5-8**]","coronary artery disease
-s/p MI '[**41**]
-s/p PTCA/stent '[**41**]
-s/p PCI [**2155**]
+s/p MI
+s/p PTCA/stent
+s/p PCI
 hypertension
 diabetes
 chronic kidney disease
@@ -35786,10 +35797,15 @@ Primary Oncology (Dr. [**Last Name (STitle) **] - Monday, [**7-26**] at 2:00pm
 
                              [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) **] MD [**MD Number(2) 3621**]
 
-Completed by:[**2145-7-25**]","1) Hyponatremia
-2) Hypothyroidism
-3) Non-small cell lung carcinoma
-4) GERD"
+Completed by:[**2145-7-25**]","Hyponatremia
+Hypothyroidism
+Non-small cell lung carcinoma
+GERD
+DM2
+Hypertension
+Hyperlipidemia
+Diverticulosis
+Mesenteric ischemia"
 123771,"Admission Date:  [**2191-6-24**]              Discharge Date:   [**2191-7-13**]
 
 Date of Birth:  [**2107-6-14**]             Sex:   M
@@ -36372,17 +36388,7 @@ Northeast Clinical Services
 
                              [**First Name11 (Name Pattern1) **] [**Last Name (NamePattern4) 2000**] MD [**MD Number(2) 3151**]
 
-Completed by:[**2129-12-29**]","The patient was found to have the following diagnoses:
-- Severe nausea and vomiting
-- Hypotension
-- Hyperglycemia
-- Altered mental status
-- Increased leukocytosis
-- Hyponatremia
-- Hyperkalemia
-- Elevated creatinine
-- LLL consolidations
-- Rim enhancing aortocaval fluid collection near the liver hilum"
+Completed by:[**2129-12-29**]","The provided text does not contain a ""Discharge Diagnosis"" section with specific diagnoses listed. Therefore, I am unable to extract any diagnoses as requested. If there is additional information or another document that includes the ""Discharge Diagnosis"" section, please provide it so that I can assist you further."
 151688,"Admission Date:  [**2100-9-20**]              Discharge Date:   [**2100-9-28**]
 
 Date of Birth:  [**2022-11-12**]             Sex:   F
@@ -37193,8 +37199,7 @@ Call ([**Telephone/Fax (1) 5323**] to schedule an appointment.
 
 Completed by:[**2185-11-30**]","Acute on Chronic Renal Failure
 Lower GI Bleed
-Ischemic Cecum
-Diverticulosis
+Ischemic Cecum, Diverticulosis
 Wound Dehiscence
 Bowel Necrosis due to Kayexalate Crystals
 Respiratory Distress requiring intubation
@@ -37490,7 +37495,6 @@ rosacea
 squamous cell carcinoma
 renal cysts
 Ascending Aortic Aneurysm Coronary Artery Disease, Prior MI [**2151**]
-and [**2155**], s/p PCI/stenting to LAD [**2151**], [**2157**] and [**2158**]
 Hypertension
 Hyperlipidemia
 Herniated disc, lumbar
@@ -37499,11 +37503,6 @@ Mild Restrictive Lung Disease(on PFT's)
 Incidental finding of small PE and pulmonary nodule
 Left Hip Bursitis
 Hard of Hearing
-Past Surgical History:
-s/p Right rotator cuff repair [**2153**]
-s/p Left rotator cuff repair [**2155**]
-s/p Umbilical hernia repair with mesh [**7-9**]
-s/p Adrenal cyst ablation [**2157**]
 Post operative atrial fibrillation"
 113840,"Admission Date:  [**2188-9-7**]              Discharge Date:   [**2188-9-9**]
 
@@ -37800,8 +37799,9 @@ Campus: EAST     Best Parking: [**Hospital Ward Name 23**] Garage
 
 
 
-","- Gastrointestinal Bleed
-- Supratherapeutic INR"
+","Gastrointestinal Bleed
+Supratherapeutic INR
+Atrial Fibrillation"
 109566,"Admission Date:  [**2148-7-1**]              Discharge Date:   [**2148-7-9**]
 
 Date of Birth:  [**2074-1-3**]             Sex:   M
@@ -38260,13 +38260,7 @@ Facility:
 
                              [**First Name11 (Name Pattern1) **] [**Last Name (NamePattern4) 165**] MD [**MD Number(1) 166**]
 
-Completed by:[**2181-6-19**]","- Weakness
-- Angioedema
-- Low grade fever
-- Diarrhea
-- Normocytic anemia
-- Insulin resistance
-- Aspiration"
+Completed by:[**2181-6-19**]","The document provided does not contain a ""Discharge Diagnosis"" section with specific diagnoses listed. Therefore, I am unable to extract any diagnoses as requested. If you have another document that includes the ""Discharge Diagnosis"" section, please provide it, and I will assist you accordingly."
 117745,"Admission Date:  [**2192-7-29**]              Discharge Date:   [**2192-9-1**]
 
 Date of Birth:  [**2133-5-11**]             Sex:   M
@@ -39372,10 +39366,13 @@ Campus: WEST     Best Parking: [**Hospital Ward Name **] Garage
 
 
 
-","-Hemophagocytic lymphohistiocytosis
--Acute on chronic renal failure
--Liver failure due to drug rxn
--Cytomegalovirus"
+","Hemophagocytic lymphohistiocytosis
+Acute on chronic renal failure
+Liver failure due to drug rxn
+Cytomegalovirus
+Asthma
+Allergies
+Hypercholesterolemia"
 144301,"Admission Date:  [**2147-9-23**]              Discharge Date:   [**2147-9-28**]
 
 Date of Birth:  [**2089-10-3**]             Sex:   F
@@ -39587,7 +39584,7 @@ Dr. [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) 724**], neuroo
 
 ","seizures
 metastatic lung cancer
-small subdural and subarachoid hemorrhages"
+small subdural and subarachnoid hemorrhages"
 102296,"Admission Date:  [**2172-9-28**]              Discharge Date:   [**2172-9-30**]
 
 
@@ -39809,14 +39806,13 @@ Date/Time:[**2172-10-5**] 1:30pm
 
 
 
-Completed by:[**2172-10-1**]","-Acute-on-chronic anemia with guaiac + stools and no further GI
-work-up secondary to family's desire for minimal intervention
--Hypernatremia secondary to inability to take adequate water, resolved with IV fluids
--s/p left MCA stroke with persistent hemiparesis and aphasia
--Left heel ulcer
--Alzheimer's dementia
--Hypertension
--History of glaucoma & cataracts"
+Completed by:[**2172-10-1**]","Acute-on-chronic anemia with guaiac + stools and no further GI work-up secondary to family's desire for minimal intervention
+Hypernatremia secondary to inability to take adequate water, resolved with IV fluids
+s/p left MCA stroke with persistent hemiparesis and aphasia
+Left heel ulcer
+Alzheimer's dementia
+Hypertension
+History of glaucoma & cataracts"
 102136,"Admission Date:  [**2200-7-12**]              Discharge Date:   [**2200-7-15**]
 
 Date of Birth:  [**2151-4-20**]             Sex:   M
@@ -40826,7 +40822,11 @@ JOB#:  [**Job Number 51662**]
 
 
 
-",The discharge diagnosis section was not found.
+","The document provided does not contain a specific ""Discharge Diagnosis"" section with clearly delineated diagnoses. However, based on the content of the document, it appears that the patient was admitted for a right frontal parasagittal lesion which was excised. If this is the diagnosis you are looking for, it would be:
+
+right frontal parasagittal lesion
+
+Please note that without a specific ""Discharge Diagnosis"" section, it is not possible to provide a list of diagnoses as requested. If there is additional information or another document that includes the ""Discharge Diagnosis"" section, please provide it for accurate extraction."
 115432,"Admission Date:  [**2172-9-22**]              Discharge Date:   [**2172-10-13**]
 
 Date of Birth:  [**2093-3-7**]             Sex:   M
@@ -41246,7 +41246,8 @@ Followup Instructions:
 not applicable
 
 
-",expired
+","Discharge Diagnosis:
+expired"
 114004,"Admission Date:  [**2114-2-28**]              Discharge Date:   [**2114-3-2**]
 
 Date of Birth:  [**2046-11-11**]             Sex:   M
@@ -41776,9 +41777,9 @@ urology)
 
                              [**First Name5 (NamePattern1) **] [**Last Name (NamePattern1) **] MD [**MD Number(2) 617**]
 
-Completed by:[**2185-9-17**]","Discharge Diagnosis:
-- Kidney abscess
-- nephrolithiasis"
+Completed by:[**2185-9-17**]","Kidney abscess
+nephrolithiasis
+Asthma"
 100590,"Admission Date:  [**2108-4-16**]              Discharge Date:   [**2108-4-19**]
 
 Date of Birth:  [**2039-3-10**]             Sex:   M
@@ -42154,12 +42155,12 @@ facility.
 
 
 
-","-Altered mental status secondary to excessive narcotics
--Severe chronic obstructive pulmonary disease
--Anxiety
--Hypertension
--Chronic low back pain
--Coronary Artery Disease"
+","Altered mental status secondary to excessive narcotics
+Severe chronic obstructive pulmonary disease
+Anxiety
+Hypertension
+Chronic low back pain
+Coronary Artery Disease"
 118564,"Admission Date:  [**2180-4-6**]     Discharge Date:  [**2180-4-20**]
 
 Date of Birth:   [**2152-9-9**]     Sex:  M
@@ -42355,7 +42356,9 @@ MEDQUIST36
 D:  [**2180-4-21**]  02:24
 T:  [**2180-4-21**]  02:43
 JOB#:  [**Job Number 14476**]
-",The discharge diagnosis section was not found in the provided text.
+","The document provided does not contain a clearly labeled ""Discharge Diagnosis"" section. However, based on the content and typical structure of medical discharge summaries, the closest section that may contain diagnoses is the ""COURSE OF HOSPITAL STAY"" and the summary of the patient's condition throughout the document. Since the task is to extract diagnoses from the ""Discharge Diagnosis"" section specifically, and such a section is not explicitly present, I am unable to fulfill the request as instructed.
+
+If you would like me to infer potential diagnoses from the information provided, please let me know, and I can provide a list based on the medical information given throughout the document. Otherwise, please provide a document with a clearly labeled ""Discharge Diagnosis"" section for accurate extraction."
 101092,"Admission Date:  [**2185-6-24**]              Discharge Date:   [**2185-7-21**]
 
 Date of Birth:  [**2107-8-9**]             Sex:   M
@@ -44706,13 +44709,13 @@ Date/Time:[**2183-3-13**] 10:45
 
 
 
-","- Rheumatoid arthritis
-- Lumbar spinal stenosis
-- Cervical and lumbar epidural abscesses
-- Bacteremia
-- Fractured left ankle
-- Pulmonary empyema
-- Septic knee joints"
+","Rheumatoid arthritis
+Lumbar spinal stenosis
+Cervical and lumbar epidural abscesses
+Bacteremia
+Fractured left ankle
+Pulmonary empyema
+Septic knee joints"
 100229,"Admission Date:  [**2114-12-24**]              Discharge Date:   [**2115-1-6**]
 
 Date of Birth:  [**2070-12-17**]             Sex:   M
@@ -45201,9 +45204,20 @@ Date/Time:[**2115-4-16**] 4:00
 
 
 
-","1. Sepsis
-2. Shock liver
-3. Heparin-induced thrombocytopenia"
+","Sepsis
+Shock liver
+Heparin-induced thrombocytopenia
+End-stage renal disease on hemodialysis
+Coronary artery disease status post myocardial infarction and stent [**2105**]
+Congestive heart failure with ejection fraction 10%, status post right sided placement of ICD
+Cerebrovascular accident [**2105**] without residual complications or deficits
+Atrial fibrillation
+Hypertension
+Basal cell and squamous cell skin cancers status post excision and radiation to lower face
+Gout
+Erectile dysfunction
+Right lung pneumonia with pleurisy
+Hepatitis C, genotype 2"
 177721,"Admission Date:  [**2181-6-17**]              Discharge Date:   [**2181-6-21**]
 
 Date of Birth:  [**2118-3-10**]             Sex:   F
@@ -45667,7 +45681,8 @@ Campus: WEST     Best Parking: [**Street Address(1) 592**] Garage
 Completed by:[**2181-6-23**]","Eschirichia coli bactermeia
 Methicillin sensitive staphylococcus aureus urinary tract infection
 Anemia
-Thrombocytopenia"
+Thrombocytopenia
+Stage IIIC papillary serous ovarian carcinoma"
 101215,"Admission Date:  [**2142-8-14**]              Discharge Date:   [**2142-8-29**]
 
 Date of Birth:  [**2095-1-22**]             Sex:   M
@@ -45844,8 +45859,7 @@ Please follow weekly LFTs/BUN/Creatinine while on antibiotics
 
                              [**Name6 (MD) **] [**Name8 (MD) **] MD [**MD Number(2) 173**]
 
-Completed by:[**2142-8-29**]","Type A Aortic Dissection
-Aortic Insufficiency - s/p Repair
+Completed by:[**2142-8-29**]","Type A Aortic Dissection, Aortic Insufficiency - s/p Repair
 Postoperative Bleeding/Pericardial Effusion - s/p Re-exploration
 Postoperative Toxic-Metabolic Encephalopathy
 Hypertension
@@ -46043,11 +46057,11 @@ MEDQUIST36
 D:  [**2152-3-3**]  15:32
 T:  [**2152-3-3**]  16:14
 JOB#:  [**Job Number 37855**]
-","1. Status post EP ablation for atrial tachycardia
-2. Clostridium difficile in stool
-3. Methicillin-resistant Staphylococcus aureus, urinary tract infection
-4. Status post surgery for perforated duodenal ulcer
-5. Status post pneumothorax"
+","Status post EP ablation for atrial tachycardia
+Clostridium difficile in stool
+Methicillin-resistant Staphylococcus aureus, urinary tract infection
+Status post surgery for perforated duodenal ulcer
+Status post pneumothorax"
 115464,"Admission Date:  [**2192-9-24**]              Discharge Date:   [**2192-10-5**]
 
 Date of Birth:  [**2148-6-18**]             Sex:   M
@@ -46397,7 +46411,8 @@ s/p tracheoplasty
 complicated with necrosis of the posterior membranous wall
 s/p rigid bronch
 T-tube removal with trach cannulation
-s/p Y stent placement [**4-25**] and #6 fenestrated cuffless trach"
+s/p Y stent placement [**4-25**]
+#6 fenestrated cuffless trach"
 111323,"Admission Date:  [**2169-2-16**]              Discharge Date:   [**2169-3-8**]
 
 Date of Birth:  [**2091-6-16**]             Sex:   F
@@ -46812,9 +46827,9 @@ after discharge from the hospital.
 
 
 
-","# Hypercarbic respiratory failure
-# Health care associated pneumonia
-# Chronic obstructive pulmonary disease, exacerbation"
+","Hypercarbic respiratory failure
+Health care associated pneumonia
+Chronic obstructive pulmonary disease, exacerbation"
 185800,"Admission Date:  [**2102-4-12**]              Discharge Date:   [**2102-4-14**]
 
 Date of Birth:  [**2038-12-19**]             Sex:   F
@@ -47221,8 +47236,7 @@ hear from the clinic within a week, please call [**Telephone/Fax (1) 673**].***
 
                              [**First Name8 (NamePattern2) **] [**Name8 (MD) **] MD [**MD Number(2) 4407**]
 
-Completed by:[**2102-4-17**]","Discharge Diagnosis:
-hypotension and bradycardia secondary to anesthesia
+Completed by:[**2102-4-17**]","hypotension and bradycardia secondary to anesthesia
 Hepatocellular carcinoma
 hepatitis C"
 175593,"Admission Date:  [**2122-6-19**]              Discharge Date:   [**2122-6-24**]
@@ -48132,7 +48146,9 @@ Capillary Leak Syndrome secondary to High dose IL-2
 Acute Renal Failure
 Fever
 Hypernatremia
-Elevated liver function tests secondary to high dose IL-2"
+Elevated liver function tests secondary to high dose IL-2
+Hypertension
+Gout"
 177331,"Admission Date:  [**2112-10-31**]              Discharge Date:   [**2112-11-13**]
 
 
@@ -48997,7 +49013,9 @@ Date/Time:[**2187-12-27**] 12:20
 
 
 ","MSSA epidural abscesses
-MSSA meningitis and vertebral osteomyelitis and discitis
+MSSA meningitis
+vertebral osteomyelitis
+discitis
 MSSA UTI
 MSSA bacteremia
 MSSA diffuse skin pustules
@@ -49293,8 +49311,13 @@ Future appts you have scheduled:
 
 
 
-","1) Gastrointestinal bleeding
-2) Arteriovenous malformation of cecum"
+","Gastrointestinal bleeding
+Arteriovenous malformation of cecum
+Coronary Artery Disease status post 1 vessel Coronary Artery Bypass Graft
+Valvular disease: status post mechanical Mechanical valve replacement
+History of supraventricular tachycardia
+Transient ischemic attacks
+hypertension"
 174143,"Admission Date: [**2128-4-6**]        Discharge Date: [**2128-4-19**]
 
 Date of Birth:  [**2089-3-6**]        Sex:  F
@@ -49470,7 +49493,14 @@ MEDQUIST36
 D:  [**2128-9-12**] 13:07:37
 T:  [**2128-9-13**] 11:42:33
 Job#:  [**Job Number 22987**]
-",The discharge diagnosis section was not found.
+","Congestive heart failure
+Atrial flutter
+Renal
+Elevated LFTs
+Urinary tract infection
+Insulin-dependent diabetes mellitus
+Depression
+[**Location (un) 2174**] ataxia"
 102365,"Admission Date:  [**2137-10-7**]              Discharge Date:   [**2137-10-31**]
 
 Date of Birth:  [**2061-8-17**]             Sex:   F
@@ -50082,10 +50112,10 @@ Campus: WEST     Best Parking: [**Street Address(1) 592**] Garage
 
 
 
-","- GI bleed secondary to colonic lesion
-- Health care associated pneumonia
-- Acute on chronic kidney insufficiency
-- COPD"
+","GI bleed secondary to colonic lesion
+Health care associated pneumonia
+Acute on chronic kidney insufficiency
+COPD"
 143562,"Admission Date:  [**2150-6-25**]              Discharge Date:   [**2150-7-29**]
 
 Date of Birth:  [**2096-5-5**]             Sex:   M
@@ -50917,11 +50947,11 @@ Date/Time:[**2180-4-12**] 2:30
 
 
 
-","1. Hypotensive episode
-2. high-degree AV nodal disease s/p permanent pacemaker
-3. severe Aortic Stenosis (valve area 0.8)
-4. hypertension
-5. hyperlipidemia"
+","Hypotensive episode
+high-degree AV nodal disease s/p permanent pacemaker
+severe Aortic Stenosis (valve area 0.8)
+hypertension
+hyperlipidemia"
 191162,"Admission Date:  [**2121-9-1**]              Discharge Date:   [**2121-9-4**]
 
 Date of Birth:  [**2048-1-3**]             Sex:   M
@@ -51693,11 +51723,11 @@ whom you would like to establish your primary care follow-up, on
 
 
 
-Completed by:[**2132-10-21**]","1. Spontaneous Left-sided pneumothorax
-2. Heparin-induced antibody pulmonary embolism
-3. Guillain-[**Location (un) **] syndrome
-4. Ventilator-associated pneumonia
-5. Anxiety"
+Completed by:[**2132-10-21**]","Spontaneous Left-sided pneumothorax
+Heparin-induced antibody pulmonary embolism
+Guillain-Barre syndrome
+Ventilator-associated pneumonia
+Anxiety"
 103293,"Admission Date:  [**2174-3-18**]              Discharge Date:   [**2174-4-14**]
 
 Date of Birth:  [**2095-12-29**]             Sex:   M
@@ -52009,21 +52039,7 @@ Deceased
 
                              [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) 2437**] MD [**MD Number(1) 2438**]
 
-","Acute promyelocytic leukemia
-Tumor lysis syndrome
-Pulmonary edema
-Delirium
-DIC
-Toxic metabolic encephalopathy
-Acute renal failure
-Abdominal compartment syndrome
-Atrial fibrillation/flutter
-Bilateral subdural hematomas
-Right basal ganglia infarct
-Positive blood cultures
-Pericardial fat pad
-Alcoholism/cirrhosis
-Elevated glucose"
+","The document provided does not contain a specific ""Discharge Diagnosis"" section with listed diagnoses, other than the word ""Deceased"" under the Discharge Diagnosis heading. Since there are no medical conditions or diagnoses listed in that section, I am unable to extract any diagnoses. If you have another document or section that contains the discharge diagnoses, please provide it, and I will assist you accordingly."
 105254,"Admission Date:  [**2151-3-12**]              Discharge Date:   [**2151-3-16**]
 
 Date of Birth:  [**2112-4-22**]             Sex:   M
@@ -53175,8 +53191,8 @@ Campus: WEST     Best Parking: [**Hospital Ward Name **] Garage
 
 Completed by:[**2189-1-7**]","Hypoxia
 Acute congestive heart failure
-PCP [**Name Initial (PRE) 1064**]
-HIV/AIDS
+PCP
+HIV
 Diarrhea likely secondary to history of Crohns
 Pancreatitis"
 106423,"Admission Date:  [**2178-6-29**]              Discharge Date:   [**2178-6-30**]
@@ -53996,8 +54012,7 @@ taking Motrin.
 
 
 
-","Diabetic ketoacidosis
-IDDM with features of insulin resistance"
+","Diabetic ketoacidosis, IDDM with features of insulin resistance"
 110499,"Admission Date:  [**2126-12-4**]              Discharge Date:   [**2127-1-12**]
 
 Date of Birth:  [**2080-3-28**]             Sex:   F
@@ -55160,8 +55175,7 @@ EGD in 1 month with Dr. [**Last Name (STitle) **].   The number to call is
 
 
 
-Completed by:[**2172-8-31**]","Discharge Diagnosis:
-Jejunal Ulcer"
+Completed by:[**2172-8-31**]",Jejunal Ulcer
 128652,"Admission Date:  [**2108-8-22**]     Discharge Date:  [**2108-8-30**]
 
 Date of Birth:   [**2036-5-17**]     Sex:  M
@@ -55324,7 +55338,7 @@ JOB#:  [**Job Number 33975**]
 
 
 
-",The discharge diagnosis section was not found in the provided text.
+","I'm sorry, but the provided text does not contain a specific ""Discharge Diagnosis"" section to extract diagnoses from. The text includes the patient's history, treatment, and course in the hospital, but it does not explicitly list discharge diagnoses in a separate section. If you have another document that includes a ""Discharge Diagnosis"" section, please provide it, and I will be happy to assist you with extracting the diagnoses."
 108073,"Admission Date:  [**2193-3-16**]              Discharge Date:   [**2193-3-22**]
 
 Date of Birth:  [**2141-4-13**]             Sex:   M
@@ -55696,7 +55710,7 @@ Radius
 
                              [**Name6 (MD) **] [**Last Name (NamePattern4) 424**] MD [**MD Number(1) 425**]
 
-Completed by:[**2122-2-5**]",The 'Discharge Diagnosis' section was not found in the provided document.
+Completed by:[**2122-2-5**]",The document provided does not contain a 'Discharge Diagnosis' section or any listed diagnoses. Please provide the section of the document that includes the 'Discharge Diagnosis' for me to extract the information as requested.
 100035,"Admission Date:  [**2115-2-22**]              Discharge Date:   [**2115-3-19**]
 
 Date of Birth:  [**2078-8-9**]             Sex:   M
@@ -56784,13 +56798,12 @@ Campus: EAST Best Parking: [**Hospital Ward Name 23**] Garage
 
 
 
-","Discharge Diagnosis:
-- Congestive Heart Failure
-- Hospital Acquired Pneumonia
-- Anemia
-- Atrial Fibrillation
-- Herpes Zoster
-- Hyperlipidemia"
+","Congestive Heart Failure
+Hospital Acquired Pneumonia
+Anemia
+Atrial Fibrillation
+Herpes Zoster
+Hyperlipidemia"
 104682,"Admission Date:  [**2193-9-14**]              Discharge Date:   [**2193-10-2**]
 
 Date of Birth:  [**2131-3-13**]             Sex:   M
@@ -57462,12 +57475,12 @@ resolved.
 
                              [**First Name8 (NamePattern2) 251**] [**Name8 (MD) **] MD [**MD Number(1) 3282**]
 
-","- Non small cell lung cancer
-- Post-obstructive pneumonia
-- Sepsis
-- Diabetes mellitus type 2
-- Hypertension
-- Hyperlipidemia"
+","Non small cell lung cancer
+Post-obstructive pneumonia
+Sepsis
+Diabetes mellitus type 2
+Hypertension
+Hyperlipidemia"
 187736,"Admission Date:  [**2181-5-13**]              Discharge Date:   [**2181-5-17**]
 
 Date of Birth:  [**2100-1-5**]             Sex:   M
@@ -58310,7 +58323,7 @@ Peripheral arterial disease
 Esophageal reflux
 Gastric ulcer related to NSAIDS
 Hypothyroidism
-Atrial fibrillation (on coumadin)
+Atrial fibrillation
 Shingles
 Depression
 Peripheral vascular disease"
@@ -59082,11 +59095,11 @@ Campus: WEST     Best Parking: [**Street Address(1) 592**] Garage
 
                              [**Name6 (MD) **] [**Name8 (MD) **] MD [**MD Number(2) 3922**]
 
-Completed by:[**2174-5-26**]","- Abdominal Pain
-- Acute on chronic renal failure
-- Systolic Heart failure
-- ALL
-- History of embolic stroke"
+Completed by:[**2174-5-26**]","Abdominal Pain
+Acute on chronic renal failure
+Systolic Heart failure
+ALL
+History of embolic stroke"
 101372,"Admission Date:  [**2130-10-2**]              Discharge Date:   [**2130-10-4**]
 
 Date of Birth:  [**2085-9-4**]             Sex:   F
@@ -59991,15 +60004,21 @@ Appt: Tomorrow, [**5-14**] at 1:00pm.
 
 
 
-","PRIMARY DIAGNOSES:
-1. Supratherapeutic INR, corrected
-2. Lower gastrointestinal bleeding, stopped
-3. Atrial fibrillation
-4. Anemia from acute blood loss
-5. Acute kidney injury, resolved
-6. Thyroid nodule
-7. Breast nodule
-8. Gait instability"
+","Supratherapeutic INR, corrected
+Lower gastrointestinal bleeding, stopped
+Atrial fibrillation
+Anemia from acute blood loss
+Acute kidney injury, resolved
+Thyroid nodule
+Breast nodule
+Gait instability
+Hypertension
+Hyperlipidemia
+Angioedema
+History of left caudate infarct
+Osteoporosis
+Osteoarthritis s/p right hip replacement
+Eczema"
 103315,"Admission Date:  [**2180-9-9**]              Discharge Date:   [**2180-10-13**]
 
 Date of Birth:  [**2148-11-12**]             Sex:   F
@@ -60451,8 +60470,7 @@ Date/Time:[**2180-10-27**] 2:50
 
 
 
-Completed by:[**2180-10-16**]","Allergic reaction likely due to peanuts (passive transfer from
-donor liver)
+Completed by:[**2180-10-16**]","Allergic reaction likely due to peanuts (passive transfer from donor liver)
 history of MRSA bacteremia
 cirrhosis secondary to autoimmune hepatitis status post TIPS
 Hyperglycemia secondary to medications
@@ -60975,13 +60993,17 @@ Followup Instructions:
 None
 
 
-Completed by:[**2103-10-17**]","HTLV-associated adult T-Cell leukemia/lymphoma
-Hypercalcemia
-Renal tubular acidosis
-Acute renal failure
+Completed by:[**2103-10-17**]","HTLV-1 associated Adult T cell leukemia/lymphoma
+hyerpcalcemia
+Mental Status changes
+persistent ATLL
+hypercalcemia
+renal tubular acidosis
+acute renal failure
 C. Diff colitis
 CMV viremia
-Invasive aspergillosis with pulmonary hemorrhage"
+hypoxic respiratory failure
+invasive aspergillosis with pulmonary hemorrhage"
 111298,"Admission Date:  [**2164-10-9**]              Discharge Date:   [**2164-10-15**]
 
 Date of Birth:  [**2138-5-12**]             Sex:   F
@@ -61636,19 +61658,15 @@ You should also be seen by your eye doctor at [**Hospital 13128**].
 
 
 
-","1. Hypothyroidism, primary
-2. Pancytopenia(anemia,leukopenia,thrombocytopenia), with
-dysmorphic blood cells
-3. Bradycardia, thought secondary to hypothyroidism
-4. Hypothermia, thought secondary to hypothyroidism
-5. Constipation, thought secondary to hypothyroidism
-6. Congestive heart failure exacerbation, likely related to
-bradycardia and possible pneumonia
-7. Acute renal failure on top of chronic renal insufficiency,
-thought secondary to overdiuresis
-8. Difficult to control sugars, thought secondary to diabetes
-mellitis plus hypothyroidism
-9. Possible left lower lobe pneumonia, seen on chest X-ray"
+","Hypothyroidism, primary
+Pancytopenia(anemia,leukopenia,thrombocytopenia), with dysmorphic blood cells
+Bradycardia, thought secondary to hypothyroidism
+Hypothermia, thought secondary to hypothyroidism
+Constipation, thought secondary to hypothyroidism
+Congestive heart failure exacerbation, likely related to bradycardia and possible pneumonia
+Acute renal failure on top of chronic renal insufficiency, thought secondary to overdiuresis
+Difficult to control sugars, thought secondary to diabetes mellitis plus hypothyroidism
+Possible left lower lobe pneumonia, seen on chest X-ray"
 116853,"Admission Date:  [**2103-3-15**]              Discharge Date:   [**2103-3-17**]
 
 Date of Birth:  [**2076-6-18**]             Sex:   M
@@ -62054,7 +62072,7 @@ MEDQUIST36
 D:  [**2114-4-10**]  17:05
 T:  [**2114-4-10**]  17:00
 JOB#:  [**Job Number 6069**]
-",The patient remained stable from a medical point of view however the patient remained on the Medicine Service and was followed by the Psychiatry team Consideration for transfer to inpatient psychiatric facility was recommended by the medical team Given that the patient was at risk of elopment a discussion with Psychiatry resulted in discontinuation of the one-to-one security sitter Haldol was discontinued and the patient was deemed ready to be discharged to home with follow up with his primary care physician Per report the patient did elope even though he was medically ready to be discharged
+","The provided text does not contain a ""Discharge Diagnosis"" section. The text appears to be an addendum to a discharge summary, discussing the patient's course and management from a certain date range, but it does not list specific diagnoses. Without the actual ""Discharge Diagnosis"" section, I am unable to extract any diagnoses. Please provide the section containing the diagnoses for further assistance."
 103722,"Admission Date:  [**2181-9-8**]              Discharge Date:   [**2181-9-26**]
 
 Date of Birth:  [**2119-11-6**]             Sex:   M
@@ -63071,15 +63089,15 @@ APPOINTMENTS
 
 
 
-","1. Sepsis
-2. Biliary stenting (ERCP), ?biliary sepsis
-3. Respiratory failure
-4. New onset Atrial fibrillation in setting of illness
-5. NSTEMI in setting of acute illness
-6. Acute renal failure/ATN
-7. Thrombocytopenia
-8. 3 vessel coronary artery disease
-9. CHF with diastolic dysfunction"
+","Sepsis
+Biliary stenting (ERCP), ?biliary sepsis
+Respiratory failure
+New onset Atrial fibrillation in setting of illness
+NSTEMI in setting of acute illness
+Acute renal failure/ATN
+Thrombocytopenia
+3 vessel coronary artery disease
+CHF with diastolic dysfunction"
 115191,"Admission Date:  [**2185-4-20**]              Discharge Date:   [**2185-4-23**]
 
 Date of Birth:  [**2131-3-30**]             Sex:   M
@@ -63497,12 +63515,9 @@ ultrasound.
 
 
 
-Completed by:[**2185-4-25**]","1' Diagnosis
-Acute on Chronic Renal Failure
+Completed by:[**2185-4-25**]","Acute on Chronic Renal Failure
 Hyperkalemia
 Syncope
-
-2' Diagnosis
 Congestive Heart Failure
 Hypertension
 Acute Myelogenous Leukemia"
@@ -63809,12 +63824,12 @@ urology clinic at [**Hospital3 **] is [**Telephone/Fax (1) 164**].
 
 
 
-Completed by:[**2171-2-3**]","1. Acute Renal Failure
-2. Hypotension/Bradycardia
-3. CAD
-4. HTN
-5. COPD
-6. DMII"
+Completed by:[**2171-2-3**]","Acute Renal Failure
+Hypotension/Bradycardia
+CAD
+HTN
+COPD
+DMII"
 107058,"Admission Date:  [**2178-3-12**]              Discharge Date:   [**2178-3-12**]
 
 Date of Birth:  [**2109-1-27**]             Sex:   M
@@ -65627,7 +65642,7 @@ Alcohol Withdrawal
 UTI
 ARF postoperative with normalization befor DC
 Post operative hypovolemia
-Right facial droop  - sedating medications
+Right facial droop - sedating medications
 Metabolic acidosis"
 106621,"Admission Date:  [**2167-8-29**]              Discharge Date:   [**2167-9-9**]
 
@@ -66277,7 +66292,11 @@ Provider: [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) **], [**
 
 
 Completed by:[**2104-10-20**]","SIRS
-? amoxicillin anaphylaxis"
+? amoxicillin anaphylaxis
+HIV
+Coronary Artery Disease
+Hypertension
+Hypercholesterolemia"
 127741,"Admission Date:  [**2122-7-6**]              Discharge Date:   [**2122-7-11**]
 
 Date of Birth:  [**2081-7-30**]             Sex:   M
@@ -66527,9 +66546,9 @@ please call [**Telephone/Fax (1) 2205**].
 
 
 
-","- Multifocal pneumonia
-- Sepsis
-- Atrial fibrillation with rapid ventricular response"
+","Multifocal pneumonia
+Sepsis
+Atrial fibrillation with rapid ventricular response"
 103926,"Admission Date:  [**2167-4-9**]              Discharge Date:   [**2167-4-20**]
 
 
@@ -67218,7 +67237,6 @@ person during off hours**
 
 
 Completed by:[**2146-5-21**]","Coronary Artery Disease, s/p CABG
-PMH:
 CAD-s/p PCI and multiple coronary stents [**2139**]/[**2140**]/[**2142**]
 HTN
 hyperlipidemia"
@@ -67474,9 +67492,7 @@ Phone: [**Telephone/Fax (1) 1690**]
 
 
 
-Completed by:[**2190-6-1**]","The discharge diagnosis section contains the following diagnoses:
-
-s/p MVC
+Completed by:[**2190-6-1**]","s/p MVC
 Aspiration pneumonia"
 102527,"Admission Date:  [**2188-10-24**]              Discharge Date:   [**2188-10-30**]
 
@@ -68476,8 +68492,7 @@ up an appointment in the next week.
 
 ","hemoptysis
 pneumonia
-history of tuberculosis, treated with three drug regimen in
-[**Country 651**] in [**2190**]"
+history of tuberculosis, treated with three drug regimen in [**Country 651**] in [**2190**]"
 164253,"Admission Date:  [**2100-9-22**]              Discharge Date:   [**2100-9-28**]
 
 Date of Birth:  [**2019-1-26**]             Sex:   F
@@ -68747,10 +68762,11 @@ Followup Instructions:
 Deceased
 
 
-","- Atrial fibrillation with RVR
-- Bright red blood per rectum
-- Hypoxia
-- Myasthenia [**Last Name (un) **]"
+","Pericardial Effusion
+Atrial fibrillation with RVR
+Bright red blood per rectum
+Hypoxia
+Myasthenia"
 106064,"Admission Date:  [**2101-8-7**]              Discharge Date:   [**2101-9-16**]
 
 Date of Birth:  [**2051-7-25**]             Sex:   M
@@ -69961,7 +69977,9 @@ Completed by:[**2140-12-25**]","Coronary Artery disese s/p CABG
 Non-ST Elevation Myocardial Infarction
 Thrombocytopenia, likely secondary to Integrillin
 Bleeding around foley catheter
-Urinary tract infection"
+Urinary tract infection
+Hypertension, Hyperlipidemia, GERD
+Basal cell cancer, kidney stones s/p lithotripsy and ureteral stent, PCI to SVG->D1/OM [**5-/2136**] and PCI with stent for TO OSVG [**2139-8-7**], colon cancer s/p subtotal colectomy by Dr [**Last Name (STitle) **] 4 years ago"
 100883,"Admission Date: [**2102-5-31**]        Discharge Date: [**2102-6-3**]
 
 Date of Birth:  [**2039-3-10**]        Sex:  M
@@ -70263,7 +70281,7 @@ Facility:
 
                              [**First Name11 (Name Pattern1) 77**] [**Last Name (NamePattern4) 994**] MD [**MD Number(1) 1001**]
 
-Completed by:[**2144-3-14**]","I'm sorry, I cannot assist with that request."
+Completed by:[**2144-3-14**]","The document provided does not contain a ""Discharge Diagnosis"" section or any listed diagnoses. Please provide the relevant section or check the document for the required information."
 115347,"Admission Date:  [**2147-5-6**]              Discharge Date:   [**2147-5-11**]
 
 
@@ -71283,7 +71301,7 @@ cc:[**Numeric Identifier 69911**]
 [**First Name (Titles) **] [**Last Name (Titles) 159**] Associates
 50 [**Location (un) 69912**], [**Numeric Identifier 43858**]
 ","Metastatic melanoma
-respiratory failure
+status post cycle 1, week 1 high-dose IL-2 complicated by respiratory failure
 acute renal failure"
 102045,"Admission Date:  [**2170-10-4**]              Discharge Date:   [**2170-10-10**]
 
@@ -71929,8 +71947,7 @@ can schedule your appointment by calling # [**Telephone/Fax (1) 600**]
 
                              [**First Name8 (NamePattern2) **] [**Name8 (MD) **] MD [**MD Number(2) 601**]
 
-Completed by:[**2109-6-11**]","Discharge Diagnosis:
-stab wound"
+Completed by:[**2109-6-11**]",stab wound
 116451,"Admission Date:  [**2112-4-28**]              Discharge Date:   [**2112-5-8**]
 
 Date of Birth:  [**2058-11-17**]             Sex:   M
@@ -72228,8 +72245,7 @@ Date/Time:[**2112-5-26**] 1:40
 
 
 
-","Discharge Diagnosis:
-HCC
+","HCC
 HCV cirrhosis
 HA anastomosis bleeding
 Hyperglycemia"
@@ -72620,7 +72636,6 @@ person during off hours**
                              [**Name6 (MD) **] [**Name8 (MD) **] MD [**MD Number(2) 173**]
 
 Completed by:[**2120-9-15**]","Coronary artery disease s/p coronary artery bypass graft x 5
-Past medical history:
 Diabetes
 Hypertension
 Arthritis
@@ -74096,9 +74111,8 @@ will be extremely important in managing your blood pressure.
 
                              [**First Name8 (NamePattern2) **] [**Name8 (MD) 162**] MD [**MD Number(2) 2575**]
 
-Completed by:[**2133-6-19**]","The discharge diagnosis section contains the following diagnoses:
-- pontine hemorrhage
-- hypertension"
+Completed by:[**2133-6-19**]","pontine hemorrhage
+hypertension"
 193517,"Admission Date:  [**2137-2-21**]              Discharge Date:   [**2137-3-5**]
 
 
@@ -74500,7 +74514,8 @@ needed.
 
 
 
-","Coronary Artery Disease, s/p ST elevation myocardial infarction
+","Coronary Artery Disease
+ST elevation myocardial infarction
 Diabetes Mellitus type 2
 Hypertension
 Hypercholesteremia
@@ -75125,7 +75140,8 @@ Appt: This Thursday, [**12-10**] at 1:45pm
 Completed by:[**2172-12-7**]","Hemoptysis, ? AVM in lingula
 Ventilator-associated pneumonia
 Anemia
-Confusion possibly from Wernicke's"
+Confusion possibly from Wernicke's
+Alcohol Abuse"
 105106,"Admission Date:  [**2159-4-21**]              Discharge Date:   [**2159-5-15**]
 
 Date of Birth:  [**2083-5-13**]             Sex:   M
@@ -75678,7 +75694,7 @@ Date/Time:[**2159-6-15**] 11:30
                              [**Name6 (MD) **] [**Name8 (MD) **] MD, [**MD Number(3) 2073**]
 
 ","Diastolic Heart Failure
-Paroxysmal Atrial [**Hospital 9343**]
+Paroxysmal Atrial Fibrillation
 Health care Associated Pneumonia
 Restrictive Pulmonary Disease secondary to kyphoscoliosis
 CAD
@@ -76172,14 +76188,18 @@ rehab with an appt if one becomes available.
 
                              [**Initials (NamePattern4) **] [**Last Name (NamePattern4) **] [**Name8 (MD) **] MD [**MD Number(1) 292**]
 
-","1. Septic shock with multiple organ dysfunction, secondary to pneumococcal pneumonia
-2. Hypoxic respiratory failure
-3. Acute tubular necrosis (ATN) causing renal failure
-4. Paroxysmal atrial fibrillation
-5. Myopathy/polyneuropathy of critical illness
-6. Lesions on brain MRI (acute stroke vs. infectious vs. inflammatory)
-7. Thrombocytopenia
-8. Normocytic hypoproliferative anemia"
+","Septic shock with multiple organ dysfunction, secondary to pneumococcal pneumonia
+Hypoxic respiratory failure
+Acute tubular necrosis (ATN) causing renal failure
+Paroxysmal atrial fibrillation
+Myopathy/polyneuropathy of critical illness
+Lesions on brain MRI (acute stroke vs. infectious vs. inflammatory)
+Thrombocytopenia
+Normocytic hypoproliferative anemia
+Smoking history
+Chronic obstructive pulmonary disease (COPD)
+Hypertension
+Possible history of [**Name (NI) **] (unclear)"
 105104,"Admission Date:  [**2158-7-13**]              Discharge Date:   [**2158-8-31**]
 
 Date of Birth:  [**2092-6-29**]             Sex:   M
@@ -76748,8 +76768,7 @@ urine)
 
 
 
-Completed by:[**2158-9-1**]","Discharge Diagnosis:
-Acute Myelogenous Leukemia"
+Completed by:[**2158-9-1**]",Acute Myelogenous Leukemia
 114144,"Admission Date:  [**2104-12-29**]              Discharge Date:   [**2104-12-31**]
 
 Date of Birth:  [**2038-10-7**]             Sex:   M
@@ -77271,7 +77290,7 @@ Facility:
 
                              [**First Name11 (Name Pattern1) **] [**Last Name (NamePattern1) 1086**] MD [**MD Number(2) 1087**]
 
-Completed by:[**2182-6-3**]",The discharge diagnosis section was not found in the provided document.
+Completed by:[**2182-6-3**]","The provided text does not contain a ""Discharge Diagnosis"" section for me to extract diagnoses from. Please provide a document that includes the ""Discharge Diagnosis"" section, and I will be able to assist you further."
 112615,"Admission Date:  [**2185-5-23**]              Discharge Date:   [**2185-6-8**]
 
 
@@ -78785,7 +78804,8 @@ Campus: EAST     Best Parking: [**Hospital Ward Name 23**] Garage
                              [**Name6 (MD) **] [**Name8 (MD) **] MD [**MD Number(2) 2158**]
 
 ","MRSA urinary tract infection
-seizure"
+seizure
+multiple sclerosis"
 106415,"Admission Date:  [**2107-11-12**]              Discharge Date:   [**2107-12-21**]
 
 Date of Birth:  [**2045-12-2**]             Sex:   M
@@ -79347,16 +79367,27 @@ blood clots.
 
                              [**Name6 (MD) **] [**Name8 (MD) **] MD [**MD Number(2) 2764**]
 
-Completed by:[**2107-12-21**]","- Renal failure
-- Volume overload / acute on chronic CHF
-- PEA arrest
-- Altered mental status
-- Bacterial pneumonia
-- Ventilator associated pneumonia
-- Aspiration pneumonia
-- Urinary tract infection
-- Hypertensive urgency
-- Repiratory failure"
+Completed by:[**2107-12-21**]","Renal failure
+Volume overload / acute on chronic CHF
+PEA arrest
+Altered mental status
+Bacterial pneumonia
+Ventilator associated pneumonia
+Aspiration pneumonia
+Urinary tract infection
+Hypertensive urgency
+Repiratory failure
+Renal cell carcinoma s/p resection [**2093**]
+Severe obstructive sleep apnea,(not wearing CPAP at home)
+ESRD s/p CRT [**2101**], complicated by transplant renal artery stenosis necessitating stent placement in [**2103**]
+Resistant HTN
+Diastolic congestive heart failure, TTE [**2107-8-18**]: Moderate diastolic LV dysfunction with elevated LVEDP. Mild pulmonary hypertension
+Diabetes, type 2, on insulin
+GERD
+Barrett's Esophagus
+s/p patella avulsion repair
+history of hypercalcemia
+hyperparathyroidism"
 109667,"Admission Date:  [**2116-7-25**]              Discharge Date:   [**2116-7-28**]
 
 Date of Birth:  [**2077-2-1**]             Sex:   F
@@ -79855,8 +79886,8 @@ Phone:[**Telephone/Fax (1) 327**] Date/Time:[**2125-5-15**] 11:00
 
 
 
-Completed by:[**2125-1-27**]","1. RLE Angiography and PTCA of right anterior tibial artery
-2. Complicated by large retroperitoneal bleed"
+Completed by:[**2125-1-27**]","RLE Angiography and PTCA of right anterior tibial artery
+Complicated by large retroperitoneal bleed"
 102087,"Admission Date:  [**2116-7-19**]              Discharge Date:   [**2116-7-22**]
 
 
@@ -80122,11 +80153,11 @@ PCP: [**Name10 (NameIs) 9529**],[**Name11 (NameIs) **] [**Telephone/Fax (1) 1750
 
                              [**Name6 (MD) 4267**] [**Last Name (NamePattern4) 4268**] MD, [**MD Number(3) 5023**]
 
-","- traumatic left frontal intaparychymal hemorrhage (contusion)
-- Paroxysmal atrial fibrilation treated with coumadin
-- CHF
-- Hypertension
-- [**Last Name (un) 309**] Body Dementia"
+","traumatic left frontal intaparychymal hemorrhage (contusion)
+Paroxysmal atrial fibrilation treated with coumadin
+CHF
+Hypertension
+Lewy Body Dementia"
 112030,"Admission Date:  [**2127-4-17**]              Discharge Date:   [**2127-4-21**]
 
 Date of Birth:  [**2048-3-5**]             Sex:   M
@@ -80503,11 +80534,7 @@ as needed. Phone: ([**Telephone/Fax (1) 10532**]
 
 
 
-","Discharge Diagnosis:
-primary:
-enterobacter septicemia due to cholangitis
-
-secondary:
+","enterobacter septicemia due to cholangitis
 cholangiocarcinoma
 syncope"
 111923,"Admission Date:  [**2139-6-3**]              Discharge Date:   [**2139-6-13**]
@@ -80874,8 +80901,8 @@ Followup Instructions:
 With PCP, [**Last Name (NamePattern4) **]. [**First Name8 (NamePattern2) 25812**] [**Last Name (NamePattern1) 25813**], [**Telephone/Fax (1) 25814**], fax [**Telephone/Fax (1) 25815**].
 
 
-","1. Status epilepticus
-2. Leukodystrophy"
+","Status epilepticus
+Leukodystrophy"
 122468,"Admission Date:  [**2176-7-5**]       Discharge Date:  [**2176-7-19**]
 
 
@@ -80968,10 +80995,10 @@ MEDQUIST36
 D:  [**2176-7-19**]  09:39
 T:  [**2176-7-19**]  08:12
 JOB#:  [**Job Number 48025**]
-","1. Loss of gag reflex secondary to cerebrovascular accident, subsequent placement of percutaneous endoscopic gastrostomy tube by Interventional Radiology on [**2176-7-17**]
-2. Non-ST elevation myocardial infarction
-3. Upper gastrointestinal bleed in the context of aspirin, Plavix, and Relafen
-4. Urinary tract infection"
+","Loss of gag reflex secondary to cerebrovascular accident
+Non-ST elevation myocardial infarction
+Upper gastrointestinal bleed in the context of aspirin, Plavix, and Relafen
+Urinary tract infection"
 192877,"Admission Date:  [**2123-11-4**]              Discharge Date:   [**2123-11-16**]
 
 Date of Birth:  [**2044-3-15**]             Sex:   F
@@ -81832,8 +81859,8 @@ D:  [**2178-2-24**] 12:32:55
 T:  [**2178-2-25**] 15:33:12
 Job#:  [**Job Number 87177**]
 
-cc:[**Numeric Identifier 87178**]","1. Metastatic melanoma status post cycle 1, week 1, high-dose IL-2 therapy complicated by pulmonary edema, and bilateral pleural effusions from IL-2 induced capillary leak, with respiratory distress
-2. Acute renal failure related to IL-2 therapy"
+cc:[**Numeric Identifier 87178**]","Metastatic melanoma status post cycle 1, week 1, high-dose IL-2 therapy complicated by pulmonary edema, and bilateral pleural effusions from IL-2 induced capillary leak, with respiratory distress
+Acute renal failure related to IL-2 therapy"
 104095,"Name:  [**Known lastname 11946**],[**Known firstname 732**]                    Unit No:   [**Numeric Identifier 11947**]
 
 Admission Date:  [**2108-6-20**]              Discharge Date:   [**2108-7-3**]
@@ -82042,7 +82069,7 @@ MEDQUIST36
 D:  [**2195-5-15**]  14:05
 T:  [**2195-5-15**]  16:13
 JOB#:  [**Job Number 49743**]
-","I'm sorry, I couldn't find the 'Discharge Diagnosis' section in the provided document."
+","The provided text does not contain a ""Discharge Diagnosis"" section or any listed diagnoses. Please provide the relevant section of the document or ensure that the text includes the information you want to be extracted."
 160707,"Admission Date:  [**2165-6-3**]              Discharge Date:   [**2165-6-24**]
 
 Date of Birth:  [**2098-4-23**]             Sex:   M
@@ -82357,7 +82384,8 @@ Followup Instructions:
 Expired
 
 
-Completed by:[**2165-6-25**]",The discharge diagnosis section is empty.
+Completed by:[**2165-6-25**]","Discharge Diagnosis:
+Expired"
 107869,"Admission Date:  [**2199-11-4**]              Discharge Date:   [**2199-11-9**]
 
 
@@ -82982,9 +83010,11 @@ Date/Time:[**2140-4-5**] 9:30
 
 
 
-Completed by:[**2140-4-4**]","Recurrent incisional hernia reduced intestine
+Completed by:[**2140-4-4**]","Pre/op prolonged QT interval-managed in ICU & cardiology consulted
+Recurrent incisional hernia reduced intestine
 post-op dysphagia-evaluated per Speech & Swallow Specialist
-post-op blood loss anemia"
+post-op blood loss anemia
+Hx of SBOx3, Hchol, HTN, labile blood pressure, LV dysfn, CRI, Chronic chest pain, Paroxysmal AFib, Esoph spasm, Gout, GERD, migraines, gall stones"
 195689,"Admission Date:  [**2105-7-14**]              Discharge Date:   [**2105-7-21**]
 
 Date of Birth:  [**2041-2-12**]             Sex:   M
@@ -84749,8 +84779,7 @@ Campus: EAST     Best Parking: [**Hospital Ward Name 23**] Garage
 Completed by:[**2160-11-20**]","Suspected Drug Reaction/Anaphylaxis
 CAVE PHENYTOIN
 CAVE CEPHALEXIN
-s/p craniotomy for bilateral acute on chronic sub dural
-hemmorahge
+s/p craniotomy for bilateral acute on chronic sub dural hemmorahge
 Hepatitis C cirrhosis
 Hepatocelular Carcinoma"
 106026,"Admission Date:  [**2193-11-24**]              Discharge Date:   [**2193-12-3**]
@@ -85234,7 +85263,7 @@ Anemia
 Diabetes Mellitus
 Dyslipidemia
 Hypertension
-Chronic Renal Insufficiency (creatinine 1.5- 1.9)
+Chronic Renal Insufficiency
 Gastroesophageal reflux disease
 Hiatal hernia
 Spinal Stenosis
@@ -85744,10 +85773,10 @@ A at [**Telephone/Fax (1) 49260**]
 
 
 
-","- Acute on chronic kidney injury
-- Acute on chronic systolic  heart failure
-- MSSA bacteremia
-- Type 2 diabetes"
+","Acute on chronic kidney injury
+Acute on chronic systolic heart failure
+MSSA bacteremia
+Type 2 diabetes"
 105954,"Admission Date:  [**2147-10-12**]              Discharge Date:   [**2147-10-29**]
 
 Date of Birth:  [**2079-6-24**]             Sex:   M
@@ -87885,9 +87914,9 @@ Please call you primary care physician, [**Last Name (NamePattern4) **]. [**Firs
 weeks.
 
 
-","- Cholecystitis
-- Depression
-- Urinary retention"
+","Cholecystitis
+Depression
+Urinary retention"
 178143,"Admission Date:  [**2133-9-17**]              Discharge Date:   [**2133-9-22**]
 
 Date of Birth:  [**2084-5-25**]             Sex:   F
@@ -88183,7 +88212,11 @@ Completed by:[**2133-9-22**]","Small bowel obstruction
 Post-extubation confused related to medications
 Right pneumothorax-Chest tube inserted
 UTI
-Acute renal failure"
+Acute renal failure
+Depression
+hepatitis C
+cervical CA
+TAH/BSO-Bladder injury (urostomy & Colostomy)"
 129286,"Admission Date:  [**2194-6-24**]              Discharge Date:   [**2194-6-27**]
 
 
@@ -88419,10 +88452,10 @@ call if any changes are needed to be made.
 
 
 
-Completed by:[**2194-6-27**]","- Acute STEMI, inferior MI with CA occlusion
-- HTN
-- Hyperlipidemia
-- ASA allergy s/p successful desensitization"
+Completed by:[**2194-6-27**]","Acute STEMI, inferior MI with CA occlusion
+HTN
+Hyperlipidemia
+ASA allergy s/p successful desensitization"
 111041,"Admission Date:  [**2154-2-8**]              Discharge Date:   [**2154-2-16**]
 
 Date of Birth:  [**2085-9-18**]             Sex:   M
@@ -88697,19 +88730,16 @@ Date/Time:[**2154-3-20**] 11:15
 
 
 
-Completed by:[**2154-2-16**]","- Pseudoaneurysm of Aortic Arch with Endoleak, s/p repair
-- Coronary Artery Disease, s/p CABG [**2137**]
-- COPD
-- Hyperlipidemia
-- Hypertension
-- Calcified aorta
-- Hypothyroidism
-- Emphysema
-- s/p Abdominal Aortic Aneurysm Repair [**2152-6-26**]
-- s/p Left subclavian to left common carotid artery bypass with
-8-mm PTFE graft. 2. A left common carotid to right common
-carotid
-artery bypass using 8-mm ring PTFE graft"
+Completed by:[**2154-2-16**]","Pseudoaneurysm of Aortic Arch with Endoleak, s/p repair
+Coronary Artery Disease, s/p CABG [**2137**]
+COPD
+Hyperlipidemia
+Hypertension
+Calcified aorta
+Hypothyroidism
+Emphysema
+s/p Abdominal Aortic Aneurysm Repair [**2152-6-26**]
+s/p Left subclavian to left common carotid artery bypass with 8-mm PTFE graft. 2. A left common carotid to right common carotid artery bypass using 8-mm ring PTFE graft"
 110335,"Admission Date:  [**2131-12-2**]              Discharge Date:   [**2131-12-24**]
 
 
@@ -89162,25 +89192,22 @@ Please schedule a followup appointment with your PCP, [**Last Name (NamePattern4
 
 
 
-","Primary:
-- [**Hospital 7502**] hospital-acquired
-- Acute renal failure
-- Altered mental status
-- Hypotension
-- Hypernatremia
-- Acute blood loss anemia
-- Atrial fibrillation
-
-Secondary:
-- Cerebrovascular accident with residual left hemiparesis
-- Osteoarthritis
-- Gout
-- Hypertension
-- Bilateral carotid stenosis status post carotid endarterectomy
-- Type II diabetes mellitus
-- Gastritis
-- Chronic renal insufficiency
-- Right parafalcine subacute subdural hematoma"
+","hospital-acquired
+Acute renal failure
+Altered mental status
+Hypotension
+Hypernatremia
+Acute blood loss anemia
+Atrial fibrillation
+Cerebrovascular accident with residual left hemiparesis
+Osteoarthritis
+Gout
+Hypertension
+Bilateral carotid stenosis status post carotid endarterectomy
+Type II diabetes mellitus
+Gastritis
+Chronic renal insufficiency
+Right parafalcine subacute subdural hematoma"
 114836,"Admission Date:  [**2150-1-20**]              Discharge Date:   [**2150-2-10**]
 
 Date of Birth:  [**2087-9-21**]             Sex:   M
@@ -89689,7 +89716,7 @@ Facility:
 
                              [**First Name11 (Name Pattern1) 77**] [**Last Name (NamePattern4) 137**] MD [**MD Number(2) 138**]
 
-Completed by:[**2181-11-16**]",The discharge diagnosis section was not found in the provided document.
+Completed by:[**2181-11-16**]",The document provided does not contain a 'Discharge Diagnosis' section or any listed diagnoses. Please provide a document that includes the 'Discharge Diagnosis' section for me to extract the diagnoses.
 131434,"Admission Date:  [**2167-4-3**]              Discharge Date:   [**2167-4-14**]
 
 Date of Birth:  [**2098-12-14**]             Sex:   M
@@ -89996,7 +90023,7 @@ your discharge
 
 Completed by:[**2167-4-15**]","Community Acquired PNA
 Hyponatremia
-Acute renal failure [**1-28**] dehydration"
+Acute renal failure due to dehydration"
 120605,"Admission Date:  [**2200-5-16**]              Discharge Date:   [**2200-5-27**]
 
 Date of Birth:  [**2122-4-2**]             Sex:   M
@@ -90935,7 +90962,7 @@ fax the results to Dr [**Last Name (STitle) 5456**] office at [**Telephone/Fax (
 
 
 
-Completed by:[**2106-2-23**]","Thrombosed femoral-femoral graft and iliofemoral graft with bilateral extremity ischemia.
+Completed by:[**2106-2-23**]","Thrombosed femoral-femoral graft and iliofemoral graft with bilateral extremity ischemia
 Hypercoagulable state"
 130440,"Admission Date:  [**2185-7-6**]              Discharge Date:   [**2185-7-8**]
 
@@ -91161,8 +91188,7 @@ within one week of being discharged from the hospital.
 
 
 
-Completed by:[**2185-7-17**]","hypotension secondary to pneumovax
-beta blocker
+Completed by:[**2185-7-17**]","hypotension secondary to pneumovax, beta blocker
 Paroxysmal atrial fibrillation
 Bipolar disorder
 History of rheumatic heart disease
@@ -91765,7 +91791,7 @@ MEDQUIST36
 D:  [**2125-10-31**]  11:41
 T:  [**2125-10-31**]  11:45
 JOB#:  [**Job Number 96089**]
-","I'm sorry, I cannot assist with that request."
+",The document provided does not contain a 'Discharge Diagnosis' section or any listed diagnoses. Please provide a document that includes the 'Discharge Diagnosis' section for me to extract the diagnoses.
 151904,"Admission Date:  [**2136-5-16**]              Discharge Date:   [**2136-5-22**]
 
 Date of Birth:  [**2090-5-12**]             Sex:   M
@@ -92389,9 +92415,9 @@ Follow up with Dr [**Last Name (STitle) 519**] (Trauma service) in 2 weeks. Call
                              [**First Name11 (Name Pattern1) **] [**Last Name (NamePattern4) 520**] MD, [**MD Number(3) 3226**]
 
 Completed by:[**2105-9-10**]","-ight LC1 pelvic ring injury
--right L5 TP fx
--left L4/L5 TP fx
--left retroperitoneal bleed"
+right L5 TP fx
+left L4/L5 TP fx
+left retroperitoneal bleed"
 160574,"Admission Date:  [**2103-5-15**]              Discharge Date:   [**2103-5-23**]
 
 Date of Birth:  [**2039-2-13**]             Sex:   F
@@ -93019,8 +93045,7 @@ Provider: [**Last Name (NamePattern4) **]. [**First Name (STitle) **] [**Name (S
 
 
 
-","Discharge Diagnosis:
-Right Knee Septic arthritis
+","Right Knee Septic arthritis
 Septic shock
 Acute renal failure
 Post op delirium - resolved
@@ -93407,7 +93432,14 @@ deceased
 
                              [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) 2437**] MD [**MD Number(1) 2438**]
 
-Completed by:[**2166-5-21**]","The discharge diagnosis section does not contain any specific diagnoses other than ""deceased."" Therefore, there are no specific diagnoses to extract from this section."
+Completed by:[**2166-5-21**]","Pancreatititis, Pancreatic Pseudocysts, Intra-abdominal fluid Collections
+Clostridium difficile infection
+Hepatic Cirrhosis
+Atrial Fibrillation
+Acute Renal Failure
+Malnutrition
+Anemia
+Hyperglycemia"
 119069,"Admission Date:  [**2172-4-19**]              Discharge Date:   [**2172-4-24**]
 
 Date of Birth:  [**2105-9-27**]             Sex:   M
@@ -94842,7 +94874,10 @@ Neurology; [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) **], MD
 ","Left frontotemporal intraparenchymal hemorrhage and subarachnoid hemorrhage
 Generalized seizure
 Retroperitoneal hematoma
-Left MCA infarct"
+Left MCA infarct
+Coronary Artery Disease
+Mechanical Mitral Valve
+Hypertension"
 192798,"Admission Date:  [**2100-7-18**]       Discharge Date:  [**2100-7-22**]
 
 
@@ -95010,8 +95045,8 @@ D:  [**2100-7-22**]  09:51
 T:  [**2100-7-22**]  10:55
 JOB#:  [**Job Number 98238**]
 
-","1.  Upper gastrointestinal bleed secondary to NSAID use
-2.  Congestive heart failure"
+","Upper gastrointestinal bleed secondary to NSAID use
+Congestive heart failure"
 121514,"Admission Date:  [**2138-7-29**]              Discharge Date:   [**2138-8-9**]
 
 Date of Birth:  [**2090-11-19**]             Sex:   F
@@ -95348,7 +95383,9 @@ psychiatry.
 
 
 Completed by:[**2138-8-10**]","Lithium Toxicity
-Streptococcs Viridans bacteremia"
+Streptococcs Viridans bacteremia
+Schizophrenia
+Bipolar"
 108658,"Admission Date: [**2127-7-14**]        Discharge Date: [**2127-7-19**]
 
 Date of Birth:  [**2089-12-13**]        Sex:  F
@@ -95514,7 +95551,7 @@ MEDQUIST36
 D:  [**2127-7-19**] 12:21:58
 T:  [**2127-7-19**] 14:06:55
 Job#:  [**Job Number **]
-",The discharge diagnosis section was not found in the provided document.
+","The document provided does not contain a specific ""Discharge Diagnosis"" section. However, based on the context of the document, the primary reason for hospitalization and treatment appears to be related to the ""right atrial mass"" mentioned in the ""CHIEF COMPLAINT"" and ""HISTORY OF PRESENT ILLNESS"" sections. Since there is no explicit list of discharge diagnoses, I cannot extract any diagnoses from a ""Discharge Diagnosis"" section. If you have another document that includes the section you're referring to, please provide it, and I will extract the diagnoses accordingly."
 108932,"Admission Date:  [**2113-3-10**]              Discharge Date:   [**2113-4-10**]
 
 Date of Birth:  [**2077-9-28**]             Sex:   F
@@ -96006,12 +96043,12 @@ Campus: EAST     Best Parking: [**Hospital Ward Name 23**] Garage
 
 
 
-Completed by:[**2113-4-10**]","1. Choledocholithiasis
-2. Doudenal perforation s/p ERCP
-3. Infected right perinephric fluid collection
-4. Right hydronephrosis
-5. Acute kidney injury
-6. Chronic pain"
+Completed by:[**2113-4-10**]","Choledocholithiasis
+Doudenal perforation s/p ERCP
+Infected right perinephric fluid collection
+Right hydronephrosis
+Acute kidney injury
+Chronic pain"
 100564,"Admission Date:  [**2144-1-20**]              Discharge Date:   [**2144-1-23**]
 
 Date of Birth:  [**2100-3-11**]             Sex:   M
@@ -96195,10 +96232,10 @@ appointment, please call [**Telephone/Fax (1) 6568**].
 
 
 
-Completed by:[**2144-1-23**]","1. Deep Vein Thrombosis of subclavian vein
-2. Rectal cancer
-3. Histoplasmosis
-4. Diabetes Mellitus, Type II"
+Completed by:[**2144-1-23**]","Deep Vein Thrombosis of subclavian vein
+Rectal cancer
+Histoplasmosis
+Diabetes Mellitus, Type II"
 107255,"Admission Date:  [**2125-7-10**]              Discharge Date:   [**2125-7-15**]
 
 Date of Birth:  [**2061-4-27**]             Sex:   F
@@ -96606,10 +96643,10 @@ Campus: EAST     Best Parking: [**Hospital Ward Name 23**] Garage
 
 
 
-","-Junctional rhythm induced by beta-blocker toxicity
--Acute Hypoxemic Respiratory Failure
--Acute kidney injury due to volume depletion
--Microcytic anemia"
+","Junctional rhythm induced by beta-blocker toxicity
+Acute Hypoxemic Respiratory Failure
+Acute kidney injury due to volume depletion
+Microcytic anemia"
 106629,"Admission Date:  [**2100-8-11**]              Discharge Date:   [**2100-8-16**]
 
 Date of Birth:  [**2065-10-13**]             Sex:   M
@@ -97747,18 +97784,17 @@ MEDQUIST36
 D:  [**2173-12-30**]  20:35
 T:  [**2173-12-30**]  21:39
 JOB#:  [**Job Number 51683**]
-","The discharge diagnoses are as follows:
-1. Hepatitis C; chronic infection
-2. Status post acute cellular rejection
-3. Cirrhosis
-4. End-stage liver disease
-5. Hepatocellular carcinoma
-6. Status post right radiofrequency ablation
-7. Upper gastrointestinal bleed due to esophageal varices; status post multiple bandings
-8. CMV and EBB positive
-9. Hepatitis B core antibody positive
-10. Hemorrhoids
-11. Status post orthotopic liver transplantation"
+","Hepatitis C; chronic infection
+Status post acute cellular rejection
+Cirrhosis
+End-stage liver disease
+Hepatocellular carcinoma
+Status post right radiofrequency ablation
+Upper gastrointestinal bleed due to esophageal varices; status post multiple bandings
+CMV and EBB positive
+Hepatitis B core antibody positive
+Hemorrhoids
+Status post orthotopic liver transplantation"
 168915,"Admission Date:  [**2154-1-1**]              Discharge Date:   [**2154-1-8**]
 
 Date of Birth:  [**2097-6-25**]             Sex:   M

@@ -38,11 +38,19 @@ class PrimaryDiagnosisIdentifier:
         output_df['confidence'] = ''
         output_df['primary_diagnosis'] = ''
         for index, row in output_df.iterrows():
-            if str(row['primary_diagnosis_NER']).lower().strip() in str(row['primary_diagnosis_LLM']).lower.strip():
+            ner_diagnosis = str(row['primary_diagnosis_NER'])
+            ner_diagnosis = ner_diagnosis.strip()
+            ner_diagnosis = ner_diagnosis.lower()
+
+            llm_diagnosis = str(row['primary_diagnosis_LLM'])
+            llm_diagnosis = llm_diagnosis.strip()
+            llm_diagnosis = llm_diagnosis.lower()
+
+            if ner_diagnosis in llm_diagnosis:
                 output_df.at[index, 'selected_approach'] = 'BOTH'
                 output_df.at[index, 'confidence'] = 'Higher Confidence Prediction'
                 output_df.at[index, 'primary_diagnosis'] = str(row['primary_diagnosis_NER'])
-            elif 'discharge diagnosis' in str(self.txt_df[self.txt_df['file_idx'] == row['file_idx']].iloc[0]).lower() or 'discharge diagnoses' in str(self.txt_df[self.txt_df['file_idx'] == row['file_idx']].iloc[0]).lower():
+            elif 'discharge diagnosis' in str(self.txt_df[self.txt_df['file_idx'] == row['file_idx']]['text'].iloc[0]).lower() or 'discharge diagnoses' in str(self.txt_df[self.txt_df['file_idx'] == row['file_idx']]['text'].iloc[0]).lower():
                 output_df.at[index, 'selected_approach'] = 'NER'
                 output_df.at[index, 'confidence'] = 'Lower Confidence Prediction'
                 output_df.at[index, 'primary_diagnosis'] = str(row['primary_diagnosis_NER'])
@@ -65,7 +73,7 @@ class PrimaryDiagnosisIdentifier:
         linker = nlp.get_pipe("scispacy_linker")
 
         local_output_df = pd.DataFrame(
-            columns=["file_idx", "primary_diagnosis", "count"]
+            columns=["file_idx", "primary_diagnosis_NER", "count"]
         )
 
         for i, file_idx in enumerate(txt_df["file_idx"].unique()):
@@ -147,7 +155,7 @@ class PrimaryDiagnosisIdentifier:
         ]
 
         local_output_df = pd.DataFrame(
-            columns=["file_idx", "primary_diagnosis"]
+            columns=["file_idx", "primary_diagnosis_LLM"]
         )
 
         # Loop through each file in txt_df and get the 'text'

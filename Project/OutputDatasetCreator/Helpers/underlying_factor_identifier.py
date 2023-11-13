@@ -56,10 +56,10 @@ class UnderlyingFactorIdentifier:
                             rel_df_reason_drug_count["Drug"] == row["text"]
                         ]
                         .sort_values(by="count_in_document", ascending=False)
-                        .head(1)["Reason"]
+                        .head(5)["Reason"]
                         .values
                     )
-                    # Loop through join_options and find the one with length larger than 3
+                    # Loop through join_options and find the one with length larger than 4
                     option_found = False
                     for option in join_options:
                         if len(option) > 4:
@@ -99,6 +99,8 @@ class UnderlyingFactorIdentifier:
             ent_df_reason_drug["Joined_Reason"].str.len() > 0
         ]
 
+        # Save ent_df_reason_drug to csv
+        ent_df_reason_drug.to_csv('./ent_df_reason_drug.csv', index=False)
         top_5_factors_by_file = pd.DataFrame()
         for file_idx in self.txt_df["file_idx"].unique():
             common_factors = ",".join(
@@ -108,7 +110,9 @@ class UnderlyingFactorIdentifier:
             )
             print(common_factors)
             factors_cleaned = ""
-            for factor in common_factors.split(","):
+            for i, factor in enumerate(common_factors.split(",")):
+                if i == 5:
+                    break
                 factors_cleaned += factor.strip().title() + ","
             print(factors_cleaned)
             top_5_factors_by_file = top_5_factors_by_file.append({"file_idx": file_idx, "Common_Underlying_Factors": factors_cleaned}, ignore_index=True)  # type: ignore

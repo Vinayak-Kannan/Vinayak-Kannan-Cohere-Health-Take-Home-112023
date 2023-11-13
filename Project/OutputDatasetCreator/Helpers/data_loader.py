@@ -32,7 +32,7 @@ class DataLoader:
     def get_data(self) -> List[pd.DataFrame]:
         return [self.txt_df, self.ent_df, self.rel_df]
 
-    def __summarize_discharge_diagnosis(self, txt_df: pd.DataFrame) -> pd.DataFrame:
+    def summarize_discharge_diagnosis(self, txt_df: pd.DataFrame) -> pd.DataFrame:
         client = OpenAI(
             api_key="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",
         )
@@ -46,14 +46,15 @@ class DataLoader:
         txt_df["DD_Formatted"] = ""
 
         # Loop through each file in txt_df and get the 'Discharge Diagnosis' section
-        for _, file_idx in enumerate(txt_df["file_idx"].unique()):
+        for i, file_idx in enumerate(txt_df["file_idx"].unique()):
+            print(str(i) + " out of " + str(len(txt_df["file_idx"].unique())))
             messages_template[1]["content"] = txt_df[txt_df["file_idx"] == file_idx][
                 "text"
             ].iloc[0]
             while True:
                 try:
                     response = client.chat.completions.create(
-                        model="gpt-3.5-turbo-1106",
+                        model="gpt-4-1106-preview",
                         messages=messages_template,  # type: ignore
                         temperature=0,
                         timeout=30,
@@ -162,7 +163,7 @@ class DataLoader:
         """
         3. Extract Discharge Diagnosis using OpenAI LLM
         """
-        txt_df = self.__summarize_discharge_diagnosis(txt_df)
+        txt_df = self.summarize_discharge_diagnosis(txt_df)
 
         
         return [rel_df, ent_df, txt_df]
