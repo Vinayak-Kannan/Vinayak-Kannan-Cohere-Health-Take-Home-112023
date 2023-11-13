@@ -131,7 +131,7 @@ class DataLoader:
         rel_df.drop(columns=["entity_id_x", "entity_id_y"], inplace=True)
 
         # Create column 'entity1_entity2' in rel_df
-        rel_df["entity1_entity2"] = rel_df["entity1_text"] + rel_df["entity2_text"]
+        rel_df["entity1_entity2"] = rel_df["entity1_text"] + ":" + rel_df["entity2_text"]
 
         """
         2. Get count of text in file_idx for each entity in ent_df. Do the same for the 'entity1_entity2' in rel_df.

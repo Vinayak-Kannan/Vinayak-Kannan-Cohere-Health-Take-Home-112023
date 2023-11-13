@@ -20,17 +20,21 @@ class ClinicianNoteDataSetHandler():
         ent_df = self.ent_df
         rel_df = self.rel_df
 
-        data_loader = DataLoader(txt_df, ent_df, rel_df)
-        data_loader.clean_data()
-        txt_df, ent_df, rel_df = data_loader.get_data()
+        # data_loader = DataLoader(txt_df, ent_df, rel_df)
+        # data_loader.clean_data()
+        # txt_df, ent_df, rel_df = data_loader.get_data()
+
+        txt_df = pd.read_csv('./txt_df.csv')
+        ent_df = pd.read_csv('./ent_df.csv')
+        rel_df = pd.read_csv('./rel_df.csv')
+        # Filter all three dataframes to file_idx 100035
+        txt_df = txt_df[txt_df['file_idx'] == 100035]
+        ent_df = ent_df[ent_df['file_idx'] == 100035]
+        rel_df = rel_df[rel_df['file_idx'] == 100035]
 
         primary_diagnosis_identifier = PrimaryDiagnosisIdentifier(txt_df)
         primary_diagnosis_df = primary_diagnosis_identifier.process_data()
 
-        # Save txt_df, ent_df, rel_df to csv
-        txt_df.to_csv('./txt_df.csv', index=False)
-        ent_df.to_csv('./ent_df.csv', index=False)
-        rel_df.to_csv('./rel_df.csv', index=False)
         underlying_factor_identifier = UnderlyingFactorIdentifier(txt_df, ent_df, rel_df)
         underlying_factor_df = underlying_factor_identifier.process_dataset()
         # Save underlying_factor_df to csv

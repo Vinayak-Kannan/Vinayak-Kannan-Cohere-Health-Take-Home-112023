@@ -1,3 +1,6 @@
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 from Helpers.load_data import load_ann, load_txt
 from Helpers.clinician_note_dataset_handler import ClinicianNoteDataSetHandler
 

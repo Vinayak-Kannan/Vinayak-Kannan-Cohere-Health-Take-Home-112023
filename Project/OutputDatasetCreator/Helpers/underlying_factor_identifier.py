@@ -13,7 +13,6 @@ class UnderlyingFactorIdentifier:
         self.txt_df = txt_df
         self.ent_df = ent_df
         self.rel_df = rel_df
-        self.__connect_reasons_to_drugs(self.rel_df, self.ent_df)
 
     def process_dataset(self) -> pd.DataFrame:
         print("Processing Underlying Factors...")

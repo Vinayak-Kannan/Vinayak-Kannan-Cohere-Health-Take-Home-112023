@@ -1,290 +1,290 @@
-file_idx,primary_diagnosis,count,Common_Underlying_Factors
-198406,Critical As,33,
-197869,Venostasis,2,
-196798,Congestive Heart Failure,17,
-195784,Blind,5,
-195689,Acute Renal Failure,29,
-193517,"Coronary Artery Disease, S/P St Elevation Myocardial Infarction",26,
-192877,Primary: Bleeding From Palate Abcess I&D And Tooth Extraction,10,
-192798,Upper Gastrointestinal Bleed Secondary To Nsaid Use,6,
-191162,Squamous Cell Cancer Of The Esophagus,17,
-191016,Extensive Liver Lesions (Presumably Recurrent Hepatocellular Carcinoma),12,
-190444,Depression,35,
-190056,Right Pleural Effusion,63,
-189471,Cad,30,
-188551,Ich,3,
-187782,Anemia,8,
-187736,Healthcare Associated Pneumonia,30,
-186876,Copd,20,
-186788,Hypoglycemia,47,
-186134,Nephrolithiasis,19,
-185800,Hypotension And Bradycardia Secondary To Anesthesia,31,
-185759,S/P Liver Transplant [**2125-9-13**],9,
-184696,Esophagitis,21,
-182160,Right Facial Droop  - Sedating Medications,25,
-182003,Primary: Hematemesis,2,
-178331,Complicated By Large Retroperitoneal Bleed,22,
-178143,Post-Extubation Confused Related To Medications,31,
-177721,Methicillin Sensitive Staphylococcus Aureus Urinary Tract Infection,17,
-177370,Metastatic Melanoma,7,
-177331,Metastic Renal Cell Carcinoma,12,
-176448,Refractory Status Epilepticus From Hsv Encephalitis,20,
-175593,Upper Gastrointestinal Bleed,0,
-174150,Post-Obstructive Pneumonia,29,
-174143,Insulin-Dependent Diabetes Mellitus,17,
-174037,Severe Necrotizing Haemorrhagic Pancreatitis,15,
-172474,"End-Stage Renal Disease Secondary To Poly-Cystic Kidney Disease, Status Post Cadaveric Renal Transplant",0,
-168936,Hepatocelular Carcinoma,25,
-168915,Acute Gallstone Pancreatitis,10,
-168831,Htn,13,
-168331,Als,29,
-166834,Dysgerminoma Of The Ovary,12,
-164366,Amoxicillin Anaphylaxis,11,
-164253,Atrial Fibrillation With Rvr,9,
-161477,Abdominal Pain,56,
-161384,Peripheral Arterial Disease,15,
-160574,Post Op Delirium - Resolved,29,
-159079,Tracheomalacia,2,
-157609,Pituitary Adenoma,19,
-157352,Hiv/Aids,21,
-157284,Hypotension,24,
-155980,Herpes Zoster,13,
-153141,Coronary Artery Disese S/P Cabg,19,
-152612,Rectus Muscle Hematoma,46,
-151904,Metabolic Encephalopathy,8,
-151688,Right Parietal Brain Mass,0,
-150068,Supratherapeutic Inr,25,
-149687,Anastomotic Stricture,3,
-149614,Chronic Obstructive Pulmonary Disease Flare,42,
-147292,History Of Short Gut Syndrome On Tpn,60,
-145012,Syncope From Ventricular Tachycardia,11,
-144301,Seizures,42,
-143562,End Stage Renal Disease Requiring Hemodialysis,28,
-143451,Hypertension,11,
-141586,Atrial Fibrillation,19,
-131903,Chronic Kidney Disease,0,
-131434,Community Acquired Pna,32,
-130440,Bipolar Disorder,16,
-130153,Anxiety,6,
-130076,Expired,0,
-129286,Hyperlipidemia,25,
-128041,Generalized Seizure,19,
-127944,Thrombocytopenia - Resolved,14,
-127741,Sepsis,5,
-127356,Htn,15,
-127263,Bilateral Mssa Empyemas,26,
-126380,Status Post Ep Ablation For Atrial Tachycardia,30,
-125206,Lumbar Spinal Stenosis,27,
-124917,Aspiration Pneumonia,4,
-124891,Ischemic Cardiomyopathy,8,
-124307,Tongue Swelling,16,
-123771,Bilateral Upper Extremity And Left Buttock Severe Bite Wounds Status Post Dog Attack,23,
-123589,Hepatitis C Cirrhosis,19,
-123475,Past Surgical History:,21,
-123324,Chronic Obstructive Lung Disease,31,
-123244,Complete Heart Block S/P External Pacemaker Placement And Then Perm. Pacemaker Placement,25,
-122733,Hypothyroidism,28,
-122468,"Loss Of Gag Reflex Secondary To Cerebrovascular Accident, Subsequent Placement Of Percutaneous Endoscopic Gastrostomy Tube By Interventional Radiology On [**2176-7-17**]",6,
-122093,Hcv,30,
-122057,Edh,1,
-121915,Gastrointestinal Bleed,14,
-121514,Lithium Toxicity,29,
-121467,Location (Un) 849**] Gastaut Syndrome,8,
-120605,Splenic Hemorrhage,9,
-120301,Hemorrhage From Tracheostomy,59,
-120253,Hemoptysis,22,
-120237,Renal Failure,19,
-119573,Acute Respiratory Distress Requiring Intubation,20,
-119144,Adrenal Crisis,11,
-119069,Deep Venous Thrombosis,17,
-118694,Laryngeal Spasm,20,
-118510,Complex Ovarian Cysts,21,
-118418,Acute Renal Failure Related To Il-2 Therapy,30,
-118243,Right Sideded Frontal Brain Masses,0,
-117907,Sepsis,5,
-117872,Bilateral Leg Dvts,9,
-117871,Coronary Artery Disease,11,
-117745,Hemophagocytic Lymphohistiocytosis,28,
-117609,Pancreatic Pseudocysts,23,
-117156,Coronary Artery Disease,25,
-116966,Pneumonia,30,
-116901,Pneumonia,48,
-116853,Polysubstance Abuse,30,
-116604,"Acute Delirium, Likely Secondary To Narcotics Withdrawal Vs.",22,
-116451,Hcc,15,
-115789,Heparin-Induced Antibody Pulmonary Embolism,30,
-115667,Epistaxis,33,
-115464,End Stage Liver Disease Secondary To Hep C Cirrhosis,6,
-115432,Expired,0,
-115347,Upper Gi Bleeding,6,
-115267,Seizure,67,
-115244,Upper Gi Bleed,15,
-115232,Bilateral Extremity Ischemia,34,
-115191,Hyperkalemia,24,
-115157,Hypotension,37,
-115143,Diabetic Ketoacidosis,11,
-115021,Postop Atrial Fibrillation,6,
-114976,Chronic Obstructive Pulmonary Disease Flare,15,
-114965,Sellar And Suprasellar Mass,45,
-114959,Pleural Effusion,18,
-114923,Paroxysmal Atrial Fibrillation,22,
-114836,Tremors Secondary To Prograf Toxicity,10,
-114735,Increased Seizure Frequency,30,
-114680,Hypoxia After Sedation For An Elective Ercp,6,
-114585,"Uti,Yeast",13,
-114513,S/P Pacemaker Placement,14,
-114248,Acomm Aneurysm,5,
-114220,Left Mca (Middle Cerebral Artery) Infarct While Inr Therapeutic,24,
-114144,Left Basal Ganglia Intraparenchymal Hemorrhage,5,
-114004,Lower Gi Bleeding C/B Anticoagulation,10,
-113840,Supratherapeutic Inr,30,
-113824,Neutropenic Colitis,36,
-113813,Cmv And Ebb Positive,25,
-113705,End Stage Renal Disease,14,
-113524,Cad,5,
-113391,Tracheomalacia,6,
-113200,Coronary Artery Disease,25,
-112832,Recurrent Incisional Hernia Reduced Intestine,7,
-112747,Past Surgical History,30,
-112628,Acute Renal Failure On Chronic Kidney Disease,16,
-112615,Health Care Associated Bacterial Pneumonia,18,
-112368,Hiv,25,
-112249,Hypertension,13,
-112140,Atrial Fibrillation With Rvr,30,
-112030,Enterobacter Septicemia Due To Cholangitis,10,
-112014,Pneumonia,16,
-111923,Leukodystrophy,19,
-111882,Systemic Lupus Erythematosus,36,
-111840,Febrile Neutropenia,44,
-111542,Anxiety,5,
-111458,Locally Advanced Pancreatic Ca,17,
-111447,Hypertension,17,
-111323,Health Care Associated Pneumonia,23,
-111298,R Frontal Mass,2,
-111041,Copd,20,
-110863,Kaposi'S Sarcoma,15,
-110727,Htn,28,
-110521,Pancytopenia,7,
-110499,Pulmonary Hypertension,16,
-110445,Dilantin Hypersensitivity Reaction,7,
-110384,Hepatocellular Carcinoma,44,
-110342,Pneumonia,20,
-110335,Altered Mental Status,16,
-110326,Metastatic Melanoma Status Post High Dose Il-2 Therapy,65,
-110186,Hypertension,17,
-110068,Acute Blood Loss Anemia,4,
-110037,Aspiration Pneumonia,10,
-109866,Delirium Secondary To Medications,10,
-109784,Acute Kidney Injury,32,
-109770,Hypercalcemia,23,
-109697,Mitral Regurgitation,43,
-109667,Likely Anaphylactic Reaction To Contrast,6,
-109633,Metastatic Breast Cancer,5,
-109617,Mssa Epidural Abscesses,34,
-109566,Urinary Retention,14,
-109527,Pancreatitis,24,
-109450,Gi Bleed Secondary To Supratherapeutic Inr And Antral Erosions,5,
-109191,Respiratory Failure,10,
-109176,Idiopathic Neutropenia,26,
-109170,Coronary Artery Disease,53,
-108949,Aspiration,12,
-108932,Choledocholithiasis,19,
-108901,Urinary Tract Infection- E.Coli (Esbl),7,
-108889,Hyperlipidemia,10,
-108809,Delerium / Acute / Medication Reaction,19,
-108754,Spinal Stenosis,22,
-108411,Gi Bleed,25,
-108073,Aspiration Pneumonia,14,
-108032,Stab Wound,26,
-107872,Acute On Chronic Systolic  Heart Failure,34,
-107869,Gastric Outlet Obstruction S/P Duodenal Stent Placement,23,
-107322,Respiratory Failure,6,
-107255,Junctional Rhythm Induced By Beta-Blocker Toxicity,15,
-107139,Ruptured Aaa,18,
-107058,Angioedema,25,
-107047,Burkitt'S Lymphoma,22,
-106939,Hiv,35,
-106629,Narcotic Withdrawal,15,
-106621,Change In Mental Status,51,
-106423,Asthma/Copd Exacerbation,3,
-106415,Renal Failure,38,
-106384,Paroxysmal Atrial Fibrillation On Coumadin,22,
-106361,Supraventricular Tachycardia,16,
-106064,Cirrhosis,22,
-106038,Hypothyroidism,31,
-106026,Beta Lactam Allergy (Likely) With Drug Eruption (Rash),11,
-105954,Signet-Ring Cell Gastric Cancer Invading Trans Colon,7,
-105778,Hyperlipidemia,21,
-105747,Atrial Flutter,49,
-105614,Pacemaker Site Infection,33,
-105547,Respiratory Failure/Hypoxia  Requiring Mechanical Ventilation,5,
-105445,Left Retroperitoneal Bleed,13,
-105360,Non St Elevation Myocardial Infarction,28,
-105254,Diagnosis: Hypertensive Emergency,0,
-105106,Cad,23,
-105104,Acute Myelogenous Leukemia,16,
-105050,Headache Nos,84,
-105027,Pyelonephritis,42,
-105014,Diarrhea,22,
-104979,Small Bowel Obstruction,6,
-104850,Pulmonary Emboli,15,
-104799,Hypercholesterolemia,12,
-104710,Hematuria Likely From A Bleeding Kidney Metastasis,35,
-104682,Cirrhosis,15,
-104653,Gastrointestinal Bleeding,16,
-104468,Symptomatic Bradycardia,10,
-104107,Hyperlipidemia,10,
-104095,Secondary Diagnosis:,8,
-104091,End Stage Renal Disease On Hd,37,
-103926,Coronary Artery Disease,20,
-103877,End Stage Renal Disease,15,
-103722,Anxiety,21,
-103677,Angioedema,5,
-103639,Umbilical Hernia With Fluid Leakage: Stable,16,
-103377,Cerebellar Lesion,33,
-103317,Sepsis,5,
-103315,Hyperglycemia Secondary To Medications,33,
-103293,Deceased,3,
-103142,Severe As,15,
-102967,Postoperative Renal Failure,5,
-102937,Aaa,31,
-102698,Histroy Of Poly Neuropathies,6,
-102668,Congestive Heart Failure,5,
-102629,S/P Back Surgery,21,
-102557,"Biliary Stenting (Ercp), ?Biliary Sepsis",55,
-102527,Hypertension,15,
-102456,Chronic Renal Insufficiency (Creatinine 1.5- 1.9),15,
-102365,Health Care Associated Pneumonia,25,
-102324,Hypothermia,55,
-102296,Acute-On-Chronic Anemia With Guaiac + Stools And No Further Gi,16,
-102283,Pneumonia,42,
-102173,Free Air On Cxr S/P G-Tube Placement,5,
-102136,Etoh Abuse,26,
-102087,Paroxysmal Atrial Fibrilation Treated With Coumadin,18,
-102045,Aml,12,
-102027,Chronic Congestive Heart Failure With Ef 15%,20,
-102019,Acute Tubular Necrosis (Atn) Causing Renal Failure,23,
-101857,Alcoholic Cirrhosis,12,
-101813,Rapid Atrial Fibrillation,21,
-101779,Lymphoblastic Lymphoma / All,22,
-101665,Diarrhea,32,
-101566,Jejunal Ulcer,1,
-101427,Myocardial Infarction And Profound Vagal Reaction,1,
-101410,"Primary: Korsakoff'S Psychosis, Back Pain, Agitation",7,
-101372,Epiglottitis,32,
-101331,"Bradycardia, Thought Secondary To Hypothyroidism",57,
-101276,Metastatic Rectal Cancer,16,
-101215,Postoperative Bleeding/Pericardial Effusion - S/P Re-Exploration,9,
-101136,"Stage I Adenocarcinoma Of The Lung, 1.5 Cm In [**2154**] (Stage Ia)",14,
-101092,Pulmonary Embolism,35,
-100922,Hepatic Encephalopathy,11,
-100883,Chronic Obstructive Pulmonary Disease,29,
-100847,Bilateral Charcot Foot With Multiple Surgeries,25,
-100677,Mucinous Adenocarcinoma Of Unknown Primary,26,
-100590,Severe Chronic Obstructive Pulmonary Disease,37,
-100579,Healthcare Associated Pneumonia,11,
-100564,Histoplasmosis,6,
-100229,Sepsis,36,
-100187,Rectus Sheath Hematoma In Setting Of Anticoagulation,75,
-100039,Abdominal Pain,40,
-100035,Status Asthmaticus,19,
+file_idx,primary_diagnosis_x,count,primary_diagnosis_NER,primary_diagnosis_y,primary_diagnosis_LLM,selected_approach,confidence,primary_diagnosis,Common_Underlying_Factors
+198406,,33,Critical As,,<built-in method split of str object at 0x7f3e9574ec30>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9574ec30>,","
+197869,,2,Venostasis,,<built-in method split of str object at 0x7f3f2582c5b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3f2582c5b0>,","
+196798,,17,Congestive Heart Failure,,<built-in method split of str object at 0x7f3e95721d90>,NER,Lower Confidence Prediction,Congestive Heart Failure,","
+195784,,5,Blind,,<built-in method split of str object at 0x7f3e9572bef0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9572bef0>,","
+195689,,29,Acute Renal Failure,,<built-in method split of str object at 0x7f3e95769480>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95769480>,","
+193517,,26,"Coronary Artery Disease, S/P St Elevation Myocardial Infarction",,<built-in method split of str object at 0x7f3e95819840>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819840>,","
+192877,,10,Bleeding From Palate Abcess I&D And Tooth Extraction Site,,<built-in method split of str object at 0x7f3e95819ae0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819ae0>,","
+192798,,6,Upper Gastrointestinal Bleed Secondary To Nsaid Use,,<built-in method split of str object at 0x7f3e95818f80>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95818f80>,","
+191162,,17,Squamous Cell Cancer Of The Esophagus,,<built-in method split of str object at 0x7f3e95837210>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837210>,","
+191016,,12,Extensive Liver Lesions (Presumably Recurrent Hepatocellular Carcinoma),,<built-in method split of str object at 0x7f3e95c42b30>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95c42b30>,","
+190444,,35,Depression,,<built-in method split of str object at 0x7f3e979bb730>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e979bb730>,","
+190056,,63,Right Pleural Effusion,,<built-in method split of str object at 0x7f3e95835a70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95835a70>,","
+189471,,30,Cad,,<built-in method split of str object at 0x7f3e95752830>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95752830>,","
+188551,,3,Ich,,<built-in method split of str object at 0x7f3e957008b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957008b0>,","
+187782,,8,Anemia,,<built-in method split of str object at 0x7f3e957664f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957664f0>,","
+187736,,30,Healthcare Associated Pneumonia,,<built-in method split of str object at 0x7f3e95752150>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95752150>,","
+186876,,20,Copd,,<built-in method split of str object at 0x7f3e95837390>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837390>,","
+186788,,47,Hypoglycemia,,<built-in method split of str object at 0x7f3e9575d270>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9575d270>,","
+186134,,19,Nephrolithiasis,,<built-in method split of str object at 0x7f3e95733640>,NER,Lower Confidence Prediction,Nephrolithiasis,","
+185800,,31,Hypotension And Bradycardia Secondary To Anesthesia,,<built-in method split of str object at 0x7f3e958197d0>,NER,Lower Confidence Prediction,Hypotension And Bradycardia Secondary To Anesthesia,","
+185759,,9,S/P Liver Transplant [**2125-9-13**],,<built-in method split of str object at 0x7f3e95734570>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95734570>,","
+184696,,21,Esophagitis,,<built-in method split of str object at 0x7f3e95736870>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95736870>,","
+182160,,25,Right Facial Droop  - Sedating Medications,,<built-in method split of str object at 0x7f3e957526f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957526f0>,","
+182003,,13,"Secondary: Depression/ Si, Paranoid Schizophrenia, Seizure",,<built-in method split of str object at 0x7f3e95728930>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95728930>,","
+178331,,22,Complicated By Large Retroperitoneal Bleed,,<built-in method split of str object at 0x7f3e95819bc0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819bc0>,","
+178143,,31,Post-Extubation Confused Related To Medications,,<built-in method split of str object at 0x7f3e9576b0f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576b0f0>,","
+177721,,17,Methicillin Sensitive Staphylococcus Aureus Urinary Tract Infection,,<built-in method split of str object at 0x7f3e95744df0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95744df0>,","
+177370,,13,Secondary Diagnosis:,,<built-in method split of str object at 0x7f3e95819060>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819060>,","
+177331,,12,Metastic Renal Cell Carcinoma,,<built-in method split of str object at 0x7f3e95746920>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95746920>,","
+176448,,20,Refractory Status Epilepticus From Hsv Encephalitis,,<built-in method split of str object at 0x7f3e95819e60>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819e60>,","
+176106,,0,Seizures Caused By The Combination Of Ritalin And Thalidomide,,<built-in method split of str object at 0x7f3e958e6d70>,NER,Lower Confidence Prediction,Seizures Caused By The Combination Of Ritalin And Thalidomide,","
+175593,,0,Upper Gastrointestinal Bleed,,<built-in method split of str object at 0x7f3e95747730>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95747730>,","
+174150,,29,Post-Obstructive Pneumonia,,<built-in method split of str object at 0x7f3e95750ee0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95750ee0>,","
+174037,,15,Severe Necrotizing Haemorrhagic Pancreatitis,,<built-in method split of str object at 0x7f3e958359b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958359b0>,","
+172474,,0,"End-Stage Renal Disease Secondary To Poly-Cystic Kidney Disease, Status Post Cadaveric Renal Transplant",,<built-in method split of str object at 0x7f3e95819920>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819920>,","
+168936,,25,Hepatocelular Carcinoma,,<built-in method split of str object at 0x7f3e95837870>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837870>,","
+168915,,10,Acute Gallstone Pancreatitis,,<built-in method split of str object at 0x7f3e957745d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957745d0>,","
+168831,,13,Htn,,<built-in method split of str object at 0x7f3e95729ff0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95729ff0>,","
+168331,,29,Als,,<built-in method split of str object at 0x7f3e95717f70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95717f70>,","
+166834,,12,Dysgerminoma Of The Ovary,,<built-in method split of str object at 0x7f3e958c2f60>,NER,Lower Confidence Prediction,Dysgerminoma Of The Ovary,","
+164366,,11,Amoxicillin Anaphylaxis,,<built-in method split of str object at 0x7f3e9574f5b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9574f5b0>,","
+164253,,15,Bright Red Blood Per Rectum,,<built-in method split of str object at 0x7f3e95751930>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95751930>,","
+161477,,56,Abdominal Pain,,<built-in method split of str object at 0x7f3e95731890>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95731890>,","
+161384,,15,Peripheral Arterial Disease,,<built-in method split of str object at 0x7f3e95750080>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95750080>,","
+160574,,29,Post Op Delirium - Resolved,,<built-in method split of str object at 0x7f3e957753e0>,NER,Lower Confidence Prediction,Post Op Delirium - Resolved,","
+159079,,2,Tracheomalacia,,<built-in method split of str object at 0x7f3e9575d930>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9575d930>,","
+157609,,19,Pituitary Adenoma,,<built-in method split of str object at 0x7f3e95750940>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95750940>,","
+157352,,21,Hiv/Aids,,<built-in method split of str object at 0x7f3e95725df0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95725df0>,","
+157284,,24,Hypotension,,<built-in method split of str object at 0x7f3e95751020>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95751020>,","
+155980,,13,Herpes Zoster,,<built-in method split of str object at 0x7f3e95751160>,NER,Lower Confidence Prediction,Herpes Zoster,","
+153141,,19,Coronary Artery Disese S/P Cabg,,<built-in method split of str object at 0x7f3e957688f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957688f0>,","
+152612,,46,Rectus Muscle Hematoma,,<built-in method split of str object at 0x7f3e95835fb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95835fb0>,","
+151904,,8,Metabolic Encephalopathy,,<built-in method split of str object at 0x7f3e95837bd0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837bd0>,","
+151688,,0,Right Parietal Brain Mass,,<built-in method split of str object at 0x7f3e957308f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957308f0>,","
+150068,,10,Hyperglycemia,,<built-in method split of str object at 0x7f3e9573ba70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9573ba70>,","
+149687,,5,The Patient Felt Well Clinically Without Abdominal Pain,,<built-in method split of str object at 0x7f3e95722b00>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95722b00>,","
+149614,,42,Chronic Obstructive Pulmonary Disease Flare,,<built-in method split of str object at 0x7f3e958195a0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958195a0>,","
+147292,,60,History Of Short Gut Syndrome On Tpn,,<built-in method split of str object at 0x7f3e95730c10>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95730c10>,","
+145012,,11,Syncope From Ventricular Tachycardia,,<built-in method split of str object at 0x7f3e95836250>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836250>,","
+144301,,42,Seizures,,<built-in method split of str object at 0x7f3e95733e10>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95733e10>,","
+143562,,28,End Stage Renal Disease Requiring Hemodialysis,,<built-in method split of str object at 0x7f3e95747820>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95747820>,","
+143451,,11,Hypertension,,<built-in method split of str object at 0x7f3e9574deb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9574deb0>,","
+141586,,19,Atrial Fibrillation,,<built-in method split of str object at 0x7f3e95751a20>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95751a20>,","
+131434,,32,Community Acquired Pna,,<built-in method split of str object at 0x7f3e95774cb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95774cb0>,","
+130440,,16,Bipolar Disorder,,<built-in method split of str object at 0x7f3e95837e70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837e70>,","
+130153,,10,The Patient Remained Stable From A Medical Point Of View However The Patient Remained On The Medicine Service And Was Followed By The Psychiatry Team Consideration For Transfer To Inpatient Psychiatric Facility Was Recommended By The Medical Team Given That The Patient Was At Risk Of Elopment A Discussion With Psychiatry Resulted In Discontinuation Of The One-To-One Security Sitter Haldol Was Discontinued And The Patient Was Deemed Ready To Be Discharged To Home With Follow Up With His Primary Care Physician Per Report The Patient Did Elope Even Though He Was Medically Ready To Be Discharged,,<built-in method split of str object at 0x7f3e9574db70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9574db70>,","
+130076,,0,Expired,,<built-in method split of str object at 0x7f3e95728af0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95728af0>,","
+129286,,25,Hyperlipidemia,,<built-in method split of str object at 0x7f3e958361f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958361f0>,","
+128041,,19,Generalized Seizure,,<built-in method split of str object at 0x7f3e9576c1b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576c1b0>,","
+127944,,14,Thrombocytopenia - Resolved,,<built-in method split of str object at 0x7f3e958c2fb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958c2fb0>,","
+127741,,5,Sepsis,,<built-in method split of str object at 0x7f3e957515c0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957515c0>,","
+127356,,15,Htn,,<built-in method split of str object at 0x7f3e958357d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958357d0>,","
+127263,,26,Bilateral Mssa Empyemas,,<built-in method split of str object at 0x7f3e95730e90>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95730e90>,","
+126380,,30,Status Post Ep Ablation For Atrial Tachycardia,,<built-in method split of str object at 0x7f3e95836f70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836f70>,","
+125206,,27,Lumbar Spinal Stenosis,,<built-in method split of str object at 0x7f3e957461a0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957461a0>,","
+124917,,4,Aspiration Pneumonia,,<built-in method split of str object at 0x7f3e957536e0>,NER,Lower Confidence Prediction,Aspiration Pneumonia,","
+124891,,8,Ischemic Cardiomyopathy,,<built-in method split of str object at 0x7f3e95723eb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95723eb0>,","
+124307,,16,Tongue Swelling,,<built-in method split of str object at 0x7f3e95743270>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95743270>,","
+123771,,23,Bilateral Upper Extremity And Left Buttock Severe Bite Wounds Status Post Dog Attack,,<built-in method split of str object at 0x7f3e958dfe10>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958dfe10>,","
+123589,,19,Hepatitis C Cirrhosis,,<built-in method split of str object at 0x7f3e95836a30>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836a30>,","
+123475,,21,Past Surgical History:,,<built-in method split of str object at 0x7f3e957315c0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957315c0>,","
+123324,,31,Chronic Obstructive Lung Disease,,<built-in method split of str object at 0x7f3e95836310>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836310>,","
+123244,,35,Acute Blood Loss Anemia,,<built-in method split of str object at 0x7f3e95720a30>,NER,Lower Confidence Prediction,Acute Blood Loss Anemia,","
+122733,,28,Hypothyroidism,,<built-in method split of str object at 0x7f3e957347b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957347b0>,","
+122468,,6,"Loss Of Gag Reflex Secondary To Cerebrovascular Accident, Subsequent Placement Of Percutaneous Endoscopic Gastrostomy Tube By Interventional Radiology On [**2176-7-17**]",,<built-in method split of str object at 0x7f3e95819ca0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819ca0>,","
+122093,,30,Hcv,,<built-in method split of str object at 0x7f3e95731070>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95731070>,","
+122057,,1,Edh,,<built-in method split of str object at 0x7f3e95735e70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95735e70>,","
+121915,,14,Gastrointestinal Bleed,,<built-in method split of str object at 0x7f3e95722510>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95722510>,","
+121514,,29,Lithium Toxicity,,<built-in method split of str object at 0x7f3e95775570>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95775570>,","
+121467,,8,Location (Un) 849**] Gastaut Syndrome,,<built-in method split of str object at 0x7f3f257628d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3f257628d0>,","
+120605,,9,Splenic Hemorrhage,,<built-in method split of str object at 0x7f3e9576b460>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576b460>,","
+120301,,59,Hemorrhage From Tracheostomy,,<built-in method split of str object at 0x7f3e95836a90>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836a90>,","
+120253,,22,Hemoptysis,,<built-in method split of str object at 0x7f3e957355f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957355f0>,","
+120237,,19,Renal Failure,,<built-in method split of str object at 0x7f3e95750d50>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95750d50>,","
+119573,,20,Acute Respiratory Distress Requiring Intubation,,<built-in method split of str object at 0x7f3e958355f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958355f0>,","
+119144,,11,Adrenal Crisis,,<built-in method split of str object at 0x7f3e957346f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957346f0>,","
+119069,,17,Deep Venous Thrombosis,,<built-in method split of str object at 0x7f3e957747b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957747b0>,","
+118694,,20,Laryngeal Spasm,,<built-in method split of str object at 0x7f3e95835770>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95835770>,","
+118510,,21,Complex Ovarian Cysts,,<built-in method split of str object at 0x7f3e95731cf0>,NER,Lower Confidence Prediction,Complex Ovarian Cysts,","
+118418,,30,Acute Renal Failure Related To Il-2 Therapy,,<built-in method split of str object at 0x7f3e95769110>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95769110>,","
+118243,,0,Right Sideded Frontal Brain Masses,,<built-in method split of str object at 0x7f3e958367f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958367f0>,","
+117907,,5,Sepsis,,<built-in method split of str object at 0x7f3e95740fb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95740fb0>,","
+117872,,9,Bilateral Leg Dvts,,<built-in method split of str object at 0x7f3e9576a380>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576a380>,","
+117871,,11,Coronary Artery Disease,,<built-in method split of str object at 0x7f3e95731610>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95731610>,","
+117745,,28,Hemophagocytic Lymphohistiocytosis,,<built-in method split of str object at 0x7f3e958369d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958369d0>,","
+117156,,25,Coronary Artery Disease,,<built-in method split of str object at 0x7f3e958354d0>,NER,Lower Confidence Prediction,Coronary Artery Disease,","
+116966,,30,Pneumonia,,<built-in method split of str object at 0x7f3e95728bf0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95728bf0>,","
+116901,,48,Pneumonia,,<built-in method split of str object at 0x7f3e9576b9b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576b9b0>,","
+116853,,30,Polysubstance Abuse,,<built-in method split of str object at 0x7f3e95837b10>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837b10>,","
+116604,,22,"Acute Delirium, Likely Secondary To Narcotics Withdrawal Vs.",,<built-in method split of str object at 0x7f3e97861b10>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e97861b10>,","
+116451,,15,Hcc,,<built-in method split of str object at 0x7f3e95768120>,NER,Lower Confidence Prediction,Hcc,","
+115789,,30,Heparin-Induced Antibody Pulmonary Embolism,,<built-in method split of str object at 0x7f3e95837510>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837510>,","
+115667,,33,Epistaxis,,<built-in method split of str object at 0x7f3e95734330>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95734330>,","
+115464,,6,End Stage Liver Disease Secondary To Hep C Cirrhosis,,<built-in method split of str object at 0x7f3e958198b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958198b0>,","
+115432,,0,Expired,,<built-in method split of str object at 0x7f3e9573b670>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9573b670>,","
+115347,,6,Upper Gi Bleeding,,<built-in method split of str object at 0x7f3e95768580>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95768580>,","
+115267,,67,Seizure,,<built-in method split of str object at 0x7f3e95769430>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95769430>,","
+115244,,15,Upper Gi Bleed,,<built-in method split of str object at 0x7f3e958d41f0>,NER,Lower Confidence Prediction,Upper Gi Bleed,","
+115232,,2,Hypercoagulable State,,<built-in method split of str object at 0x7f3e958dde00>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958dde00>,","
+115191,,24,Hyperkalemia,,<built-in method split of str object at 0x7f3e957519d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957519d0>,","
+115157,,37,Hypotension,,<built-in method split of str object at 0x7f3e957005b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957005b0>,","
+115143,,11,Diabetic Ketoacidosis,,<built-in method split of str object at 0x7f3e957469c0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957469c0>,","
+115021,,6,Postop Atrial Fibrillation,,<built-in method split of str object at 0x7f3e957276f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957276f0>,","
+114976,,15,Chronic Obstructive Pulmonary Disease Flare,,<built-in method split of str object at 0x7f3e95835710>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95835710>,","
+114965,,45,Sellar And Suprasellar Mass,,<built-in method split of str object at 0x7f3e95750a80>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95750a80>,","
+114959,,18,Pleural Effusion,,<built-in method split of str object at 0x7f3e95737830>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95737830>,","
+114923,,22,Paroxysmal Atrial Fibrillation,,<built-in method split of str object at 0x7f3e95730580>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95730580>,","
+114836,,10,Tremors Secondary To Prograf Toxicity,,<built-in method split of str object at 0x7f3e95774580>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95774580>,","
+114735,,30,Increased Seizure Frequency,,<built-in method split of str object at 0x7f3e958375d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958375d0>,","
+114680,,6,Hypoxia After Sedation For An Elective Ercp,,<built-in method split of str object at 0x7f3e95836eb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836eb0>,","
+114585,,13,"Uti,Yeast",,<built-in method split of str object at 0x7f3e9572bb30>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9572bb30>,","
+114513,,14,S/P Pacemaker Placement,,<built-in method split of str object at 0x7f3e957442b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957442b0>,","
+114248,,5,Acomm Aneurysm,,<built-in method split of str object at 0x7f3e95714570>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95714570>,","
+114220,,24,Left Mca (Middle Cerebral Artery) Infarct While Inr Therapeutic,,<built-in method split of str object at 0x7f3e95818f10>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95818f10>,","
+114144,,5,Left Basal Ganglia Intraparenchymal Hemorrhage,,<built-in method split of str object at 0x7f3e958371b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958371b0>,","
+114004,,10,Lower Gi Bleeding C/B Anticoagulation,,<built-in method split of str object at 0x7f3e95837270>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837270>,","
+113840,,30,Supratherapeutic Inr,,<built-in method split of str object at 0x7f3e95731750>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95731750>,","
+113824,,36,Neutropenic Colitis,,<built-in method split of str object at 0x7f3e958be970>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958be970>,","
+113813,,25,Cmv And Ebb Positive,,<built-in method split of str object at 0x7f3e95836c10>,NER,Lower Confidence Prediction,Cmv And Ebb Positive,","
+113705,,14,End Stage Renal Disease,,<built-in method split of str object at 0x7f3e95721340>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95721340>,","
+113524,,5,Cad,,<built-in method split of str object at 0x7f3e958d69f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958d69f0>,","
+113391,,6,Tracheomalacia,,<built-in method split of str object at 0x7f3e95740630>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95740630>,","
+113200,,25,Coronary Artery Disease,,<built-in method split of str object at 0x7f3e957298f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957298f0>,","
+112832,,7,Recurrent Incisional Hernia Reduced Intestine,,<built-in method split of str object at 0x7f3e958378d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958378d0>,","
+112747,,30,Past Surgical History,,<built-in method split of str object at 0x7f3e95729570>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95729570>,","
+112628,,16,Acute Renal Failure On Chronic Kidney Disease,,<built-in method split of str object at 0x7f3e957317a0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957317a0>,","
+112615,,18,Health Care Associated Bacterial Pneumonia,,<built-in method split of str object at 0x7f3e95837c90>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837c90>,","
+112368,,25,Hiv,,<built-in method split of str object at 0x7f3e957152b0>,NER,Lower Confidence Prediction,Hiv,","
+112249,,13,Hypertension,,<built-in method split of str object at 0x7f3e95768f80>,NER,Lower Confidence Prediction,Hypertension,","
+112140,,30,Atrial Fibrillation With Rvr,,<built-in method split of str object at 0x7f3e958c28d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958c28d0>,","
+112030,,16,Secondary:,,<built-in method split of str object at 0x7f3e95835e30>,NER,Lower Confidence Prediction,Secondary:,","
+112014,,16,Pneumonia,,<built-in method split of str object at 0x7f3e95752740>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95752740>,","
+111923,,19,Leukodystrophy,,<built-in method split of str object at 0x7f3e9576abf0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576abf0>,","
+111882,,36,Systemic Lupus Erythematosus,,<built-in method split of str object at 0x7f3e958194c0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958194c0>,","
+111840,,44,Febrile Neutropenia,,<built-in method split of str object at 0x7f3e95769f70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95769f70>,","
+111542,,0,"I'M Sorry, I Cannot Assist With That Request.",,<built-in method split of str object at 0x7f3e95724830>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95724830>,","
+111458,,17,Pancreatic Ca,,<built-in method split of str object at 0x7f3e958365b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958365b0>,","
+111447,,9,Primary: Asthma Exacerbation,,<built-in method split of str object at 0x7f3e95730490>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95730490>,","
+111323,,23,Health Care Associated Pneumonia,,<built-in method split of str object at 0x7f3e95744940>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95744940>,","
+111298,,2,R Frontal Mass,,<built-in method split of str object at 0x7f3e95726df0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95726df0>,","
+111041,,20,Copd,,<built-in method split of str object at 0x7f3e95837f30>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837f30>,","
+110863,,15,Kaposi'S Sarcoma,,<built-in method split of str object at 0x7f3e9576bb90>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576bb90>,","
+110727,,28,Htn,,<built-in method split of str object at 0x7f3e95715a70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95715a70>,","
+110521,,7,Pancytopenia,,<built-in method split of str object at 0x7f3e95835f50>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95835f50>,","
+110499,,16,Pulmonary Hypertension,,<built-in method split of str object at 0x7f3e957506c0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957506c0>,","
+110445,,7,Dilantin Hypersensitivity Reaction,,<built-in method split of str object at 0x7f3e958351d0>,NER,Lower Confidence Prediction,Dilantin Hypersensitivity Reaction,","
+110384,,44,Hepatocellular Carcinoma,,<built-in method split of str object at 0x7f3e958c2650>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958c2650>,","
+110342,,20,Pneumonia,,<built-in method split of str object at 0x7f3e957177b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957177b0>,","
+110335,,16,Altered Mental Status,,<built-in method split of str object at 0x7f3e958379f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958379f0>,","
+110326,,65,Metastatic Melanoma Status Post High Dose Il-2 Therapy,,<built-in method split of str object at 0x7f3e958191b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958191b0>,","
+110186,,17,Hypertension,,<built-in method split of str object at 0x7f3e95774ad0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95774ad0>,","
+110068,,4,Acute Blood Loss Anemia,,<built-in method split of str object at 0x7f3e957208a0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957208a0>,","
+110037,,10,Aspiration Pneumonia,,<built-in method split of str object at 0x7f3e95836b50>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836b50>,","
+109866,,10,Delirium Secondary To Medications,,<built-in method split of str object at 0x7f3e95720bc0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95720bc0>,","
+109784,,32,Acute Kidney Injury,,<built-in method split of str object at 0x7f3e95774c60>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95774c60>,","
+109770,,23,Hypercalcemia,,<built-in method split of str object at 0x7f3e95837630>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837630>,","
+109697,,43,Mitral Regurgitation,,<built-in method split of str object at 0x7f3e958c1a70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958c1a70>,","
+109667,,6,Likely Anaphylactic Reaction To Contrast,,<built-in method split of str object at 0x7f3e95837990>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837990>,","
+109633,,5,Metastatic Breast Cancer,,<built-in method split of str object at 0x7f3e95774940>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95774940>,","
+109617,,34,Mssa Epidural Abscesses,,<built-in method split of str object at 0x7f3e9573fab0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9573fab0>,","
+109566,,14,Urinary Retention,,<built-in method split of str object at 0x7f3e95732e20>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95732e20>,","
+109527,,24,Pancreatitis,,<built-in method split of str object at 0x7f3e957156f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957156f0>,","
+109450,,5,Gi Bleed Secondary To Supratherapeutic Inr And Antral Erosions,,<built-in method split of str object at 0x7f3e958190d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958190d0>,","
+109191,,10,Respiratory Failure,,<built-in method split of str object at 0x7f3e95769070>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95769070>,","
+109176,,26,Idiopathic Neutropenia,,<built-in method split of str object at 0x7f3e958360d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958360d0>,","
+109170,,53,Coronary Artery Disease,,<built-in method split of str object at 0x7f3e95721e80>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95721e80>,","
+108949,,12,Aspiration,,<built-in method split of str object at 0x7f3e9573adb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9573adb0>,","
+108932,,19,Choledocholithiasis,,<built-in method split of str object at 0x7f3e95776060>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95776060>,","
+108901,,7,Urinary Tract Infection- E.Coli (Esbl),,<built-in method split of str object at 0x7f3e958368b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958368b0>,","
+108889,,10,Hyperlipidemia,,<built-in method split of str object at 0x7f3e95835cb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95835cb0>,","
+108809,,19,Delerium / Acute / Medication Reaction,,<built-in method split of str object at 0x7f3e957321f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957321f0>,","
+108754,,22,Spinal Stenosis,,<built-in method split of str object at 0x7f3e95732b00>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95732b00>,","
+108411,,25,Gi Bleed,,<built-in method split of str object at 0x7f3e95730170>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95730170>,","
+108073,,14,Aspiration Pneumonia,,<built-in method split of str object at 0x7f3e957504e0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957504e0>,","
+108032,,26,Stab Wound,,<built-in method split of str object at 0x7f3e9575f370>,NER,Lower Confidence Prediction,Stab Wound,","
+107872,,34,Acute On Chronic Systolic  Heart Failure,,<built-in method split of str object at 0x7f3e9576b410>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576b410>,","
+107869,,23,Gastric Outlet Obstruction S/P Duodenal Stent Placement,,<built-in method split of str object at 0x7f3e9576ae70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576ae70>,","
+107322,,6,Respiratory Failure,,<built-in method split of str object at 0x7f3e958c2240>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958c2240>,","
+107255,,15,Junctional Rhythm Induced By Beta-Blocker Toxicity,,<built-in method split of str object at 0x7f3e95819ed0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819ed0>,","
+107251,,7,Expired,,<built-in method split of str object at 0x7f3e957273b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957273b0>,","
+107139,,18,Ruptured Aaa,,<built-in method split of str object at 0x7f3e95752650>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95752650>,","
+107058,,25,Angioedema,,<built-in method split of str object at 0x7f3e97855230>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e97855230>,","
+107047,,22,Burkitt'S Lymphoma,,<built-in method split of str object at 0x7f3e95732790>,NER,Lower Confidence Prediction,Burkitt'S Lymphoma,","
+106939,,35,Hiv,,<built-in method split of str object at 0x7f3e95744580>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95744580>,","
+106629,,15,Narcotic Withdrawal,,<built-in method split of str object at 0x7f3e95774210>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95774210>,","
+106621,,51,Change In Mental Status,,<built-in method split of str object at 0x7f3e957518e0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957518e0>,","
+106423,,3,Asthma/Copd Exacerbation,,<built-in method split of str object at 0x7f3e95750620>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95750620>,","
+106415,,38,Renal Failure,,<built-in method split of str object at 0x7f3e95741130>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95741130>,","
+106384,,22,Paroxysmal Atrial Fibrillation On Coumadin,,<built-in method split of str object at 0x7f3e957323d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957323d0>,","
+106361,,16,Supraventricular Tachycardia,,<built-in method split of str object at 0x7f3e95768080>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95768080>,","
+106064,,22,Cirrhosis,,<built-in method split of str object at 0x7f3e957687b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957687b0>,","
+106038,,31,Hypothyroidism,,<built-in method split of str object at 0x7f3e95819140>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819140>,","
+106026,,11,Beta Lactam Allergy (Likely) With Drug Eruption (Rash),,<built-in method split of str object at 0x7f3f273ec240>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3f273ec240>,","
+105954,,7,Signet-Ring Cell Gastric Cancer Invading Trans Colon,,<built-in method split of str object at 0x7f3e95819a00>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819a00>,","
+105778,,21,Hyperlipidemia,,<built-in method split of str object at 0x7f3e95745f20>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95745f20>,","
+105747,,49,Atrial Flutter,,<built-in method split of str object at 0x7f3e95714e30>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95714e30>,","
+105614,,33,Pacemaker Site Infection,,<built-in method split of str object at 0x7f3e95722fb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95722fb0>,","
+105547,,5,Respiratory Failure/Hypoxia  Requiring Mechanical Ventilation,,<built-in method split of str object at 0x7f3e95722c40>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95722c40>,","
+105445,,13,Left Retroperitoneal Bleed,,<built-in method split of str object at 0x7f3e957742b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957742b0>,","
+105360,,28,Non St Elevation Myocardial Infarction,,<built-in method split of str object at 0x7f3e9576a790>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576a790>,","
+105254,,4,Hypertensive Emergency,,<built-in method split of str object at 0x7f3e95745390>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95745390>,","
+105106,,23,Cad,,<built-in method split of str object at 0x7f3e957694d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957694d0>,","
+105104,,16,Acute Myelogenous Leukemia,,<built-in method split of str object at 0x7f3e95768df0>,NER,Lower Confidence Prediction,Acute Myelogenous Leukemia,","
+105050,,84,Headache Nos,,<built-in method split of str object at 0x7f3e95752420>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95752420>,","
+105027,,42,Pyelonephritis,,<built-in method split of str object at 0x7f3e95836430>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836430>,","
+105014,,22,Diarrhea,,<built-in method split of str object at 0x7f3e95819370>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819370>,","
+104979,,6,Small Bowel Obstruction,,<built-in method split of str object at 0x7f3e957226a0>,NER,Lower Confidence Prediction,Small Bowel Obstruction,","
+104850,,15,Pulmonary Emboli,,<built-in method split of str object at 0x7f3e95837ed0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837ed0>,","
+104799,,12,Hypercholesterolemia,,<built-in method split of str object at 0x7f3e958366d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958366d0>,","
+104710,,35,Hematuria Likely From A Bleeding Kidney Metastasis,,<built-in method split of str object at 0x7f3e95819990>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819990>,","
+104682,,15,Cirrhosis,,<built-in method split of str object at 0x7f3e95750030>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95750030>,","
+104653,,16,Gastrointestinal Bleeding,,<built-in method split of str object at 0x7f3e95745e80>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95745e80>,","
+104468,,10,Symptomatic Bradycardia,,<built-in method split of str object at 0x7f3e95720c60>,NER,Lower Confidence Prediction,Symptomatic Bradycardia,","
+104107,,10,Hyperlipidemia,,<built-in method split of str object at 0x7f3e95730530>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95730530>,","
+104095,,2,Diabetes Insipidus,,<built-in method split of str object at 0x7f3e9576a600>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576a600>,","
+104091,,37,End Stage Renal Disease On Hd,,<built-in method split of str object at 0x7f3e95729eb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95729eb0>,","
+103926,,20,Coronary Artery Disease,,<built-in method split of str object at 0x7f3e95753b40>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95753b40>,","
+103877,,15,End Stage Renal Disease,,<built-in method split of str object at 0x7f3e95720ad0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95720ad0>,","
+103722,,21,Anxiety,,<built-in method split of str object at 0x7f3e957531e0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957531e0>,","
+103677,,5,Angioedema,,<built-in method split of str object at 0x7f3e958be2f0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958be2f0>,","
+103639,,16,Umbilical Hernia With Fluid Leakage: Stable,,<built-in method split of str object at 0x7f3e958363d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958363d0>,","
+103377,,33,Cerebellar Lesion,,<built-in method split of str object at 0x7f3e95730c60>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95730c60>,","
+103317,,5,Sepsis,,<built-in method split of str object at 0x7f3e95819450>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819450>,","
+103315,,33,Hyperglycemia Secondary To Medications,,<built-in method split of str object at 0x7f3e95c428b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95c428b0>,","
+103293,,26,Dic,,<built-in method split of str object at 0x7f3e95750580>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95750580>,","
+103142,,15,Severe As,,<built-in method split of str object at 0x7f3e95768490>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95768490>,","
+103074,,0,"I'M Sorry, I Cannot Assist With That Request.",,<built-in method split of str object at 0x7f3e95767370>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95767370>,","
+102967,,5,Postoperative Renal Failure,,<built-in method split of str object at 0x7f3e95836f10>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836f10>,","
+102937,,31,Aaa,,<built-in method split of str object at 0x7f3e95701b70>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95701b70>,","
+102698,,6,Histroy Of Poly Neuropathies,,<built-in method split of str object at 0x7f3e9576c270>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9576c270>,","
+102668,,5,Congestive Heart Failure,,<built-in method split of str object at 0x7f3e957232d0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957232d0>,","
+102629,,21,S/P Back Surgery,,<built-in method split of str object at 0x7f3e95819530>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819530>,","
+102557,,55,"Biliary Stenting (Ercp), ?Biliary Sepsis",,<built-in method split of str object at 0x7f3e95740070>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95740070>,","
+102527,,15,Hypertension,,<built-in method split of str object at 0x7f3e95753f00>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95753f00>,","
+102456,,15,Chronic Renal Insufficiency (Creatinine 1.5- 1.9),,<built-in method split of str object at 0x7f3e958377b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958377b0>,","
+102365,,25,Health Care Associated Pneumonia,,<built-in method split of str object at 0x7f3e95836d90>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836d90>,","
+102324,,55,Hypothermia,,<built-in method split of str object at 0x7f3e95836850>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836850>,","
+102296,,16,Acute-On-Chronic Anemia With Guaiac + Stools And No Further Gi,,<built-in method split of str object at 0x7f3e95836bb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836bb0>,","
+102283,,42,Pneumonia,,<built-in method split of str object at 0x7f3e958c25b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958c25b0>,","
+102173,,5,Free Air On Cxr S/P G-Tube Placement,,<built-in method split of str object at 0x7f3e95837d50>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837d50>,","
+102136,,26,Etoh Abuse,,<built-in method split of str object at 0x7f3e95819610>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819610>,","
+102087,,18,Paroxysmal Atrial Fibrilation Treated With Coumadin,,<built-in method split of str object at 0x7f3e95819c30>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819c30>,","
+102045,,12,Aml,,<built-in method split of str object at 0x7f3e9574d5b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9574d5b0>,","
+102027,,20,Chronic Congestive Heart Failure With Ef 15%,,<built-in method split of str object at 0x7f3e95720120>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95720120>,","
+102019,,23,Acute Tubular Necrosis (Atn) Causing Renal Failure,,<built-in method split of str object at 0x7f3e9571c8a0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9571c8a0>,","
+101857,,12,Alcoholic Cirrhosis,,<built-in method split of str object at 0x7f3e958c3aa0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958c3aa0>,","
+101813,,21,Rapid Atrial Fibrillation,,<built-in method split of str object at 0x7f3e95752010>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95752010>,","
+101779,,22,Lymphoblastic Lymphoma / All,,<built-in method split of str object at 0x7f3e95723e10>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95723e10>,","
+101665,,32,Diarrhea,,<built-in method split of str object at 0x7f3e957282b0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957282b0>,","
+101566,,1,Jejunal Ulcer,,<built-in method split of str object at 0x7f3e9574d0f0>,NER,Lower Confidence Prediction,Jejunal Ulcer,","
+101427,,1,Myocardial Infarction And Profound Vagal Reaction,,<built-in method split of str object at 0x7f3e95819220>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819220>,","
+101410,,7,"Primary: Korsakoff'S Psychosis, Back Pain, Agitation",,<built-in method split of str object at 0x7f3e95721980>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95721980>,","
+101372,,32,Epiglottitis,,<built-in method split of str object at 0x7f3e9574e070>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9574e070>,","
+101331,,57,"Bradycardia, Thought Secondary To Hypothyroidism",,<built-in method split of str object at 0x7f3e95751f20>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95751f20>,","
+101276,,16,Metastatic Rectal Cancer,,<built-in method split of str object at 0x7f3e957441c0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957441c0>,","
+101215,,9,Postoperative Bleeding/Pericardial Effusion - S/P Re-Exploration,,<built-in method split of str object at 0x7f3e957467e0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e957467e0>,","
+101136,,14,"Stage I Adenocarcinoma Of The Lung, 1.5 Cm In [**2154**] (Stage Ia)",,<built-in method split of str object at 0x7f3e95836670>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836670>,","
+101092,,35,Pulmonary Embolism,,<built-in method split of str object at 0x7f3e95733f00>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95733f00>,","
+100922,,11,Hepatic Encephalopathy,,<built-in method split of str object at 0x7f3e95836610>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836610>,","
+100883,,29,Chronic Obstructive Pulmonary Disease,,<built-in method split of str object at 0x7f3e95836cd0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836cd0>,","
+100847,,25,Bilateral Charcot Foot With Multiple Surgeries,,<built-in method split of str object at 0x7f3e95750300>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95750300>,","
+100677,,26,Mucinous Adenocarcinoma Of Unknown Primary,,<built-in method split of str object at 0x7f3e95720f30>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95720f30>,","
+100590,,37,Severe Chronic Obstructive Pulmonary Disease,,<built-in method split of str object at 0x7f3e95819760>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95819760>,","
+100579,,11,Healthcare Associated Pneumonia,,<built-in method split of str object at 0x7f3e958c3550>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e958c3550>,","
+100564,,6,Histoplasmosis,,<built-in method split of str object at 0x7f3e95837150>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95837150>,","
+100229,,36,Sepsis,,<built-in method split of str object at 0x7f3e9572b270>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e9572b270>,","
+100187,,75,Rectus Sheath Hematoma In Setting Of Anticoagulation,,<built-in method split of str object at 0x7f3e95818dc0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95818dc0>,","
+100039,,40,Abdominal Pain,,<built-in method split of str object at 0x7f3e95751bb0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95751bb0>,","
+100035,,19,Status Asthmaticus,,<built-in method split of str object at 0x7f3e95836df0>,LLM,Lower Confidence Prediction,<built-in method split of str object at 0x7f3e95836df0>,","

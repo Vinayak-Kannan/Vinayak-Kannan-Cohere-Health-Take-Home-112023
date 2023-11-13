@@ -14,18 +14,18 @@ class PrimaryDiagnosisIdentifier:
     output_df_NER = pd.DataFrame(columns=["file_idx", "primary_diagnosis_NER", "count"])
     output_df_LLM = pd.DataFrame(columns=["file_idx", "primary_diagnosis_LLM"])
     output_df = pd.DataFrame(columns=["file_idx", "primary_diagnosis_NER", "count", "primary_diagnosis_LLM"])
-    output_df_filtered = pd.DataFrame(columns=["file_idx", "primary_diagnosis", "count", "selected_approach", "confidence"])
+    output_df_filtered = pd.DataFrame(columns=["file_idx", "primary_diagnosis", "count", "selected_approach", "confidence", "primary_diagnosis_NER", "primary_diagnosis_LLM"])
 
     def __init__(self, txt_df: pd.DataFrame) -> None:
         self.txt_df = txt_df
 
     def process_data(self) -> pd.DataFrame:
         print("Processing Data...")
-        self.output_df_NER = self.__create_primary_diagnosis_NER(self.txt_df)
-        self.output_df_NER = self.output_df_NER.sort_values(by=['file_idx', 'count', 'primary_diagnosis_NER'], ascending=[False, False, True]).drop_duplicates(subset=['file_idx'], keep='first')
-
         self.output_df_LLM = self.__create_primary_diagnosis_LLM(self.txt_df)
         self.output_df_LLM = self.output_df_LLM.sort_values(by=['file_idx'], ascending=[False])
+
+        self.output_df_NER = self.__create_primary_diagnosis_NER(self.txt_df)
+        self.output_df_NER = self.output_df_NER.sort_values(by=['file_idx', 'count', 'primary_diagnosis_NER'], ascending=[False, False, True]).drop_duplicates(subset=['file_idx'], keep='first')
 
         # Merge output_df_LLM and output_df_NER
         self.output_df = self.output_df_NER.merge(self.output_df_LLM, on='file_idx')
@@ -38,7 +38,7 @@ class PrimaryDiagnosisIdentifier:
         output_df['confidence'] = ''
         output_df['primary_diagnosis'] = ''
         for index, row in output_df.iterrows():
-            if row['primary_diagnosis_NER'] == row['primary_diagnosis_LLM']:
+            if str(row['primary_diagnosis_NER']).lower().strip() in str(row['primary_diagnosis_LLM']).lower.strip():
                 output_df.at[index, 'selected_approach'] = 'BOTH'
                 output_df.at[index, 'confidence'] = 'Higher Confidence Prediction'
                 output_df.at[index, 'primary_diagnosis'] = str(row['primary_diagnosis_NER'])
@@ -50,7 +50,6 @@ class PrimaryDiagnosisIdentifier:
                 output_df.at[index, 'selected_approach'] = 'LLM'
                 output_df.at[index, 'confidence'] = 'Lower Confidence Prediction'
                 output_df.at[index, 'primary_diagnosis'] = str(row['primary_diagnosis_LLM'])
-        output_df = output_df.drop(columns=['primary_diagnosis_NER', 'primary_diagnosis_LLM'])
         return output_df
 
 
@@ -70,7 +69,7 @@ class PrimaryDiagnosisIdentifier:
         )
 
         for i, file_idx in enumerate(txt_df["file_idx"].unique()):
-            print(i, " out of ", len(txt_df["file_idx"].unique()), " files processed")
+            print(i, " out of ", len(txt_df["file_idx"].unique()), " files processed via NER method")
             txt_df_subset = txt_df[txt_df["file_idx"] == file_idx]
 
             diagnosis_dict = {}
@@ -126,12 +125,16 @@ class PrimaryDiagnosisIdentifier:
         messages_template = [
             {
                 "role": "system",
-                "content": """You will ingest a docuement about a clinicians note detailing a doctor visit. 
-                I will give you a list of possible Primary Medical Diagnoses; each is seperated by a ','. You will review the docuement and select the most likely Primary Medical Diagnoses from the list I provide.
-                A 'Primary Medical Diagnosis' is defined as the 'Main condition treated or investigated during relevant episode of healthcare'.
-                You will return the option that best respresents the Primary Medical Diagnoses from the list I've provided.
+                "content": """You will ingest a document about a clinician's note detailing a doctors visit.
+                I will give you a list of possible Primary Medical Diagnoses; each is separated by a ','.
+                You will review the document and select the most likely Primary Medical Diagnoses from the list I provide.
+                A 'Primary Medical Diagnosis' is defined as the 'Main condition treated or investigated during a relevant episode of healthcare'.
+                You will return one option that best represents the Primary Medical Diagnosis from the list of possible options I've provided.
                 Do not change or alter the original diagnosis text from the list I provided.
-                Remove any leading or trailing punctuation from the diagnosis.""",
+                Remove any leading or trailing punctuation from the diagnosis.
+                For example, if a patient has a 'Primary Medical Diagnosis' of 'AML', you will say 'AML' from the list I provided.
+                Do not provide any other text besides the 'Primary Medical Diagnosis'. Do not convert acronyms to their full name.
+                """,
             },
             {
                 "role": "user",
@@ -148,7 +151,8 @@ class PrimaryDiagnosisIdentifier:
         )
 
         # Loop through each file in txt_df and get the 'text'
-        for _, file_idx in enumerate(txt_df["file_idx"].unique()):
+        for i, file_idx in enumerate(txt_df["file_idx"].unique()):
+            print(i, " out of ", len(txt_df["file_idx"].unique()), " files processed via LLM method")
             options = "These are the list of possible Primary Medical Diagnoses: \n\n"
             raw_text = "This is the raw text from the clinicians note: \n\n"
             messages_template[2]["content"] = raw_text + txt_df[txt_df["file_idx"] == file_idx][
@@ -166,7 +170,7 @@ class PrimaryDiagnosisIdentifier:
             while True:
                 try:
                     response = client.chat.completions.create(
-                        model="gpt-3.5-turbo-1106",
+                        model="gpt-4-1106-preview",
                         messages=messages_template,  # type: ignore
                         temperature=0,
                         timeout=30,
@@ -180,7 +184,7 @@ class PrimaryDiagnosisIdentifier:
                     print("Trying again")
                     time.sleep(1)
 
-            response = response.choices[0].message.content.split('"')[1]
+            response = response.choices[0].message.content
             local_output_df = local_output_df.append({"file_idx": file_idx, "primary_diagnosis_LLM": response}, ignore_index=True) # type: ignore
         
         return local_output_df
