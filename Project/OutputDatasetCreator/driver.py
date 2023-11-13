@@ -11,4 +11,4 @@ ent_df, rel_df = load_ann(DATA_PATH)
 data_handler = ClinicianNoteDataSetHandler(txt_df, ent_df, rel_df)
 
 output = data_handler.identify_primary_diagnosis_and_underlying_factors()
-output.to_csv('Clinical_Note_Diagnoses_Factors_Dataset.csv', index=False)
+output.to_csv('./Clinical_Note_Diagnoses_Factors_Dataset.csv', index=False)
