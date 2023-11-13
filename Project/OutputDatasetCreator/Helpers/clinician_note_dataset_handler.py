@@ -30,20 +30,15 @@ class ClinicianNoteDataSetHandler():
         data_loader.clean_data()
         txt_df, ent_df, rel_df = data_loader.get_data()
 
-        txt_df.to_csv('Project/OutputDatasetCreator/Intermediate Data File/txt_df.csv', index=False)
-        ent_df.to_csv('Project/OutputDatasetCreator/Intermediate Data File/ent_df.csv', index=False)
-        rel_df.to_csv('Project/OutputDatasetCreator/Intermediate Data File/rel_df.csv', index=False)
+        txt_df.to_csv('./Intermediate Data File/txt_df.csv', index=False)
+        ent_df.to_csv('./Intermediate Data File/txt_df.csv', index=False)
+        rel_df.to_csv('./Intermediate Data File/txt_df.csvv', index=False)
 
         primary_diagnosis_identifier = PrimaryDiagnosisIdentifier(txt_df, self.OpenAI_API_KEY)
         primary_diagnosis_df = primary_diagnosis_identifier.process_data()
 
         underlying_factor_identifier = UnderlyingFactorIdentifier(txt_df, ent_df, rel_df)
         underlying_factor_df = underlying_factor_identifier.process_dataset()
-
-        # Save underlying_factor_df to csv
-        underlying_factor_df.to_csv('./Underlying_Factors_Dataset.csv', index=False)
-        # SAve primary_diagnosis_df to csv
-        primary_diagnosis_df.to_csv('./Primary_Diagnosis_Dataset.csv', index=False)
 
         merged_output_with_diagnosis_and_factors_df = primary_diagnosis_df.merge(underlying_factor_df, on='file_idx')
         merged_output_with_diagnosis_and_factors_df['file_idx'] = merged_output_with_diagnosis_and_factors_df['file_idx'].astype(int)

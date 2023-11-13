@@ -99,8 +99,6 @@ class UnderlyingFactorIdentifier:
             ent_df_reason_drug["Joined_Reason"].str.len() > 0
         ]
 
-        # Save ent_df_reason_drug to csv
-        ent_df_reason_drug.to_csv('./ent_df_reason_drug.csv', index=False)
         top_5_factors_by_file = pd.DataFrame()
         for file_idx in self.txt_df["file_idx"].unique():
             common_factors = ",".join(
