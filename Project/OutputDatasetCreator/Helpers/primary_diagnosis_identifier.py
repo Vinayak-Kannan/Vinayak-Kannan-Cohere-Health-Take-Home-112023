@@ -15,10 +15,12 @@ class PrimaryDiagnosisIdentifier:
     output_df_LLM = pd.DataFrame(columns=["file_idx", "primary_diagnosis_LLM"])
     output_df = pd.DataFrame(columns=["file_idx", "primary_diagnosis_NER", "count", "primary_diagnosis_LLM"])
     output_df_filtered = pd.DataFrame(columns=["file_idx", "primary_diagnosis", "count", "selected_approach", "confidence", "primary_diagnosis_NER", "primary_diagnosis_LLM"])
+    OpenAI_API_KEY = ""
 
-    def __init__(self, txt_df: pd.DataFrame) -> None:
+    def __init__(self, txt_df: pd.DataFrame, OpenAI_API_KEY: str) -> None:
         self.txt_df = txt_df
-
+        self.OpenAI_API_KEY = OpenAI_API_KEY
+        
     def process_data(self) -> pd.DataFrame:
         print("Processing Data...")
         self.output_df_LLM = self.__create_primary_diagnosis_LLM(self.txt_df)
@@ -128,7 +130,7 @@ class PrimaryDiagnosisIdentifier:
 
     def __create_primary_diagnosis_LLM(self, txt_df: pd.DataFrame) -> pd.DataFrame:
         client = OpenAI(
-            api_key="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",
+            api_key=self.OpenAI_API_KEY,
         )
         messages_template = [
             {

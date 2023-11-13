@@ -10,14 +10,16 @@ class DataLoader:
     txt_df = pd.DataFrame()
     ent_df = pd.DataFrame()
     rel_df = pd.DataFrame()
+    OpenAI_API_KEY = ""
     lemmatizer = WordNetLemmatizer()
 
     def __init__(
-        self, txt_df: pd.DataFrame, ent_df: pd.DataFrame, rel_df: pd.DataFrame
+        self, txt_df: pd.DataFrame, ent_df: pd.DataFrame, rel_df: pd.DataFrame, OpenAI_API_KEY: str
     ) -> None:
         self.txt_df = txt_df
         self.ent_df = ent_df
         self.rel_df = rel_df
+        self.OpenAI_API_KEY = OpenAI_API_KEY
 
     def clean_data(self) -> None:
         print("Cleaning Data...")
@@ -34,7 +36,7 @@ class DataLoader:
 
     def summarize_discharge_diagnosis(self, txt_df: pd.DataFrame) -> pd.DataFrame:
         client = OpenAI(
-            api_key="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",
+            api_key=self.OpenAI_API_KEY,
         )
         messages_template = [
             {

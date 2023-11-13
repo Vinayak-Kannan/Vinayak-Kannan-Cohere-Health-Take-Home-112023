@@ -12,7 +12,7 @@ class Tester():
         self.rel_df = rel_df
         self.ent_df = ent_df
         self.output_df = output_df
-
+    
     def test_primary_medical_diagnosis(self) -> None:
         print("Testing Primary Medicla diagnoses...")
         count_matches = 0
